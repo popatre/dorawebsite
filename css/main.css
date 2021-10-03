@@ -244,6 +244,92 @@
   font-size: 1.3rem;
 }
 
+.contact {
+  background: #5cb85c;
+  padding: 15em 0;
+}
+
+.contact h1 {
+  color: #ffc107;
+  font-size: 3.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.contact .card {
+  height: 120%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9932CC), to(#9370DB));
+  background-image: linear-gradient(#9932CC, #9370DB);
+}
+
+.contact .card h2 {
+  padding: 1.6em 0;
+  color: #ffc107;
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+
+.contact .card p {
+  color: #ffc107;
+  font-family: "Raleway", sans-serif;
+}
+
+.contact .card i {
+  color: #ffc107;
+}
+
+.contact .card i:hover {
+  opacity: 0.8;
+  color: #5cb85c;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.contact .card .facebook {
+  margin-right: 5em;
+}
+
+.contact .card .btn {
+  padding: 0.5em 3em;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.contact .card .btn:hover {
+  opacity: 0.8;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.contact .card2 {
+  margin-top: 3em;
+}
+
+footer {
+  background: #ffc107;
+  padding: 2.5em 0;
+  text-align: center;
+}
+
+footer p {
+  font-family: "Oswald", sans-serif;
+}
+
+footer a {
+  font-family: "Roboto", sans-serif;
+}
+
+footer a:hover {
+  color: #9932CC;
+}
+
 /* put at bottom */
 * {
   margin: 0;
