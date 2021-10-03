@@ -1,0 +1,149 @@
+.shows {
+    background: $green-color;
+
+    &__title {
+        color: $primary-color;
+        font-size: $subtitlesize;
+        font-family: $primaryfont;
+        font-weight: bold;
+        text-align: center;
+        padding: 10% 0;
+    }
+
+    &__adhd {
+
+        text-align: center;
+        flex-direction: column;
+        // display: flex;
+        // align-items: center;
+        // justify-content: space-evenly;
+        
+        h3 {
+            color: $secondary-color;
+            font-family: $headerfont;
+            font-size: $titles;
+            padding-bottom: 1.25em;
+            text-align: center;
+            // font-weight: 700;
+        }
+
+        img {
+            width: 80%;
+            text-align: center;
+            margin-bottom: 3em;
+            border-radius: 40px;
+            border: solid $primary-color 10px;
+            box-shadow: 10px 10px 10px $secondary-color;
+            
+        }
+
+        p{
+            font-size:$paragraphsize;
+            font-family: $secondaryfont;
+            color: #FFD700;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        .adhd-video {
+            margin-top: 2em;
+            margin-bottom: 10em;
+            border: solid $primary-color 5px;
+        }
+
+    }
+
+    &__flowerpot {
+        margin-top: 10em;
+        text-align: center;
+
+        &__title {
+            color: $secondary-color;
+            font-family: $headerfont;
+            font-size: $titles;
+            font-weight: 500;
+            padding-bottom: 1.25em;
+            text-align: center;
+        }
+
+        &__text,
+        .review {
+            color: $secondary-color;
+            font-size:$paragraphsize;
+            font-family: $secondaryfont;
+            font-weight: 800;
+            line-height: 1.9;
+            text-align: center;
+            margin-bottom: 5em;
+
+
+        }
+    }
+
+    img {
+        border-radius: 100px;
+        width: 80%;
+        margin-bottom: 3em;
+        border: solid $secondary-color 5px;
+            box-shadow: 10px 10px 20px $darkviolet;
+    }
+
+    &__weareallstardust{
+        margin-top: 10em;
+        text-align: center;
+
+        h3 {
+            color: $primary-color;
+            font-family: $headerfont;
+            font-size: $titles;
+            padding-bottom: 1.25em;
+            text-align: center;
+        }
+
+        p {
+            font-size:$paragraphsize;
+            font-family: $secondaryfont;
+            color: #FFD700;
+            line-height: 1.9;
+            text-align: center;
+            margin-bottom:3em;
+        }
+
+        .stardust-review {
+            margin-bottom:8em;
+        }
+    }
+
+    &__bastards {
+        margin-top: 10em;
+        text-align: center;
+
+        h3, h4 {
+            color: $secondary-color;
+            font-family: $headerfont;
+            font-size: $titles;
+            font-weight: 500;
+            padding-bottom: 1.25em;
+            text-align: center;
+        }
+
+        p {
+            color: $secondary-color;
+            font-size:$paragraphsize;
+            font-family: $secondaryfont;
+            font-weight: 800;
+            line-height: 2;
+            text-align: center;
+            margin-bottom: 5em;
+        }
+
+        ul {
+            text-align: left;
+            list-style: none;
+            color: $secondary-color;
+            font-size:$paragraphsize;
+            font-family: $secondaryfont;
+            
+        }
+    }
+}

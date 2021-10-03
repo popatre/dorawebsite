@@ -6,79 +6,265 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dora Colquhoun personal site</title>
-    <link rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <!-- google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Raleway:wght@400;500&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a7e1ff40ef.js" crossorigin="anonymous"></script>
+
+    <!-- SCSS style sheet -->
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
 
     <header>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item">
-                    <a href="#" class="nav__link">Home</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#" class="nav__link">About Me</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#" class="nav__link">Shows</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#" class="nav__link">Media</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#" class="nav__link">Contact</a>
-                </li>
-            </ul>
+        <!-- <div class="container-fluid"> -->
+        <nav class="navbar navbar-expand-md navbar-light bg-warning">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#togglenav"
+                aria-controls="togglenav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="togglenav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav-link">Shows</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav-link">Media</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
+        <!-- </div> -->
     </header>
 
     <section class="hero">
-        <div class="hero__title">
-            <h1 class="name"></h1>
-            <h3 class="name__sub"></h3>
+        <div class="container-fluid">
+            <div class="hero__title flex">
+                <h1 class="hero__name">Dora <span class="violet">Violet</span> Colquhoun</h1>
+                <h4 class="hero__sub">Performer, Devisor, Facilitator</h4>
+            </div>
         </div>
     </section>
 
 
     <section class="about-me">
-        <div class="about-me__container">
-            <h1 class="about-me__title"></h1>
-            <p class="about-me__body"></p>
+        <div class="container-fluid">
+            <h1 class="about-me__title">About Me</h1>
+            <img src="images/dora.webp" alt="Dora Colquhoun selfie" class="dora">
+            <div class="about-me__body">
+                <p>Dora Colquhoun is an energetic and enthusiastic neurodiverse performer, devisor
+                    and
+                    facilitator based in Liverpool. She recently completed a Masters in Applied Theatre with practices
+                    in
+                    criminal justice at Royal Central School of Speech and Drama (2019).</p>
+                <p> During her masters Dora worked
+                    with
+                    Haringey Council leading a project in care homes across Tottenham with participants about place and
+                    identity. Dora also facilitated on a violence prevention course with Unlocked Theatre at Liverpool
+                    HMP.
+                    In June 2019 Dora had the dream opportunity to train on 4 month residency in Vermont USA with not
+                    for
+                    profit theatre organisation Bread and Puppet.</p>
+
+                <p>In 2018, Dora worked as a Mediator for the Liverpool Biennial, designing bespoke workshops and tours
+                    at
+                    St Georges Hall, The Bluecoat, and Liverpool Playhouse responding to the Biennial theme ‘Beautiful
+                    World
+                    Where Are You?.’</p>
+                <p> Dora was commissioned by the Liverpool Biennial to create the event ‘Beautiful
+                    woman
+                    where are you?’ a series of talks collaborating with local female artists to discuss their
+                    experience of
+                    being a woman in the arts.</p>
+
+                <p>Dora has a background in facilitation teaching in Croatia with TRY (The Rijeka Youth Theatre) in
+                    2017.
+                    Dora has extensive experience working in children’s theatre having toured intensively for 6 months
+                    across Italy with Theatrino theatre (2016)</p>
+
+                <p>In 2014 Dora completed the Hope Street Emerging Artist Program an intensive acting program devising
+                    and
+                    performing outdoor and site specific work. Dora Collaborated with Tate Liverpool, Liverpool Council,
+                    Adam McGuigan and Barefeet theatre.</p>
+
+
+
+                <p>Dora has wealth of varied experience as a theatre maker and entertainer she graduated from Dartington
+                    College of Arts in 2011 with a first class BA Hons in Contemporary Performance Art Combining
+                    Community
+                    Practices.</p>
+                <p> Since graduating from Dartington she has been influenced by their progressive inter
+                    disciplinary teaching methods. Dora has always strived to collaborate with other artists/experts
+                    from a
+                    variety of disciplines as she feels this adds dimensions and an extension of knowledge to the work.
+                </p>
+                <p>Alongside being an actor she has a passion for devising, song writing and physical comedy having
+                    completed workshops with Performers Playground (2018), collaborating with Mark Winstanley and Alice
+                    Robinson learning Bouffon clown practices. </p>
+                <p>Dora is full of creative knowledge and an extremely versatile performer. She has worked with
+                    Cbeebies, Action Transport Theatre, Wild Rumpus, and Coco Loco. </p>
+            </div>
         </div>
     </section>
 
     <section class="shows">
-        <div class="shows__container">
-            <h1 class="shows__title"></h1>
-            <p class="shows__body"></p>
+        <div class="container-fluid">
+            <h1 class="shows__title">Shows</h1>
+            <div class="shows__adhd">
+                <!-- <h3>ADHD: The Musical</h3> -->
+                <img src="images/adhd.webp" alt="adhd: the musical poster" class="adhd">
+                <p>The project ADHD The Musical: Can I Have Your Attention Please? Was born from my personal experience
+                    being assessed for ADHD. At the age of 30, this is considered a late diagnosis; not that I was late
+                    for my diagnosis, I made sure I was on time!</p>
+
+                <p>I sat with the information that I had ADHD for a year like a mother duck sitting on an egg. Then one
+                    day whilst cycling along the Liverpool to Leeds canal I decided I needed a neuroscientist!</p>
+
+                <p>I contacted neuroscientist Dr Joydeep Bhattacharya and began having conversations with him about the
+                    brain. My conversations with Dr Joy inspired me to create a musical performance lecture. I combined
+                    my love of musical theatre and Ted Talks to make an experience that was entertaining, informative
+                    and heartfelt.</p>
+
+                <p>The piece ADHD The Musical explores the highs and lows of having the most common neuro-developmental
+                    disorder worldwide alongside good old fashioned storytelling, singing, and dancing with inspiration
+                    from legends Julie Andrews, Dolly and Cher.</p>
+
+                <p>The show attempts to unpack feelings of shame and blame that occur when being neuro- divergent in a
+                    world designed for the neuro typical brain.</p>
+
+                <p>I am delighted to be awarded by the Arts Council funding 2021 and be supported Dadafest. I am looking
+                    for places, festivals and venues to showcase the piece.</p>
+
+
+                <iframe class="adhd-video" width="560" height="315" src="https://www.youtube.com/embed/EFWVmAnt4zc"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <hr>
+
+            <div class="shows__flowerpot">
+                <h3 class="shows__flowerpot__title">The Flowerpot Women</h3>
+                <img src="images/flower.jpeg" alt="dora and izzy dressed as the flowerpot women" class="flowerpot-img">
+                <p class="shows__flowerpot__text">Funded by the Liverpool Culture Without Walls Fund (2020) Performed at
+                    Bluecoat Garden devised in
+                    collaboration with Izzie Major and Jonathan McGuire. First developed in collaboration with On The
+                    Verge Festival 2015</p>
+                <p class="review">Flowerpot women a dark absurd comedy described
+                    as <em>"Becket mixed with french and Saunders on acid’
+                        about the pitfalls of Eddie and Garlands time in the
+                        garden together. A charming absurd piece about friendship, fauna and “getting on”</em></p>
+            </div>
+
+            <hr>
+
+            <div class="shows__weareallstardust">
+                <h3>We Are All Stardust 2020</h3>
+                <p>Collective Encounters commissioned 10 new works by emerging artists. The commissions formed part of
+                    their Above & Beyond project, and responded to themes of “community power” and “community action”.
+                </p>
+                <p>Creative responses took a variety of forms from illustration, poetry, short films and music. </p>
+                <p class="stardust-review"><b>Dora Colquhoun and Jonathan McGuire created a collaborative music piece
+                        exploring
+                        The Overview Effect; a theory used to describe the awe inspired feeling astronauts experience
+                        when viewing the Earth from Space. </>
+                </p>
+            </div>
+
+            <hr>
+
+            <div class="shows__bastards">
+                <h3>COLONIAL BAS***DS ON CHARITY</h3>
+                <p>An all female satirical sketch show supported by the Unity Theatres ‘Make Art fund and ACE funding.
+                    Directed by Mat Rutter and Brian Desmond. </p>
+                <h4>Performed at:</h4>
+                <ul class="fa-ul">
+                    <li><i class="fas fa-theater-masks"></i>Unity Theatre 2015</li>
+                    <li><i class="fas fa-theater-masks"></i>Brighton Fringe 2014</li>
+                    <li><i class="fas fa-theater-masks"></i>Cornerstone Festival 2014,</li>
+                    <li><i class="fas fa-theater-masks"></i>Edge Hill University Performance and Domination Colloquium
+                        2013</li>
+                    <li><i class="fas fa-theater-masks"></i>Liverpool Hope University Change Makers Conference 2013</li>
+                    <li><i class="fas fa-theater-masks"></i>Threshold Festival 2013</li>
+                </ul>
+                <img src="images/bastards.webp" alt="colonial bastards performance" class="bastards">
+            </div>
+
         </div>
     </section>
 
     <section class="media">
         <div class="media__container">
-            <h1 class="media__title"></h1>
-            <div class="media__slider"></div>
-            <p class="shows__body"></p>
+            <h1 class="media__title">Media</h1>
+
+            <div class="media__video-slider">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/eQWGeP_OD8g"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wzLhRzJX9_c"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/uu4gy-6ILnY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div class="medi__image-slider"></div>
+
         </div>
     </section>
+
+
 
     <section class="contact">
         <div class="contact__container">
             <h1 class="contact__title"></h1>
             <div class="mail-me">
-                <button class="mail-me__link"></button>
+                <p class="mail-me__text">If you would like to email me directly, please click below</p>
+                <button class="mail-me__link">Email Dora</button>
             </div>
             <div class="social-media">
+                <p class="social-media__text">Follow me on social media</p>
                 <a href="#" class="facebook"><i class="fab fa-facebook fa-2x"></i></a>
                 <a href="#" class="instagram"><i class="fab fa-instagram fa-2x"></i></a>
-                <a href="#" class="twitter"><i class="fab fa-twitter fa-2x"></i></a>
             </div>
         </div>
     </section>
 
     <footer>
-        <p class="copy">&copy; Jonathan McGuire</p>
+        <p class="copy">&copy; Jonathan McGuire 2021</p>
         <a href="#" class="nav__link">Back to the top</a>
 
     </footer>

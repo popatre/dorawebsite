@@ -1,0 +1,49 @@
+$primary-color:#ffc107;
+$secondary-color: #BA55D3;
+$darkviolet: #9932CC;
+$green-color: #5cb85c;
+
+/****** fonts ******/ 
+
+$headerfont:  'Oswald', sans-serif;
+$primaryfont:  'Roboto', sans-serif;
+$secondaryfont: 'Raleway', sans-serif;
+
+
+
+/******* font sizes *******/
+
+$headersize: 6rem;
+$subtitlesize: 3.5rem;
+$titles: 2.7rem;
+$paragraphsize: 1.3rem;
+
+
+
+
+
+@mixin transition-ease{
+    transition: all 0.5s ease-in-out;
+    }
+
+
+
+
+/******** breakpoints  *************/
+
+
+    @mixin media-md {
+        @media screen and (min-width: 768px){
+            @content; 
+        }
+    }
+    @mixin media-lg {
+        @media screen and (min-width: 1024px){
+            @content; 
+        }
+    }
+    @mixin media-xl {
+        @media screen and (min-width: 1600px){
+            @content; 
+        }
+    }

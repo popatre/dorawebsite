@@ -1,0 +1,27 @@
+.about-me {
+    background: $primary-color;
+    padding-top:3em;
+    text-align:center;
+
+    &__title{
+        color: $secondary-color;
+        font-family: $primaryfont;
+        font-weight: bold;
+        text-align: center;
+        padding-bottom:1em;
+        font-size: $subtitlesize
+    }
+
+    .dora {
+        border-radius: 100px;
+    }
+
+    &__body {
+        color: $darkviolet;
+        font-size: $paragraphsize;
+        font-family: $secondaryfont;
+        padding-top:3em;
+        padding-bottom: 3em;
+        line-height: 1.5;
+    }
+}

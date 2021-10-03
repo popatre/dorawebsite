@@ -1,0 +1,34 @@
+.hero {
+    background: $green-color;
+    text-align: center;
+    height: 100vh;
+    margin: 0 auto;
+
+    &__title{
+
+        flex-direction: column;
+        justify-content: center;
+        height: 70vh;
+        // flex-wrap: wrap;
+        
+        
+        h1 {
+            font-size: $headersize;
+            font-family: $headerfont;
+            color: $primary-color;
+            margin-top: 30%;
+            
+        }
+
+        .violet {
+            color: $secondary-color;
+        }
+
+        h4 {
+            color: $secondary-color;
+            margin-top: 3em;
+            font-size: $subtitlesize;
+            font-family: $secondaryfont;
+        }
+    }  
+}
