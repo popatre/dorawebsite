@@ -37,6 +37,24 @@
   font-family: "Raleway", sans-serif;
 }
 
+nav {
+  text-align: center;
+}
+
+nav ul {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+nav li {
+  padding: 0.5em 0;
+  font-size: 1.8rem;
+}
+
+nav .nav-link {
+  color: #5cb85c;
+}
+
 .about-me {
   background: #ffc107;
   padding-top: 3em;
@@ -246,7 +264,7 @@
 
 .contact {
   background: #5cb85c;
-  padding: 15em 0;
+  padding: 14em 0;
 }
 
 .contact h1 {
