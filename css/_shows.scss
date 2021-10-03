@@ -134,16 +134,25 @@
             font-weight: 800;
             line-height: 2;
             text-align: center;
-            margin-bottom: 5em;
+            margin-bottom: 4em;
         }
 
         ul {
-            text-align: left;
+            text-align: start;
             list-style: none;
             color: $secondary-color;
             font-size:$paragraphsize;
             font-family: $secondaryfont;
+            margin-bottom:4em;
+
+            i {
+                padding-right: 1em;
+            }
             
+        }
+
+        img {
+            margin-bottom:10em;
         }
     }
 }

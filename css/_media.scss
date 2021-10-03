@@ -1,0 +1,25 @@
+.media {
+
+    background: $primary-color;
+    padding-top:3em;
+    text-align:center;
+    padding: 8em 0;
+
+    &__title {
+        color: $secondary-color;
+        font-family: $primaryfont;
+        font-weight: bold;
+        text-align: center;
+        padding-bottom:1em;
+        font-size: $subtitlesize
+    }
+
+    #media__video-slider {
+        padding-bottom:6em;
+
+        .slider-cap {
+            color: $darkviolet;
+            font-size: $paragraphsize;
+        }
+    }
+}
