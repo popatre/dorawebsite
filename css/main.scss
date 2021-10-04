@@ -5,7 +5,7 @@
 @import './shows';
 @import './media';
 @import './contact';
-@import './responsive';   /* put at bottom */
+   /* put at bottom */
 
 
 
@@ -37,11 +37,7 @@ hr {
 }
 
 
-
-
-
-
-
+@import './responsive';
 
 
 

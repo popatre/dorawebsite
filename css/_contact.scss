@@ -1,6 +1,11 @@
 .contact {
     background: $green-color;
-    padding: 14em 0;
+    padding: 5em 0;
+
+    &-me {
+        padding-bottom: 3em;
+    }
+   
 
     h1 {
         color: $primary-color;
@@ -13,7 +18,7 @@
     }
 
     .card {
-        height: 120%;
+        height: 103%;
         // padding: 2em;
         text-align: center;
         font-family: $primaryfont;
@@ -22,7 +27,7 @@
         background-image: linear-gradient($darkviolet, #9370DB);
 
         h2 {
-            padding: 1.6em 0;
+            padding: 1.2em 0;
             color: $primary-color;
             font-weight: bold;
             font-size: 2.4rem;
@@ -64,7 +69,6 @@
 
     .card2 {
         margin-top:3em;
-        
     }
 }
 

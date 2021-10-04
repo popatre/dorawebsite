@@ -14,9 +14,7 @@
 
         text-align: center;
         flex-direction: column;
-        // display: flex;
-        // align-items: center;
-        // justify-content: space-evenly;
+        
         
         h3 {
             color: $secondary-color;
@@ -31,8 +29,8 @@
             width: 80%;
             text-align: center;
             margin-bottom: 3em;
-            border-radius: 40px;
-            border: solid $primary-color 10px;
+            border-radius: 10px;
+            border: solid $primary-color 5px;
             box-shadow: 10px 10px 10px $secondary-color;
             
         }
@@ -49,6 +47,7 @@
             margin-top: 2em;
             margin-bottom: 10em;
             border: solid $primary-color 5px;
+            width:100%;
         }
 
     }
@@ -80,7 +79,7 @@
         }
     }
 
-    img {
+    .flowerpot-img {
         border-radius: 100px;
         width: 80%;
         margin-bottom: 3em;
@@ -145,6 +144,10 @@
             font-family: $secondaryfont;
             margin-bottom:4em;
 
+            .mask:hover {
+                color: $darkviolet;
+            }
+
             i {
                 padding-right: 1em;
             }
@@ -153,6 +156,10 @@
 
         img {
             margin-bottom:10em;
+            border-radius: 50px;
+        border: solid $secondary-color 5px;
+            box-shadow: 10px 10px 20px $darkviolet;
+
         }
     }
 }
