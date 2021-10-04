@@ -12,8 +12,10 @@
         font-size: $subtitlesize
     }
 
-    .dora {
-        border-radius: 100px;
+    .dora-selfie{
+        width: 60%;
+        border-radius: 50px;
+        border: $darkviolet solid 3px;
     }
 
     &__body {
@@ -35,6 +37,7 @@
             padding: 1em 0;
         }
     }
+    
 
     .achiements__list dl dd {
         font-size: 0.8em;

@@ -1,17 +1,130 @@
-/* md = 768px */
+/* md = 768px - 992px*/
 @include media-md {
+
+    .about-me .dora-selfie{
+        width: 40%;
+    }
+    .shows__bastards {
+
+        ul {    
+            margin-left: 13%;
+            width:90%;
+
+            li {
+                .whitespace {
+                    margin-left: 6.5em;
+                }
+            }
+
+
+            i {
+                padding-right: 2em;
+
+                
+            }
+        }
+    }
+
+    .shows__adhd img {
+        width: 60%;
+    }
+
+    .contact .card2 {
+        margin-top:0em;
+    }
+
+    .contact .card .facebook {
+        margin-right: 3em;
+    }
+
+    .hero__title h1 {
+        font-size: 7rem;
+    }
     
 }
 
+/* lg = 992px - 1200px*/
+@include media-lg { 
+
+    .nav-item{
+        margin-right: 0.7em;
+
+        &-last {
+            margin-right:0.7em;
+        }
+    }
 
 
 
+    .hero__title h1 {
+        font-size: 8.8rem;
+    }
+
+    .shows__adhd img {
+        width: 80%;
+    }
+
+    .shows__adhd .adhd-video {
+        width: 70%;
+    }
+    
+
+    .shows .flowerpot-img {
+        width: 50%;
+    }
+
+    .shows__bastards {
+
+        ul {    
+            margin-left: 13%;
+            width:90%;
+
+            li {
+                font-size: 1.123rem;
+                padding-top: 1em;
+                .whitespace {
+                    margin-left: 0em;
+                }
+            }
 
 
+            i {
+                padding-right: 2em;
+            }
+        }
+    }
 
+}
 
-/* lg = 992px */
 
 /* xl = 1200px */
+@include media-xl { 
+    
+    .nav-item,
+    .nav-item-last {
+        font-size:1.4rem;
+    }
+
+   .about-me .dora-selfie {
+        width: 30%;
+    }
+
+    .shows__adhd p {
+        font-size:1.5rem;
+    }
+
+    .para2 {
+        padding-top:3em;
+    }
+
+    .shows__adhd .adhd-video {
+        width: 80%;
+        height: 600px;
+    }
+    
+
+}
+
+
 
 /* xxl = 1400px */

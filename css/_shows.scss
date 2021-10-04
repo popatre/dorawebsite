@@ -51,6 +51,13 @@
         }
 
     }
+    .feedback {
+        font-size: 1.7rem;
+        font-family: $primaryfont;
+        font-weight: bold;
+        color: $primary-color;
+        padding-top:1.4em;
+    }
 
     &__flowerpot {
         margin-top: 10em;
@@ -137,7 +144,8 @@
         }
 
         ul {
-            text-align: start;
+            // text-align: start;
+            margin-left: 0;
             list-style: none;
             color: $secondary-color;
             font-size:$paragraphsize;
@@ -148,6 +156,10 @@
                 color: $darkviolet;
             }
 
+            li {
+                text-align: start;
+            }
+
             i {
                 padding-right: 1em;
             }
@@ -155,6 +167,7 @@
         }
 
         img {
+            width: 60%;
             margin-bottom:10em;
             border-radius: 50px;
         border: solid $secondary-color 5px;
@@ -162,4 +175,8 @@
 
         }
     }
+
+    // #media__img-slider {
+    //     height: 
+    // }
 }

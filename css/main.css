@@ -27,7 +27,7 @@
 
 .hero__title .hero__sub {
   color: #BA55D3;
-  margin-top: 1em;
+  margin-top: 1.8em;
   font-size: 3.5rem;
   font-family: "Raleway", sans-serif;
   padding-bottom: 3em;
@@ -66,8 +66,10 @@ nav .nav-link {
   font-size: 3.5rem;
 }
 
-.about-me .dora {
-  border-radius: 100px;
+.about-me .dora-selfie {
+  width: 60%;
+  border-radius: 50px;
+  border: #9932CC solid 3px;
 }
 
 .about-me__body {
@@ -144,6 +146,14 @@ nav .nav-link {
   margin-bottom: 10em;
   border: solid #ffc107 5px;
   width: 100%;
+}
+
+.shows .feedback {
+  font-size: 1.7rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #ffc107;
+  padding-top: 1.4em;
 }
 
 .shows__flowerpot {
@@ -231,7 +241,7 @@ nav .nav-link {
 }
 
 .shows__bastards ul {
-  text-align: start;
+  margin-left: 0;
   list-style: none;
   color: #BA55D3;
   font-size: 1.3rem;
@@ -243,11 +253,16 @@ nav .nav-link {
   color: #9932CC;
 }
 
+.shows__bastards ul li {
+  text-align: start;
+}
+
 .shows__bastards ul i {
   padding-right: 1em;
 }
 
 .shows__bastards img {
+  width: 60%;
   margin-bottom: 10em;
   border-radius: 50px;
   border: solid #BA55D3 5px;
@@ -272,7 +287,7 @@ nav .nav-link {
 }
 
 .media #media__video-slider {
-  padding-bottom: 6em;
+  padding: 8em 0 6em 0;
 }
 
 .media #media__video-slider .slider-cap {
@@ -360,6 +375,8 @@ footer {
 
 footer p {
   font-family: "Oswald", sans-serif;
+  font-size: 1.1rem;
+  color: #5cb85c;
 }
 
 footer a {
@@ -388,6 +405,12 @@ img {
   margin: 0 auto;
 }
 
+.container {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -401,8 +424,91 @@ hr {
   margin: 0 auto;
 }
 
-/* md = 768px */
-/* lg = 992px */
+/* md = 768px - 992px*/
+@media screen and (min-width: 768px) {
+  .about-me .dora-selfie {
+    width: 40%;
+  }
+  .shows__bastards ul {
+    margin-left: 13%;
+    width: 90%;
+  }
+  .shows__bastards ul li .whitespace {
+    margin-left: 6.5em;
+  }
+  .shows__bastards ul i {
+    padding-right: 2em;
+  }
+  .shows__adhd img {
+    width: 60%;
+  }
+  .contact .card2 {
+    margin-top: 0em;
+  }
+  .contact .card .facebook {
+    margin-right: 3em;
+  }
+  .hero__title h1 {
+    font-size: 7rem;
+  }
+}
+
+/* lg = 992px - 1200px*/
+@media screen and (min-width: 992px) {
+  .nav-item {
+    margin-right: 0.7em;
+  }
+  .nav-item-last {
+    margin-right: 0.7em;
+  }
+  .hero__title h1 {
+    font-size: 8.8rem;
+  }
+  .shows__adhd img {
+    width: 80%;
+  }
+  .shows__adhd .adhd-video {
+    width: 70%;
+  }
+  .shows .flowerpot-img {
+    width: 50%;
+  }
+  .shows__bastards ul {
+    margin-left: 13%;
+    width: 90%;
+  }
+  .shows__bastards ul li {
+    font-size: 1.123rem;
+    padding-top: 1em;
+  }
+  .shows__bastards ul li .whitespace {
+    margin-left: 0em;
+  }
+  .shows__bastards ul i {
+    padding-right: 2em;
+  }
+}
+
 /* xl = 1200px */
+@media screen and (min-width: 1200px) {
+  .nav-item,
+  .nav-item-last {
+    font-size: 1.4rem;
+  }
+  .about-me .dora-selfie {
+    width: 30%;
+  }
+  .shows__adhd p {
+    font-size: 1.5rem;
+  }
+  .para2 {
+    padding-top: 3em;
+  }
+  .shows__adhd .adhd-video {
+    width: 80%;
+    height: 600px;
+  }
+}
+
 /* xxl = 1400px */
 /*# sourceMappingURL=main.css.map */
