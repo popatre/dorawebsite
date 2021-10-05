@@ -100,6 +100,14 @@ nav .nav-link {
   font-size: 0.8em;
 }
 
+.backing-img {
+  height: 20vh;
+  width: 100%;
+  background: url("../images/7.jpg") center center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
 .shows {
   background: #5cb85c;
 }
@@ -462,9 +470,6 @@ hr {
     font-size: 3rem;
     padding-top: 1.8em;
   }
-  .hero .image-back {
-    background-attachment: fixed;
-  }
 }
 
 /* lg = 992px - 1200px*/
@@ -547,6 +552,9 @@ hr {
     font-size: 4rem;
   }
   .backing-img {
+    background-attachment: fixed;
+  }
+  .hero .image-back {
     background-attachment: fixed;
   }
 }

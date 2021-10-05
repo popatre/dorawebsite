@@ -45,9 +45,7 @@
         font-size:3rem;
         padding-top: 1.8em;
     }
-    .hero .image-back {
-        background-attachment: fixed;
-    }
+    
     
 }
 
@@ -161,6 +159,10 @@
 
     .backing-img {
     
+        background-attachment: fixed;
+    }
+
+    .hero .image-back {
         background-attachment: fixed;
     }
     
