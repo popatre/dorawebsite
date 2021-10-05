@@ -309,6 +309,10 @@ nav .nav-link {
   font-size: 1.3rem;
 }
 
+.carousel-inner .carousel-item {
+  max-height: 600px;
+}
+
 .contact {
   background: #5cb85c;
   padding: 5em 0;
