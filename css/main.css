@@ -459,10 +459,12 @@ hr {
     margin-right: 3em;
   }
   .hero__title h1 {
-    font-size: 5rem;
+    font-size: 5.3rem;
+    padding: 0.5em 0;
   }
   .hero__title .hero__sub {
     font-size: 3rem;
+    padding-top: 1.8em;
   }
 }
 
@@ -476,7 +478,7 @@ hr {
   }
   .nav-item,
   .nav-item-last {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .hero__title h1 {
     font-size: 8.8rem;
@@ -504,6 +506,12 @@ hr {
   .shows__bastards ul i {
     padding-right: 2em;
   }
+  .hero__title h1 {
+    font-size: 4.4rem;
+  }
+  .hero__title .hero__sub {
+    font-size: 2.8rem;
+  }
 }
 
 /* xl = 1200px */
@@ -530,7 +538,25 @@ hr {
   .media__title {
     font-size: 5rem;
   }
+  .hero__title h1 {
+    font-size: 6rem;
+  }
+  .hero__title .hero__sub {
+    font-size: 4rem;
+  }
 }
 
 /* xxl = 1400px */
+@media screen and (min-width: 1400px) {
+  .hero__title h1 {
+    font-size: 10rem;
+  }
+  .hero__title .hero__sub {
+    font-size: 6rem;
+  }
+  .nav-item,
+  .nav-item-last {
+    font-size: 2.6rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
