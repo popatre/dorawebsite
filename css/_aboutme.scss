@@ -1,14 +1,16 @@
-.about-me {
+.about-me { 
+
     background: $primary-color;
-    padding-top:3em;
+    padding-top:10em;
     text-align:center;
 
     &__title{
+        
         color: $secondary-color;
         font-family: $primaryfont;
         font-weight: bold;
         text-align: center;
-        padding-bottom:1em;
+        padding: 0.7em 0;
         font-size: $subtitlesize
     }
 
@@ -19,6 +21,7 @@
     }
 
     &__body {
+        
         color: $darkviolet;
         font-size: $paragraphsize;
         font-family: $secondaryfont;
@@ -42,4 +45,22 @@
     .achiements__list dl dd {
         font-size: 0.8em;
     }
+    
 }
+
+.backing-img {
+    height: 20vh;
+    width: 100%;
+    background: 
+    // linear-gradient(
+    // to right, 
+    // rgba($primary-color, 0.8),
+    // rgba($primary-color, 0.1)
+    // ),
+    url('../images/7.jpg') center center;
+    -webkit-background-size: auto 150%;
+    // background-size:100% 100%;
+    background-size:cover;
+    background-attachment: scroll;
+}
+

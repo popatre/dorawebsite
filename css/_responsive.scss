@@ -45,6 +45,9 @@
         font-size:3rem;
         padding-top: 1.8em;
     }
+    .hero .image-back {
+        background-attachment: fixed;
+    }
     
 }
 
@@ -111,6 +114,12 @@
 
 }
 
+.backing-img {
+    
+    
+    background-attachment: fixed;
+}
+
 
 /* xl = 1200px */
 @include media-xl { 
@@ -142,6 +151,9 @@
     .media__title {
         font-size:5rem;
     }
+    .about-me__title {
+        padding: 0.4em 0 0.5em;
+    }
 
     .hero__title h1 {
         font-size: 6rem;
@@ -158,14 +170,19 @@
 /* xxl = 1400px */
 @include media-xxl {
     .hero__title h1 {
-        font-size: 10rem;
+        font-size: 8rem;
     }
     .hero__title .hero__sub {
-        font-size:6rem;
+        font-size:4rem;
     }
 
     .nav-item,
     .nav-item-last {
         font-size:2.6rem;
+    }
+
+    .nav-item,
+    .nav-item-last {
+        font-size:1.2rem;
     }
 }

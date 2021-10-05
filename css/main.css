@@ -59,7 +59,7 @@ nav .nav-link {
 
 .about-me {
   background: #ffc107;
-  padding-top: 3em;
+  padding-top: 10em;
   text-align: center;
 }
 
@@ -68,7 +68,7 @@ nav .nav-link {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-align: center;
-  padding-bottom: 1em;
+  padding: 0.7em 0;
   font-size: 3.5rem;
 }
 
@@ -98,6 +98,14 @@ nav .nav-link {
 
 .about-me .achiements__list dl dd {
   font-size: 0.8em;
+}
+
+.backing-img {
+  height: 20vh;
+  width: 100%;
+  background: url("../images/7.jpg") center center;
+  background-size: cover;
+  background-attachment: scroll;
 }
 
 .shows {
@@ -268,7 +276,7 @@ nav .nav-link {
 }
 
 .shows__bastards img {
-  width: 60%;
+  width: 90%;
   margin-bottom: 10em;
   border-radius: 50px;
   border: solid #BA55D3 5px;
@@ -466,6 +474,9 @@ hr {
     font-size: 3rem;
     padding-top: 1.8em;
   }
+  .hero .image-back {
+    background-attachment: fixed;
+  }
 }
 
 /* lg = 992px - 1200px*/
@@ -514,6 +525,10 @@ hr {
   }
 }
 
+.backing-img {
+  background-attachment: fixed;
+}
+
 /* xl = 1200px */
 @media screen and (min-width: 1200px) {
   .nav-item,
@@ -538,6 +553,9 @@ hr {
   .media__title {
     font-size: 5rem;
   }
+  .about-me__title {
+    padding: 0.4em 0 0.5em;
+  }
   .hero__title h1 {
     font-size: 6rem;
   }
@@ -549,14 +567,18 @@ hr {
 /* xxl = 1400px */
 @media screen and (min-width: 1400px) {
   .hero__title h1 {
-    font-size: 10rem;
+    font-size: 8rem;
   }
   .hero__title .hero__sub {
-    font-size: 6rem;
+    font-size: 4rem;
   }
   .nav-item,
   .nav-item-last {
     font-size: 2.6rem;
+  }
+  .nav-item,
+  .nav-item-last {
+    font-size: 1.2rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
