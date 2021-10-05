@@ -1,23 +1,48 @@
 .hero {
-    background: $green-color;
+    
     text-align: center;
-    height: 100%;
+    // height: 100%;
     // margin: 0 auto;
 
+    
+    .image-back {
+       height: 100%;
+        width: 100%;
+        background: 
+        // linear-gradient(
+        // to right, 
+        // rgba($primary-color, 0.8),
+        // rgba($primary-color, 0.1)
+        // ),
+        url('../images/6.png') no-repeat center center;
+        -webkit-background-size: auto 150%;
+        // background-size:100% 100%;
+        background-size:cover;
+        
+        background-attachment: fixed;
+    }
+    
+
     &__title{
+        
 
         // flex-direction: column;
         justify-content: center;
-        // height: 70%;
-        padding-bottom:10em;
+        // max-height: 20vh;
+        // padding-bottom:10em;
         // flex-wrap: wrap;
+
+        
+
+        
         
         
         h1 {
+            background: $green-color;
             font-size: $headersize;
             font-family: $headerfont;
             color: $primary-color;
-            padding-top: 10%;
+            padding: 0 0 0.5em 0;
             
         }
 
@@ -26,7 +51,7 @@
         }
 
         .hero__sub {
-            color: $secondary-color;
+            color: $primary-color;
             margin-top: 1.8em;
             font-size: $subtitlesize;
             font-family: $secondaryfont;

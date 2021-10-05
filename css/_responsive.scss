@@ -53,7 +53,10 @@
             margin-right:0.7em;
         }
     }
-
+    .nav-item,
+    .nav-item-last {
+        font-size:1.4rem;
+    }
 
 
     .hero__title h1 {
@@ -106,7 +109,7 @@
     }
 
    .about-me .dora-selfie {
-        width: 30%;
+        width: 60%;
     }
 
     .shows__adhd p {
@@ -120,6 +123,12 @@
     .shows__adhd .adhd-video {
         width: 80%;
         height: 600px;
+    }
+
+    .shows__title,
+    .about-me__title,
+    .media__title {
+        font-size:5rem;
     }
     
 
