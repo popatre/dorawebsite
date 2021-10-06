@@ -14,8 +14,8 @@
 
         text-align: center;
         flex-direction: column;
-        
-        
+
+
         h3 {
             color: $secondary-color;
             font-family: $headerfont;
@@ -32,11 +32,11 @@
             border-radius: 10px;
             border: solid $primary-color 5px;
             box-shadow: 10px 10px 10px $secondary-color;
-            
+
         }
 
-        p{
-            font-size:$paragraphsize;
+        p {
+            font-size: $paragraphsize;
             font-family: $secondaryfont;
             color: #FFD700;
             line-height: 1.5;
@@ -47,16 +47,17 @@
             margin-top: 2em;
             margin-bottom: 10em;
             border: solid $primary-color 5px;
-            width:100%;
+            width: 100%;
         }
 
     }
+
     .feedback {
         font-size: 1.7rem;
         font-family: $primaryfont;
         font-weight: bold;
         color: $primary-color;
-        padding-top:1.4em;
+        padding-top: 1.4em;
     }
 
     &__flowerpot {
@@ -75,7 +76,7 @@
         &__text,
         .review {
             color: $secondary-color;
-            font-size:$paragraphsize;
+            font-size: $paragraphsize;
             font-family: $secondaryfont;
             font-weight: 800;
             line-height: 1.9;
@@ -91,10 +92,10 @@
         width: 80%;
         margin-bottom: 3em;
         border: solid $secondary-color 5px;
-            box-shadow: 10px 10px 20px $darkviolet;
+        box-shadow: 10px 10px 20px $darkviolet;
     }
 
-    &__weareallstardust{
+    &__weareallstardust {
         margin-top: 10em;
         text-align: center;
 
@@ -107,16 +108,21 @@
         }
 
         p {
-            font-size:$paragraphsize;
+            font-size: $paragraphsize;
             font-family: $secondaryfont;
             color: #FFD700;
             line-height: 1.9;
             text-align: center;
-            margin-bottom:3em;
+            margin-bottom: 3em;
         }
 
         .stardust-review {
-            margin-bottom:8em;
+            margin-bottom: 8em;
+        }
+
+        .stardust-vid {
+            width: 100%;
+            padding-bottom:1.5em;
         }
     }
 
@@ -124,7 +130,8 @@
         margin-top: 10em;
         text-align: center;
 
-        h3, h4 {
+        h3,
+        h4 {
             color: $secondary-color;
             font-family: $headerfont;
             font-size: $titles;
@@ -135,7 +142,7 @@
 
         p {
             color: $secondary-color;
-            font-size:$paragraphsize;
+            font-size: $paragraphsize;
             font-family: $secondaryfont;
             font-weight: 800;
             line-height: 2;
@@ -148,9 +155,9 @@
             margin-left: 0;
             list-style: none;
             color: $secondary-color;
-            font-size:$paragraphsize;
+            font-size: $paragraphsize;
             font-family: $secondaryfont;
-            margin-bottom:4em;
+            margin-bottom: 4em;
 
             .mask:hover {
                 color: $darkviolet;
@@ -163,20 +170,69 @@
             i {
                 padding-right: 1em;
             }
-            
+
         }
 
         img {
             width: 90%;
-            margin-bottom:10em;
+            margin-bottom: 10em;
             border-radius: 50px;
-        border: solid $secondary-color 5px;
+            border: solid $secondary-color 5px;
             box-shadow: 10px 10px 20px $darkviolet;
 
         }
     }
 
-    // #media__img-slider {
-    //     height: 
-    // }
+}
+
+
+#testimonal-slider {
+    text-align: center;
+    padding-bottom: 6em;
+
+    .carousel-item  {
+        max-height: 800px;
+    }
+
+    .test-slide {
+        
+        &__1, &__3, &__5  {
+            background: $secondary-color;
+            background-image: linear-gradient($darkviolet, #9370DB);
+            
+            color: $primary-color;
+            font-family: $secondaryfont;
+            h3 {
+                padding: 1.5em 0;
+                
+            }
+            h5 {
+                padding-bottom: 1.5em;
+                font-size:1rem;
+            }
+            p {
+                line-height: 2;
+                padding: 0 0.5em;
+            }
+        }
+        &__2, &__4, &__6  {
+            background: $primary-color;
+            background-image: linear-gradient(#f6f949, #ffc107);
+            color: $secondary-color;
+            font-family: $secondaryfont;
+            h3 {
+                padding: 1.5em 0;
+                
+            }
+            h5 {
+                padding-bottom: 1.5em;
+                font-size:1rem;
+            }
+            p {
+                line-height: 2;
+                padding: 0 0.5em;
+            }
+        }
+
+    }
 }

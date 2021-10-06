@@ -29,6 +29,8 @@
         width: 60%;
     }
 
+    
+
     .contact .card2 {
         margin-top:0em;
     }
@@ -44,6 +46,10 @@
     .hero__title .hero__sub {
         font-size:3rem;
         padding-top: 1.8em;
+    }
+
+    .shows__bastards img {
+        width: 75%;
     }
     
     
@@ -75,6 +81,11 @@
 
     .shows__adhd .adhd-video {
         width: 70%;
+    }
+    .stardust-vid {
+        
+            padding-top:2em;
+           height: 320px;
     }
     
 
@@ -110,6 +121,18 @@
         font-size:2.8rem;
     }
     
+    .shows__bastards img {
+        width: 60%;
+    }
+
+    #testimonal-slider .test-slide {
+        &__1, &__2, &__3, &__4, &__5, &__6 {
+            
+            h3{font-size:2rem;}
+            h5{font-size:1.4rem}
+            p{font-size:1.2rem;}
+        }
+    }
 
 }
 
@@ -139,6 +162,32 @@
     .shows__adhd .adhd-video {
         width: 80%;
         height: 600px;
+    }
+    .shows__flowerpot__text,
+    .shows__flowerpot .review{
+        font-size:1.8rem;
+    }
+
+    .shows__weareallstardust p {
+        font-size:1.6rem;
+    }
+
+    .stardust-vid {
+            padding-top:1em;
+           height: 400px;
+       
+    }
+
+    .shows__bastards p {
+        font-size:1.6rem;
+    }
+
+    .shows__bastards ul li {
+        font-size:1.4rem
+    }
+
+    .shows__bastards img {
+        width: 60%;
     }
 
     .shows__title,

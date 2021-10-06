@@ -44,11 +44,21 @@
             font-family: $headerfont;
             color: $primary-color;
             padding: 0 0 0.5em 0;
+           
             
         }
 
         .violet {
-            color: $secondary-color;
+            // display:none;
+            opacity: 0;
+        }
+        .dorav {
+            // display:none;
+            opacity: 0;
+        } 
+        .colquhoun {
+            // display:none;
+            opacity: 0;
         }
 
         .hero__sub {
@@ -57,6 +67,7 @@
             font-size: $subtitlesize;
             font-family: $secondaryfont;
             padding-bottom: 3em;
+            opacity: 0;
             
         }
     }  

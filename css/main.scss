@@ -8,7 +8,9 @@
 @import './animation';
    /* put at bottom */
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 * {
     margin: 0;
@@ -43,6 +45,14 @@ hr {
     margin: 0 auto;
 }
 
+.turnviolet {
+    color: $secondary-color;
+    transition: all 1s ease-in-out;
+}
+
+.fadein {
+    transition: all 1s ease-in-out;
+}
 
 @import './responsive';
 
