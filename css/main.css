@@ -143,7 +143,7 @@ nav .nav-item-last:hover {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-align: center;
-  padding: 10% 0;
+  padding: 1% 0 10%;
 }
 
 .shows__adhd {
@@ -372,7 +372,7 @@ nav .nav-item-last:hover {
   background: #ffc107;
   padding-top: 3em;
   text-align: center;
-  padding: 8em 0;
+  padding: 1em 0;
 }
 
 .media__title {
@@ -545,6 +545,22 @@ hr {
 .fadein {
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
+}
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 {
+  background-image: url("/images/waves.svg");
+}
+
+.layer2 {
+  background-image: url("/images/waves2.svg");
 }
 
 /* md = 768px - 992px*/
