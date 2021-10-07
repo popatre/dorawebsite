@@ -97,6 +97,11 @@ nav .nav-item-last:hover {
   font-size: 3.5rem;
 }
 
+.about-me .worked-with {
+  color: #5cb85c;
+  font-size: 1.5rem;
+}
+
 .about-me .dora-selfie {
   width: 60%;
   border-radius: 50px;
