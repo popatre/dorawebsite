@@ -321,7 +321,7 @@ nav .nav-item-last:hover {
 }
 
 #testimonal-slider .carousel-item {
-  max-height: 800px;
+  max-height: 1000px;
 }
 
 #testimonal-slider .test-slide__1, #testimonal-slider .test-slide__3, #testimonal-slider .test-slide__5 {
@@ -391,6 +391,12 @@ nav .nav-item-last:hover {
 .media #media__video-slider .slider-cap {
   color: #9932CC;
   font-size: 1.3rem;
+}
+
+.media .music {
+  width: 100%;
+  padding-top: 1em;
+  text-align: center;
 }
 
 .carousel-inner .carousel-item {
@@ -559,6 +565,9 @@ hr {
   .shows__adhd img {
     width: 60%;
   }
+  .media .music {
+    width: 70%;
+  }
   .contact .card2 {
     margin-top: 0em;
   }
@@ -698,6 +707,13 @@ hr {
   }
   .hero .image-back {
     background-attachment: fixed;
+  }
+  .media .music {
+    height: 325px;
+    width: 90%;
+  }
+  .media .music-player {
+    padding-top: 113px;
   }
 }
 

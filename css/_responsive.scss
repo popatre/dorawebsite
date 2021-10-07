@@ -29,6 +29,11 @@
         width: 60%;
     }
 
+    .media .music {
+        width: 70%;
+        
+    }
+
     
 
     .contact .card2 {
@@ -213,6 +218,19 @@
 
     .hero .image-back {
         background-attachment: fixed;
+    }
+
+    .media .music {
+        // margin-top:7.4em;
+
+        height: 325px;
+        width: 90%;
+        
+    }
+
+    .media .music-player {
+        padding-top: 113px;
+        
     }
     
 

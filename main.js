@@ -15,22 +15,23 @@ function doraC(){
 window.onload = setTimeout(doraC, 1000);
 function doraC(){
     // $(".dorav").fadeIn(1000);
-    $(".dorav").animate({opacity: 1}, 1000);
+    $(".dorav").animate({opacity: 1}, 2000);
 }
-window.onload = setTimeout(colq, 1000);
-function colq(){
-    // $(".colquhoun").fadeIn(1000);
-    $(".colquhoun").animate({opacity: 1}, 1000);
-}
-
-window.onload = setTimeout(vio, 3500);
+window.onload = setTimeout(vio, 2000);
 function vio(){
     // $(".violet").fadeIn(3000);
     $(".violet").animate({opacity: 1}, 1000);
 }
 
+window.onload = setTimeout(colq, 3500);
+function colq(){
+    // $(".colquhoun").fadeIn(1000);
+    $(".colquhoun").animate({opacity: 1}, 1000);
+}
 
-window.onload = setTimeout(violetTurner, 7000);
+
+
+window.onload = setTimeout(violetTurner, 6000);
 function violetTurner(){
 violet.classList.add('turnviolet');
 }
