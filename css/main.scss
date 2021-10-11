@@ -71,6 +71,15 @@ hr {
     height: 40vh;
 }
 
+.fade-in {
+    opacity: 0;
+    transition: opacity 350ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
 @import './responsive';
 
 

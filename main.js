@@ -51,3 +51,4 @@ $('.hero__sub').animate({opacity: 1}, 1000).animate({'opacity': 0}, 2000, functi
 }).animate({'opacity': 1}, 1000);
 };
 /************************************ */
+

@@ -568,6 +568,16 @@ hr {
   height: 40vh;
 }
 
+.fade-in {
+  opacity: 0;
+  -webkit-transition: opacity 350ms ease-in;
+  transition: opacity 350ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
 /* md = 768px - 992px*/
 @media screen and (min-width: 768px) {
   .about-me .dora-selfie {
