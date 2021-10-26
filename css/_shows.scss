@@ -11,10 +11,8 @@
     }
 
     &__adhd {
-
         text-align: center;
         flex-direction: column;
-
 
         h3 {
             color: $secondary-color;
@@ -32,13 +30,12 @@
             border-radius: 10px;
             border: solid $primary-color 5px;
             box-shadow: 10px 10px 10px $secondary-color;
-
         }
 
         p {
             font-size: $paragraphsize;
             font-family: $secondaryfont;
-            color: #FFD700;
+            color: #ffd700;
             line-height: 1.5;
             text-align: center;
         }
@@ -49,7 +46,6 @@
             border: solid $primary-color 5px;
             width: 100%;
         }
-
     }
 
     .feedback {
@@ -82,8 +78,6 @@
             line-height: 1.9;
             text-align: center;
             margin-bottom: 5em;
-
-
         }
     }
 
@@ -110,7 +104,7 @@
         p {
             font-size: $paragraphsize;
             font-family: $secondaryfont;
-            color: #FFD700;
+            color: #ffd700;
             line-height: 1.9;
             text-align: center;
             margin-bottom: 3em;
@@ -122,7 +116,7 @@
 
         .stardust-vid {
             width: 100%;
-            padding-bottom:1.5em;
+            padding-bottom: 1.5em;
         }
     }
 
@@ -170,7 +164,6 @@
             i {
                 padding-right: 1em;
             }
-
         }
 
         img {
@@ -179,60 +172,58 @@
             border-radius: 50px;
             border: solid $secondary-color 5px;
             box-shadow: 10px 10px 20px $darkviolet;
-
         }
     }
-
 }
-
 
 #testimonal-slider {
     text-align: center;
     padding-bottom: 6em;
 
-    .carousel-item  {
+    .carousel-item {
         max-height: 1000px;
     }
 
     .test-slide {
-        
-        &__1, &__3, &__5  {
+        &__1,
+        &__3,
+        &__5,
+        &__7 {
             background: $secondary-color;
-            background-image: linear-gradient($darkviolet, #9370DB);
-            
+            background-image: linear-gradient($darkviolet, #9370db);
+
             color: $primary-color;
             font-family: $secondaryfont;
             h3 {
                 padding: 1.5em 0;
-                
             }
             h5 {
                 padding-bottom: 1.5em;
-                font-size:1rem;
+                font-size: 1rem;
             }
             p {
                 line-height: 2;
                 padding: 0 0.5em;
             }
         }
-        &__2, &__4, &__6  {
+        &__2,
+        &__4,
+        &__6 {
             background: $primary-color;
             background-image: linear-gradient(#f6f949, #ffc107);
             color: $secondary-color;
             font-family: $secondaryfont;
             h3 {
                 padding: 1.5em 0;
-                
             }
             h5 {
                 padding-bottom: 1.5em;
-                font-size:1rem;
+                font-size: 1rem;
             }
             p {
                 line-height: 2;
                 padding: 0 0.5em;
             }
         }
-
     }
 }

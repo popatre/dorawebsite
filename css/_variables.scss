@@ -1,15 +1,13 @@
-$primary-color:#ffc107;
-$secondary-color: #BA55D3;
-$darkviolet: #9932CC;
+$primary-color: #ffc107;
+$secondary-color: #ba55d3;
+$darkviolet: #9932cc;
 $green-color: #5cb85c;
 
-/****** fonts ******/ 
+/****** fonts ******/
 
-$headerfont:  'Oswald', sans-serif;
-$primaryfont:  'Roboto', sans-serif;
-$secondaryfont: 'Raleway', sans-serif;
-
-
+$headerfont: "Oswald", sans-serif;
+$primaryfont: "Roboto", sans-serif;
+$secondaryfont: "Raleway", sans-serif;
 
 /******* font sizes *******/
 
@@ -18,38 +16,34 @@ $subtitlesize: 3.5rem;
 $titles: 3.5rem;
 $paragraphsize: 1.3rem;
 
-
-
-
-
-
-@mixin transition-ease{
+@mixin transition-ease {
     transition: all 0.5s ease-in-out;
-    }
-
-
-
+}
 
 /******** breakpoints  *************/
+@mixin media-sm {
+    @media screen and (min-width: 577px) {
+        @content;
+    }
+}
 
-
-    @mixin media-md {
-        @media screen and (min-width: 768px){
-            @content; 
-        }
+@mixin media-md {
+    @media screen and (min-width: 768px) {
+        @content;
     }
-    @mixin media-lg {
-        @media screen and (min-width: 992px){
-            @content; 
-        }
+}
+@mixin media-lg {
+    @media screen and (min-width: 992px) {
+        @content;
     }
-    @mixin media-xl {
-        @media screen and (min-width: 1200px){
-            @content; 
-        }
+}
+@mixin media-xl {
+    @media screen and (min-width: 1200px) {
+        @content;
     }
-    @mixin media-xxl {
-        @media screen and (min-width: 1400px){
-            @content; 
-        }
+}
+@mixin media-xxl {
+    @media screen and (min-width: 1400px) {
+        @content;
     }
+}

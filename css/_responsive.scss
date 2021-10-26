@@ -1,14 +1,19 @@
+/* sm577 - 768px*/
+@include media-sm {
+    .contact .card .facebook {
+        margin-right: 5em;
+    }
+}
+
 /* md = 768px - 992px*/
 @include media-md {
-
-    .about-me .dora-selfie{
+    .about-me .dora-selfie {
         width: 40%;
     }
     .shows__bastards {
-
-        ul {    
+        ul {
             margin-left: 13%;
-            width:90%;
+            width: 90%;
 
             li {
                 .whitespace {
@@ -16,11 +21,8 @@
                 }
             }
 
-
             i {
                 padding-right: 2em;
-
-                
             }
         }
     }
@@ -31,13 +33,10 @@
 
     .media .music {
         width: 70%;
-        
     }
 
-    
-
     .contact .card2 {
-        margin-top:0em;
+        margin-top: 0em;
     }
 
     .contact .card .facebook {
@@ -49,32 +48,28 @@
         padding: 0.5em 0;
     }
     .hero__title .hero__sub {
-        font-size:3rem;
+        font-size: 3rem;
         padding-top: 1.8em;
     }
 
     .shows__bastards img {
         width: 75%;
     }
-    
-    
 }
 
 /* lg = 992px - 1200px*/
-@include media-lg { 
-
-    .nav-item{
+@include media-lg {
+    .nav-item {
         margin-right: 0.7em;
 
         &-last {
-            margin-right:0.7em;
+            margin-right: 0.7em;
         }
     }
     .nav-item,
     .nav-item-last {
-        font-size:1.2rem;
+        font-size: 1.2rem;
     }
-
 
     .hero__title h1 {
         font-size: 8.8rem;
@@ -88,21 +83,18 @@
         width: 70%;
     }
     .stardust-vid {
-        
-            padding-top:2em;
-           height: 320px;
+        padding-top: 2em;
+        height: 320px;
     }
-    
 
     .shows .flowerpot-img {
         width: 50%;
     }
 
     .shows__bastards {
-
-        ul {    
+        ul {
             margin-left: 13%;
-            width:90%;
+            width: 90%;
 
             li {
                 font-size: 1.123rem;
@@ -111,7 +103,6 @@
                     margin-left: 0em;
                 }
             }
-
 
             i {
                 padding-right: 2em;
@@ -123,45 +114,50 @@
         font-size: 4.4rem;
     }
     .hero__title .hero__sub {
-        font-size:2.8rem;
+        font-size: 2.8rem;
     }
-    
+
     .shows__bastards img {
         width: 60%;
     }
 
     #testimonal-slider .test-slide {
-        &__1, &__2, &__3, &__4, &__5, &__6 {
-            
-            h3{font-size:2rem;}
-            h5{font-size:1.4rem}
-            p{font-size:1.2rem;}
+        &__1,
+        &__2,
+        &__3,
+        &__4,
+        &__5,
+        &__6 {
+            h3 {
+                font-size: 2rem;
+            }
+            h5 {
+                font-size: 1.4rem;
+            }
+            p {
+                font-size: 1.2rem;
+            }
         }
     }
-
 }
 
-
-
-
 /* xl = 1200px */
-@include media-xl { 
-    
+@include media-xl {
     .nav-item,
     .nav-item-last {
-        font-size:1.4rem;
+        font-size: 1.4rem;
     }
 
-   .about-me .dora-selfie {
+    .about-me .dora-selfie {
         width: 60%;
     }
 
     .shows__adhd p {
-        font-size:1.5rem;
+        font-size: 1.5rem;
     }
 
     .para2 {
-        padding-top:3em;
+        padding-top: 3em;
     }
 
     .shows__adhd .adhd-video {
@@ -169,26 +165,25 @@
         height: 600px;
     }
     .shows__flowerpot__text,
-    .shows__flowerpot .review{
-        font-size:1.8rem;
+    .shows__flowerpot .review {
+        font-size: 1.8rem;
     }
 
     .shows__weareallstardust p {
-        font-size:1.6rem;
+        font-size: 1.6rem;
     }
 
     .stardust-vid {
-            padding-top:1em;
-           height: 400px;
-       
+        padding-top: 1em;
+        height: 400px;
     }
 
     .shows__bastards p {
-        font-size:1.6rem;
+        font-size: 1.6rem;
     }
 
     .shows__bastards ul li {
-        font-size:1.4rem
+        font-size: 1.4rem;
     }
 
     .shows__bastards img {
@@ -198,7 +193,7 @@
     .shows__title,
     .about-me__title,
     .media__title {
-        font-size:5rem;
+        font-size: 5rem;
     }
     .about-me__title {
         padding: 0.4em 0 0.5em;
@@ -208,11 +203,10 @@
         font-size: 6rem;
     }
     .hero__title .hero__sub {
-        font-size:4rem;
+        font-size: 4rem;
     }
 
     .backing-img {
-    
         background-attachment: fixed;
     }
 
@@ -225,18 +219,12 @@
 
         height: 325px;
         width: 90%;
-        
     }
 
     .media .music-player {
         padding-top: 113px;
-        
     }
-    
-
 }
-
-
 
 /* xxl = 1400px */
 @include media-xxl {
@@ -244,16 +232,16 @@
         font-size: 8rem;
     }
     .hero__title .hero__sub {
-        font-size:4rem;
+        font-size: 4rem;
     }
 
     .nav-item,
     .nav-item-last {
-        font-size:2.6rem;
+        font-size: 2.6rem;
     }
 
     .nav-item,
     .nav-item-last {
-        font-size:1.2rem;
+        font-size: 1.2rem;
     }
 }
