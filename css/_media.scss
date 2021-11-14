@@ -1,8 +1,7 @@
 .media {
-
     background: $primary-color;
     // padding-top:3em;
-    text-align:center;
+    text-align: center;
     // padding: 1em 0;
 
     &__title {
@@ -10,8 +9,8 @@
         font-family: $primaryfont;
         font-weight: bold;
         text-align: center;
-        padding-bottom:1em;
-        font-size: $subtitlesize
+        padding-bottom: 1em;
+        font-size: $subtitlesize;
     }
 
     // .adhd-slider-images {
@@ -19,7 +18,7 @@
     // }
 
     #media__video-slider {
-        padding:8em 0 6em 0;
+        padding: 8em 0 6em 0;
 
         .slider-cap {
             color: $darkviolet;
@@ -34,6 +33,6 @@
     }
 }
 
-.carousel-inner .carousel-item {
-    max-height: 600px;
-}
+// .carousel-inner .carousel-item {
+//     max-height: 600px;
+// }
