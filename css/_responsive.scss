@@ -224,6 +224,22 @@
     .media .music-player {
         padding-top: 113px;
     }
+    .tour {
+        h3 {
+            font-size: 2rem;
+        }
+        .flex-dates {
+            font-size: 1.2rem;
+        }
+        &__blurb {
+            font-size: 1.125rem;
+            max-width: 900px;
+        }
+        &__quote {
+            font-size: 1rem;
+            max-width: 900px;
+        }
+    }
 }
 
 /* xxl = 1400px */
