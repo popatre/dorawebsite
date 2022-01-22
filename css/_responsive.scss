@@ -55,6 +55,16 @@
     .shows__bastards img {
         width: 75%;
     }
+    .tour__poster {
+        width: 100%;
+    }
+    .dates-center {
+        display: flex;
+        align-items: center;
+    }
+    .flex-dates p {
+        font-size: 1rem;
+    }
 }
 
 /* lg = 992px - 1200px*/
@@ -138,6 +148,15 @@
                 font-size: 1.2rem;
             }
         }
+    }
+    .tour__poster {
+        width: 60%;
+    }
+    .flex-dates p {
+        font-size: 1.4rem;
+    }
+    .tour h3 {
+        font-size: 2rem;
     }
 }
 
