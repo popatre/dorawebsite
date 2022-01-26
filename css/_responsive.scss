@@ -150,13 +150,18 @@
         }
     }
     .tour__poster {
-        width: 60%;
+        width: 100%;
     }
     .flex-dates p {
         font-size: 1.4rem;
     }
     .tour h3 {
         font-size: 2rem;
+    }
+    .tour-container {
+        max-width: 1100px;
+        width: 80%;
+        margin: 0 auto;
     }
 }
 
@@ -244,6 +249,9 @@
         padding-top: 113px;
     }
     .tour {
+        h2 {
+            font-size: 3.1rem;
+        }
         h3 {
             font-size: 2rem;
         }
@@ -258,6 +266,9 @@
             font-size: 1rem;
             max-width: 900px;
         }
+    }
+    .tour__poster {
+        width: 80%;
     }
 }
 
