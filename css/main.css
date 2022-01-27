@@ -55,7 +55,7 @@
   min-height: 100%;
   overflow-x: hidden;
   overflow-y: hidden;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .tour h2 {
@@ -147,7 +147,7 @@
   margin-top: 2em;
   font-style: italic;
   color: #211c1c;
-  text-shadow: 1px 1px #e8e2cc;
+  text-shadow: 1px 1px #a4a39f;
   padding-bottom: 3em;
 }
 
