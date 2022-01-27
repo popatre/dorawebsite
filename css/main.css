@@ -61,18 +61,18 @@
 .tour h2 {
   padding: 0.5em 0 0.4em 0;
   font-size: 2.5rem;
-  color: #ebc83d;
-  text-shadow: 2px 2px 5px #292929;
+  color: #211c1c;
+  text-shadow: 3px 3px 7px #e8e2cc;
 }
 
 .tour h3 {
   font-size: 1.3rem;
   margin-bottom: 1em;
-  color: #ebc83d;
+  color: #211c1c;
   padding: 0 0.5em;
   -webkit-animation: blinker 1s step-start infinite;
           animation: blinker 1s step-start infinite;
-  text-shadow: 2px 2px 5px #292929;
+  text-shadow: 3px 3px 10px #c1bfb8;
 }
 
 @-webkit-keyframes blinker {
@@ -113,9 +113,12 @@
   color: #ac4d3c;
   background: #eeebeb;
   border-radius: 20px;
-  -webkit-box-shadow: 0px 0px 15px 5px #e9c329;
-          box-shadow: 0px 0px 15px 5px #e9c329;
-  text-shadow: 1px 1px #c5c5cb;
+  -webkit-box-shadow: 0px 0px 15px 5px #e4e2da;
+          box-shadow: 0px 0px 15px 5px #e4e2da;
+}
+
+.tour__dates-first {
+  margin-top: 1.2em;
 }
 
 .tour .nav-link2 {
@@ -133,8 +136,8 @@
   margin-top: 1.6em;
   line-height: 1.6;
   font-weight: 500;
-  color: #f0c516;
-  text-shadow: 1px 1px #070707;
+  color: #211c1c;
+  text-shadow: 1px 1px #e8e2cc;
 }
 
 .tour__quote {
@@ -144,7 +147,7 @@
   margin-top: 2em;
   font-style: italic;
   color: #211c1c;
-  text-shadow: 1px 1px #f0c516;
+  text-shadow: 1px 1px #e8e2cc;
   padding-bottom: 3em;
 }
 
