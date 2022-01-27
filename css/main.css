@@ -206,6 +206,11 @@
           transform: scale(0.9);
 }
 
+.disabled-btn {
+  background: #bbbaba;
+  border: 3px solid rgba(202, 205, 206, 0.824);
+}
+
 nav {
   text-align: center;
 }
