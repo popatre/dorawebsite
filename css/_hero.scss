@@ -151,9 +151,16 @@
         text-shadow: 1px 1px #a4a39f;
         padding-bottom: 3em;
     }
+
+    &--video {
+        // max-width: 100%;
+        width: 95%;
+        height: 300px;
+        max-width: 500px;
+        margin-top: 2rem;
+    }
 }
 
-/* From cssbuttons.io by @adamgiebl */
 .tour-btn {
     font-size: 10px;
     letter-spacing: 2px;

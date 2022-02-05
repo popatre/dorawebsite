@@ -151,7 +151,13 @@
   padding-bottom: 3em;
 }
 
-/* From cssbuttons.io by @adamgiebl */
+.tour--video {
+  width: 95%;
+  height: 300px;
+  max-width: 500px;
+  margin-top: 2rem;
+}
+
 .tour-btn {
   font-size: 10px;
   letter-spacing: 2px;
