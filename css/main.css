@@ -89,8 +89,10 @@
 
 .tour__poster {
   max-width: 100%;
-  width: 50%;
+  width: 90%;
   margin: 1.6em 0;
+  -webkit-box-shadow: 5px 5px 15px 5px #dad8d5;
+          box-shadow: 5px 5px 15px 5px #dad8d5;
 }
 
 .tour .flex-dates {
@@ -789,7 +791,7 @@ hr {
     width: 75%;
   }
   .tour__poster {
-    width: 100%;
+    width: 70%;
   }
   .dates-center {
     display: -webkit-box;
@@ -866,6 +868,9 @@ hr {
   }
   .tour__poster {
     width: 100%;
+    height: 250px;
+    padding-right: 0;
+    margin: 0;
   }
   .flex-dates p {
     font-size: 1.4rem;
@@ -874,9 +879,14 @@ hr {
     font-size: 2rem;
   }
   .tour-container {
-    max-width: 1100px;
-    width: 80%;
+    max-width: 1150px;
+    width: 90%;
     margin: 0 auto;
+  }
+  .row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -964,7 +974,7 @@ hr {
     max-width: 900px;
   }
   .tour__poster {
-    width: 80%;
+    width: 100%;
   }
 }
 
