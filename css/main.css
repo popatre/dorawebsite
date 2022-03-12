@@ -683,7 +683,7 @@ img {
 
 .container-fluid {
   max-width: 1200px;
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -754,6 +754,9 @@ hr {
 
 /* md = 768px - 992px*/
 @media screen and (min-width: 768px) {
+  .container-fluid {
+    width: 80%;
+  }
   .about-me .dora-selfie {
     width: 40%;
   }

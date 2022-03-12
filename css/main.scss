@@ -1,12 +1,12 @@
-@import './variables';
-@import './hero';
-@import './nav';
-@import './aboutme';
-@import './shows';
-@import './media';
-@import './contact';
-@import './animation';
-   /* put at bottom */
+@import "./variables";
+@import "./hero";
+@import "./nav";
+@import "./aboutme";
+@import "./shows";
+@import "./media";
+@import "./contact";
+@import "./animation";
+/* put at bottom */
 
 html {
     scroll-behavior: smooth;
@@ -23,15 +23,15 @@ img {
 }
 
 .container-fluid {
-max-width: 1200px;
-width:80%;
-margin: 0 auto;
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .container {
     max-width: 1200px;
-width:80%;
-margin: 0 auto;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .flex {
@@ -39,7 +39,7 @@ margin: 0 auto;
 }
 
 hr {
-    border-top: 30px dotted $primary-color;;
+    border-top: 30px dotted $primary-color;
     background: $green-color;
     width: 40%;
     margin: 0 auto;
@@ -63,11 +63,11 @@ hr {
 }
 
 .layer1 {
-    background-image: url('/images/waves.svg');
+    background-image: url("/images/waves.svg");
     height: 40vh;
 }
 .layer2 {
-    background-image: url('/images/waves2.svg');
+    background-image: url("/images/waves2.svg");
     height: 40vh;
 }
 
@@ -80,8 +80,4 @@ hr {
     opacity: 1;
 }
 
-@import './responsive';
-
-
-
-
+@import "./responsive";

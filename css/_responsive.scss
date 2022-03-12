@@ -7,6 +7,9 @@
 
 /* md = 768px - 992px*/
 @include media-md {
+    .container-fluid {
+        width: 80%;
+    }
     .about-me .dora-selfie {
         width: 40%;
     }
