@@ -672,6 +672,23 @@ footer a:hover {
   color: #9932cc;
 }
 
+.dora_email_main {
+  color: #914fa4;
+  font-size: 1.4rem;
+  margin: 1em 0 2em 0;
+}
+
+.dora_email {
+  text-decoration: underline;
+  color: #deeb4b;
+}
+
+.new__font {
+  font-family: "Shrikhand", cursive;
+  color: #f3f041;
+  font-weight: 300;
+}
+
 /* put at bottom */
 html {
   scroll-behavior: smooth;
@@ -814,6 +831,9 @@ hr {
   .flex-dates p {
     font-size: 1rem;
   }
+  .dora_email_main {
+    font-size: 1.6rem;
+  }
 }
 
 /* lg = 992px - 1200px*/
@@ -897,6 +917,9 @@ hr {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .dora_email_main {
+    font-size: 2rem;
   }
 }
 
@@ -985,6 +1008,9 @@ hr {
   }
   .tour__poster {
     width: 100%;
+  }
+  .new__font {
+    font-size: 5rem;
   }
 }
 
