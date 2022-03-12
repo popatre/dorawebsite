@@ -88,3 +88,26 @@ footer {
         }
     }
 }
+
+.success {
+    background: $green-color;
+    margin: 0;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 2rem;
+        text-align: center;
+        line-height: 2;
+    }
+
+    &__message {
+        color: $primary-color;
+        text-align: center;
+    }
+}

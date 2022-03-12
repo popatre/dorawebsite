@@ -672,6 +672,35 @@ footer a:hover {
   color: #9932cc;
 }
 
+.success {
+  background: #5cb85c;
+  margin: 0;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.success h2 {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 2;
+}
+
+.success__message {
+  color: #ffc107;
+  text-align: center;
+}
+
 .dora_email_main {
   color: #914fa4;
   font-size: 1.4rem;
