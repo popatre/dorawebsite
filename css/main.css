@@ -319,7 +319,7 @@ nav .nav-item-last:hover {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-align: center;
-  padding: 1% 0 10%;
+  padding: 1% 0 0%;
 }
 
 .shows__adhd {
@@ -361,6 +361,13 @@ nav .nav-item-last:hover {
   margin-bottom: 10em;
   border: solid #ffc107 5px;
   width: 100%;
+}
+
+.shows__adhd__title {
+  color: #ffd700;
+  font-family: "Roboto", sans-serif;
+  font-size: 3.5rem;
+  margin: 1em 0;
 }
 
 .shows .feedback {
