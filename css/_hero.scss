@@ -2,21 +2,23 @@
     text-align: center;
     // height: 100%;
     // margin: 0 auto;
+    background: $primary-color;
 
     .image-back {
-        height: 100vh;
+        position: relative;
+        // height: 100vh;
         width: 100%;
-        background: 
-        // linear-gradient(
-        // to right, 
-        // rgba($primary-color, 0.8),
-        // rgba($primary-color, 0.1)
-        // ),
-            url("../images/new6.jpeg") center center;
-        -webkit-background-size: auto 150%;
+        // background:
+        // // linear-gradient(
+        // // to right,
+        // // rgba($primary-color, 0.8),
+        // // rgba($primary-color, 0.1)
+        // // ),
+        //     url("../images/dora-jump-adhd.jpeg") center center;
+        // -webkit-background-size: auto 100%;
         // background-size:100% 100%;
-        background-size: cover;
-
+        background-size: contain;
+        background-repeat: no-repeat;
         background-attachment: scroll;
     }
 
@@ -47,15 +49,20 @@
             // display:none;
             opacity: 0;
         }
+    }
+    .hero__sub {
+        position: absolute;
+        bottom: -79px;
+        left: 10px;
+        color: $primary-color;
+        margin-top: 1.8em;
+        font-size: $subtitlesize;
+        font-family: $secondaryfont;
+        padding-bottom: 3em;
+        opacity: 0;
+        width: 100%;
 
-        .hero__sub {
-            color: $primary-color;
-            margin-top: 1.8em;
-            font-size: $subtitlesize;
-            font-family: $secondaryfont;
-            padding-bottom: 3em;
-            opacity: 0;
-        }
+        text-align: center;
     }
 }
 

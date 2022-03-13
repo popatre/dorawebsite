@@ -1,17 +1,15 @@
-.about-me { 
-
+.about-me {
     background: $primary-color;
-    padding-top:10em;
-    text-align:center;
+    padding-top: 5em;
+    text-align: center;
 
-    &__title{
-        
+    &__title {
         color: $secondary-color;
         font-family: $primaryfont;
         font-weight: bold;
         text-align: center;
         padding: 0.7em 0;
-        font-size: $subtitlesize
+        font-size: $subtitlesize;
     }
 
     .worked-with {
@@ -19,25 +17,22 @@
         font-size: 1.5rem;
     }
 
-    .dora-selfie{
+    .dora-selfie {
         width: 60%;
         border-radius: 50px;
         border: $darkviolet solid 3px;
     }
 
     &__body {
-        
         color: $darkviolet;
         font-size: $paragraphsize;
         font-family: $secondaryfont;
-        padding-top:3em;
+        padding-top: 3em;
         padding-bottom: 3em;
         line-height: 1.8;
 
         .achievements__title {
-            margin-top:2em;
-
-            
+            margin-top: 2em;
         }
 
         .matt-quote {
@@ -45,12 +40,10 @@
             padding: 1em 0;
         }
     }
-    
 
     .achiements__list dl dd {
         font-size: 0.8em;
     }
-    
 }
 
 .backing-img {
@@ -62,9 +55,8 @@
     // rgba($primary-color, 0.8),
     // rgba($primary-color, 0.1)
     // ),
-    url('../images/7.jpg') center center;
+        url("../images/7.jpg") center center;
     -webkit-background-size: auto 150%;
-    background-size:cover;
+    background-size: cover;
     background-attachment: scroll;
 }
-

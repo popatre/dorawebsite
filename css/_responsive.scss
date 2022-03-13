@@ -74,6 +74,9 @@
     .dora_email_main {
         font-size: 1.6rem;
     }
+    .hero .hero__sub {
+        max-width: 90%;
+    }
 }
 
 /* lg = 992px - 1200px*/
@@ -181,6 +184,16 @@
     }
     .dora_email_main {
         font-size: 2rem;
+    }
+    .hero .hero__sub {
+        bottom: 9%;
+        left: 25%;
+        width: 100%;
+        max-width: 50%;
+        text-align: center;
+    }
+    .image-back img {
+        width: 50%;
     }
 }
 
@@ -293,6 +306,16 @@
     .new__font {
         font-size: 5rem;
     }
+    .hero .hero__sub {
+        bottom: 9%;
+        left: 25%;
+        width: 100%;
+        max-width: 50%;
+        text-align: center;
+    }
+    .image-back img {
+        width: 40%;
+    }
 }
 
 /* xxl = 1400px */
@@ -312,5 +335,18 @@
     .nav-item,
     .nav-item-last {
         font-size: 1.2rem;
+    }
+    .hero .hero__sub {
+        bottom: 9%;
+        // left: 25%;
+
+        max-width: 50%;
+        text-align: center;
+    }
+    .image-back img {
+        width: 50%;
+    }
+    .hero .image-back {
+        text-align: center;
     }
 }
