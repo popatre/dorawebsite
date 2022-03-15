@@ -181,6 +181,20 @@
             box-shadow: 10px 10px 20px $darkviolet;
         }
     }
+    &__feedback--paras {
+        margin-bottom: 4em;
+    }
+
+    &__banner-img {
+        margin-top: 5em;
+        margin-bottom: 3em;
+        max-width: 900px;
+        margin-inline: auto;
+
+        & img:hover {
+            box-shadow: 10px 10px 20px yellow;
+        }
+    }
 }
 
 #testimonal-slider {

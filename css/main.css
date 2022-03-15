@@ -512,6 +512,22 @@ nav .nav-item-last:hover {
           box-shadow: 10px 10px 20px #9932cc;
 }
 
+.shows__feedback--paras {
+  margin-bottom: 4em;
+}
+
+.shows__banner-img {
+  margin-top: 5em;
+  margin-bottom: 3em;
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+.shows__banner-img img:hover {
+  -webkit-box-shadow: 10px 10px 20px yellow;
+          box-shadow: 10px 10px 20px yellow;
+}
+
 #testimonal-slider {
   text-align: center;
   padding-bottom: 6em;
