@@ -596,7 +596,7 @@ nav .nav-item-last:hover {
 }
 
 .media #media__video-slider {
-  padding: 8em 0 6em 0;
+  padding: 6em 0 6em 0;
 }
 
 .media #media__video-slider .slider-cap {
@@ -1178,9 +1178,6 @@ hr {
   .media .music {
     height: 325px;
     width: 90%;
-  }
-  .media .music-player {
-    padding-top: 113px;
   }
   .tour h2 {
     font-size: 3.1rem;
