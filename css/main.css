@@ -974,8 +974,8 @@ hr {
   .shows__bastards ul i {
     padding-right: 2em;
   }
-  .shows__adhd img {
-    width: 60%;
+  .adhd-slider-images {
+    width: 80%;
   }
   .media .music {
     width: 70%;
@@ -1113,6 +1113,9 @@ hr {
   }
   .image-back img {
     width: 50%;
+  }
+  .adhd-slider-images {
+    width: 70%;
   }
 }
 
