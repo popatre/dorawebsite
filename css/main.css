@@ -11,8 +11,8 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background: url("../images/dora-jump-adhd.jpeg") center center;
-  background-size: 100% 100%;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(186, 85, 211, 0.3)), to(rgba(92, 184, 92, 0.2))), url("../images/dora-jump-adhd.jpeg") center center;
+  background: linear-gradient(to right, rgba(186, 85, 211, 0.3), rgba(92, 184, 92, 0.2)), url("../images/dora-jump-adhd.jpeg") center center;
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: scroll;
