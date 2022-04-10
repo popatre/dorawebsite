@@ -997,9 +997,6 @@ hr {
   .shows__bastards img {
     width: 75%;
   }
-  .tour__poster {
-    width: 70%;
-  }
   .dates-center {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1035,7 +1032,7 @@ hr {
     font-size: 8.8rem;
   }
   .shows__adhd img {
-    width: 80%;
+    width: 90%;
   }
   .shows__adhd .adhd-video {
     width: 70%;
