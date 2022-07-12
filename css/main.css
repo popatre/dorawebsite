@@ -396,7 +396,7 @@ nav .nav-item-last:hover {
 }
 
 .shows__flowerpot, .shows__section--purple {
-  margin-top: 10em;
+  margin-top: 5em;
   text-align: center;
 }
 
@@ -420,7 +420,7 @@ nav .nav-item-last:hover {
   line-height: 1.9;
   text-align: center;
   margin-bottom: 4em;
-  text-shadow: 1px 0px 2px #caca5b;
+  text-shadow: 3px 0px 10px #eaeae2;
 }
 
 .shows .flowerpot-img,
