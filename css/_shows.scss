@@ -93,11 +93,11 @@
 
     .flowerpot-img,
     .section__img {
-        border-radius: 100px;
-        width: 100%;
+        border-radius: 10px;
+        //width: 100%;
         margin-bottom: 3em;
-        border: solid $secondary-color 5px;
-        box-shadow: 10px 10px 20px $darkviolet;
+        border: solid $secondary-color 1px;
+        box-shadow: 0px 5px 20px $darkviolet;
 
         &--manifesto {
             margin-bottom: 3em;
