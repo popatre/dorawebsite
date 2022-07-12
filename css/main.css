@@ -307,15 +307,27 @@ nav .nav-item-last:hover {
 
 .about-me__body .achievements__title {
   margin-top: 2em;
+  margin-block: 3em;
 }
 
 .about-me__body .matt-quote {
   font-size: 0.8em;
   padding: 1em 0;
+  margin-bottom: 5em;
+}
+
+.about-me__body--text {
+  margin-bottom: 5em;
+  text-shadow: 3px 0px 10px #eff2ef;
 }
 
 .about-me .achiements__list dl dd {
   font-size: 0.8em;
+}
+
+.about-me dd {
+  margin-bottom: 2em;
+  text-shadow: 1px 0px 9px #bedbbc;
 }
 
 .backing-img {
@@ -396,7 +408,7 @@ nav .nav-item-last:hover {
 }
 
 .shows__flowerpot, .shows__section--purple {
-  margin-top: 10em;
+  margin-top: 5em;
   text-align: center;
 }
 
@@ -420,7 +432,7 @@ nav .nav-item-last:hover {
   line-height: 1.9;
   text-align: center;
   margin-bottom: 4em;
-  text-shadow: 1px 0px 2px #caca5b;
+  text-shadow: 3px 0px 10px #eaeae2;
 }
 
 .shows .flowerpot-img,
@@ -1166,6 +1178,14 @@ hr {
   .adhd-slider-images {
     width: 70%;
   }
+  .achiements__list.large-screen dl dd {
+    font-size: 1em;
+  }
+  .about-me__body--text {
+    width: 90%;
+    margin-inline: auto;
+    font-size: 1.2rem;
+  }
 }
 
 /* xl = 1200px */
@@ -1243,6 +1263,11 @@ hr {
   }
   .image-back img {
     width: 40%;
+  }
+  .about-me__body--text {
+    width: 80%;
+    margin-inline: auto;
+    font-size: 1.4rem;
   }
 }
 
