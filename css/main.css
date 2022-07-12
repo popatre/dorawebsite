@@ -318,6 +318,7 @@ nav .nav-item-last:hover {
 
 .about-me__body--text {
   margin-bottom: 5em;
+  text-shadow: 3px 0px 10px #eff2ef;
 }
 
 .about-me .achiements__list dl dd {
@@ -326,6 +327,7 @@ nav .nav-item-last:hover {
 
 .about-me dd {
   margin-bottom: 2em;
+  text-shadow: 1px 0px 9px #bedbbc;
 }
 
 .backing-img {
@@ -1176,6 +1178,14 @@ hr {
   .adhd-slider-images {
     width: 70%;
   }
+  .achiements__list.large-screen dl dd {
+    font-size: 1em;
+  }
+  .about-me__body--text {
+    width: 90%;
+    margin-inline: auto;
+    font-size: 1.2rem;
+  }
 }
 
 /* xl = 1200px */
@@ -1253,6 +1263,11 @@ hr {
   }
   .image-back img {
     width: 40%;
+  }
+  .about-me__body--text {
+    width: 80%;
+    margin-inline: auto;
+    font-size: 1.4rem;
   }
 }
 

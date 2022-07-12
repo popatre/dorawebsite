@@ -230,6 +230,14 @@
     .adhd-slider-images {
         width: 70%;
     }
+    .achiements__list.large-screen dl dd {
+        font-size: 1em;
+    }
+    .about-me__body--text {
+        width: 90%;
+        margin-inline: auto;
+        font-size: 1.2rem;
+    }
 }
 
 /* xl = 1200px */
@@ -328,6 +336,11 @@
     }
     .image-back img {
         width: 40%;
+    }
+    .about-me__body--text {
+        width: 80%;
+        margin-inline: auto;
+        font-size: 1.4rem;
     }
 }
 
