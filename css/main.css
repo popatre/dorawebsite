@@ -298,7 +298,7 @@ nav .nav-item-last:hover {
 
 .about-me__body {
   color: #9932cc;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: "Raleway", sans-serif;
   padding-top: 3em;
   padding-bottom: 3em;
@@ -366,7 +366,7 @@ nav .nav-item-last:hover {
 }
 
 .shows__adhd p {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: "Raleway", sans-serif;
   color: #ffd700;
   line-height: 1.5;
@@ -395,38 +395,56 @@ nav .nav-item-last:hover {
   padding-top: 1.4em;
 }
 
-.shows__flowerpot {
+.shows__flowerpot, .shows__section--purple {
   margin-top: 10em;
   text-align: center;
 }
 
-.shows__flowerpot__title {
+.shows__flowerpot__title, .shows__section--purple__title {
   color: #ba55d3;
   font-family: "Oswald", sans-serif;
   font-size: 3.5rem;
   font-weight: 500;
   padding-bottom: 1.25em;
   text-align: center;
+  text-shadow: 0px 0px 5px #f6f949;
 }
 
 .shows__flowerpot__text,
-.shows__flowerpot .review {
+.shows__flowerpot .review, .shows__section--purple__text,
+.shows__section--purple .review {
   color: #ba55d3;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 1.9;
   text-align: center;
-  margin-bottom: 5em;
+  margin-bottom: 4em;
+  text-shadow: 1px 0px 2px #caca5b;
 }
 
-.shows .flowerpot-img {
+.shows .flowerpot-img,
+.shows .section__img {
   border-radius: 100px;
-  width: 80%;
+  width: 100%;
   margin-bottom: 3em;
   border: solid #ba55d3 5px;
   -webkit-box-shadow: 10px 10px 20px #9932cc;
           box-shadow: 10px 10px 20px #9932cc;
+}
+
+.shows .flowerpot-img--manifesto,
+.shows .section__img--manifesto {
+  margin-bottom: 3em;
+}
+
+.shows .flowerpot-img--link,
+.shows .section__img--link {
+  margin-bottom: 3em;
+  border-radius: 25px;
+  cursor: pointer;
+  -webkit-box-shadow: 1px 0px 12px yellow;
+          box-shadow: 1px 0px 12px yellow;
 }
 
 .shows__weareallstardust {
@@ -443,7 +461,7 @@ nav .nav-item-last:hover {
 }
 
 .shows__weareallstardust p {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: "Raleway", sans-serif;
   color: #ffd700;
   line-height: 1.9;
@@ -477,7 +495,7 @@ nav .nav-item-last:hover {
 
 .shows__bastards p {
   color: #ba55d3;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 2;
@@ -489,7 +507,7 @@ nav .nav-item-last:hover {
   margin-left: 0;
   list-style: none;
   color: #ba55d3;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: "Raleway", sans-serif;
   margin-bottom: 4em;
 }
@@ -529,6 +547,11 @@ nav .nav-item-last:hover {
 .shows__banner-img img:hover {
   -webkit-box-shadow: 10px 10px 20px yellow;
           box-shadow: 10px 10px 20px yellow;
+}
+
+.vid-ant {
+  margin-block: 4em;
+  width: 100%;
 }
 
 #testimonal-slider {
@@ -604,7 +627,7 @@ nav .nav-item-last:hover {
 
 .media #media__video-slider .slider-cap {
   color: #9932cc;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .media .music {
@@ -632,10 +655,10 @@ nav .nav-item-last:hover {
 }
 
 .contact .card {
-  height: 17em;
+  min-height: 17em;
   text-align: center;
   font-family: "Roboto", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#9932cc), to(#9370db));
   background-image: linear-gradient(#9932cc, #9370db);
 }
