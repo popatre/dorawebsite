@@ -307,15 +307,25 @@ nav .nav-item-last:hover {
 
 .about-me__body .achievements__title {
   margin-top: 2em;
+  margin-block: 3em;
 }
 
 .about-me__body .matt-quote {
   font-size: 0.8em;
   padding: 1em 0;
+  margin-bottom: 5em;
+}
+
+.about-me__body--text {
+  margin-bottom: 5em;
 }
 
 .about-me .achiements__list dl dd {
   font-size: 0.8em;
+}
+
+.about-me dd {
+  margin-bottom: 2em;
 }
 
 .backing-img {

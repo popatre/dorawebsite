@@ -33,16 +33,26 @@
 
         .achievements__title {
             margin-top: 2em;
+            margin-block: 3em;
         }
 
         .matt-quote {
             font-size: 0.8em;
             padding: 1em 0;
+            margin-bottom: 5em;
+        }
+
+        &--text {
+            margin-bottom: 5em;
         }
     }
 
     .achiements__list dl dd {
         font-size: 0.8em;
+    }
+
+    dd {
+        margin-bottom: 2em;
     }
 }
 
