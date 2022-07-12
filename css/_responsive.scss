@@ -76,6 +76,10 @@
 
 /* lg = 992px - 1200px*/
 @include media-lg {
+    //    // p {
+    //         font-size: 1.125rem;
+    //     }
+
     .nav-item {
         margin-right: 0.7em;
 
@@ -90,6 +94,14 @@
 
     .hero__title h1 {
         font-size: 8.8rem;
+    }
+
+    .shows__section--purple {
+        margin-bottom: 6em;
+
+        p {
+            font-size: 1.15rem;
+        }
     }
 
     .shows__adhd img {
@@ -125,6 +137,31 @@
                 padding-right: 2em;
             }
         }
+    }
+
+    .section__img {
+        width: 46%;
+        margin-right: 1em;
+    }
+
+    .section__img--manifesto {
+        width: 90%;
+        margin-inline: auto;
+        margin-block: 3em;
+        max-width: 700px;
+    }
+
+    .section__img--link.large-screen {
+        width: 100%;
+        max-width: 700px;
+        margin-bottom: 0;
+        height: 315px;
+    }
+
+    .vid-ant {
+        max-width: 700px;
+        margin-block: 0;
+        width: 50%;
     }
 
     .hero__title h1 {
@@ -207,7 +244,7 @@
     }
 
     .shows__adhd p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .para2 {
@@ -220,11 +257,11 @@
     }
     .shows__flowerpot__text,
     .shows__flowerpot .review {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
     }
 
     .shows__weareallstardust p {
-        font-size: 1.6rem;
+        font-size: 1.2rem;
     }
 
     .stardust-vid {
@@ -233,7 +270,7 @@
     }
 
     .shows__bastards p {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 
     .shows__bastards ul li {
@@ -277,28 +314,6 @@
 
     .media .music-player {
         //
-    }
-    .tour {
-        h2 {
-            font-size: 3.1rem;
-        }
-        h3 {
-            font-size: 2rem;
-        }
-        .flex-dates {
-            font-size: 1.2rem;
-        }
-        &__blurb {
-            font-size: 1.125rem;
-            max-width: 900px;
-        }
-        &__quote {
-            font-size: 1rem;
-            max-width: 900px;
-        }
-    }
-    .tour__poster {
-        width: 100%;
     }
 
     .new__font {

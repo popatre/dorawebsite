@@ -298,7 +298,7 @@ nav .nav-item-last:hover {
 
 .about-me__body {
   color: #9932cc;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: "Raleway", sans-serif;
   padding-top: 3em;
   padding-bottom: 3em;
@@ -366,7 +366,7 @@ nav .nav-item-last:hover {
 }
 
 .shows__adhd p {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: "Raleway", sans-serif;
   color: #ffd700;
   line-height: 1.5;
@@ -395,38 +395,55 @@ nav .nav-item-last:hover {
   padding-top: 1.4em;
 }
 
-.shows__flowerpot {
+.shows__flowerpot, .shows__section--purple {
   margin-top: 10em;
   text-align: center;
 }
 
-.shows__flowerpot__title {
+.shows__flowerpot__title, .shows__section--purple__title {
   color: #ba55d3;
   font-family: "Oswald", sans-serif;
   font-size: 3.5rem;
   font-weight: 500;
   padding-bottom: 1.25em;
   text-align: center;
+  text-shadow: 0px 0px 5px #f6f949;
 }
 
 .shows__flowerpot__text,
-.shows__flowerpot .review {
+.shows__flowerpot .review, .shows__section--purple__text,
+.shows__section--purple .review {
   color: #ba55d3;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 1.9;
   text-align: center;
-  margin-bottom: 5em;
+  margin-bottom: 4em;
+  text-shadow: 1px 0px 2px #caca5b;
 }
 
-.shows .flowerpot-img {
-  border-radius: 100px;
-  width: 80%;
+.shows .flowerpot-img,
+.shows .section__img {
+  border-radius: 10px;
   margin-bottom: 3em;
-  border: solid #ba55d3 5px;
-  -webkit-box-shadow: 10px 10px 20px #9932cc;
-          box-shadow: 10px 10px 20px #9932cc;
+  border: solid #ba55d3 1px;
+  -webkit-box-shadow: 0px 5px 20px #9932cc;
+          box-shadow: 0px 5px 20px #9932cc;
+}
+
+.shows .flowerpot-img--manifesto,
+.shows .section__img--manifesto {
+  margin-bottom: 3em;
+}
+
+.shows .flowerpot-img--link,
+.shows .section__img--link {
+  margin-bottom: 3em;
+  border-radius: 25px;
+  cursor: pointer;
+  -webkit-box-shadow: 1px 0px 12px yellow;
+          box-shadow: 1px 0px 12px yellow;
 }
 
 .shows__weareallstardust {
@@ -443,7 +460,7 @@ nav .nav-item-last:hover {
 }
 
 .shows__weareallstardust p {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: "Raleway", sans-serif;
   color: #ffd700;
   line-height: 1.9;
@@ -477,7 +494,7 @@ nav .nav-item-last:hover {
 
 .shows__bastards p {
   color: #ba55d3;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 2;
@@ -489,7 +506,7 @@ nav .nav-item-last:hover {
   margin-left: 0;
   list-style: none;
   color: #ba55d3;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: "Raleway", sans-serif;
   margin-bottom: 4em;
 }
@@ -529,6 +546,11 @@ nav .nav-item-last:hover {
 .shows__banner-img img:hover {
   -webkit-box-shadow: 10px 10px 20px yellow;
           box-shadow: 10px 10px 20px yellow;
+}
+
+.vid-ant {
+  margin-block: 4em;
+  width: 100%;
 }
 
 #testimonal-slider {
@@ -604,7 +626,7 @@ nav .nav-item-last:hover {
 
 .media #media__video-slider .slider-cap {
   color: #9932cc;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .media .music {
@@ -632,10 +654,10 @@ nav .nav-item-last:hover {
 }
 
 .contact .card {
-  height: 17em;
+  min-height: 17em;
   text-align: center;
   font-family: "Roboto", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#9932cc), to(#9370db));
   background-image: linear-gradient(#9932cc, #9370db);
 }
@@ -1034,6 +1056,12 @@ hr {
   .hero__title h1 {
     font-size: 8.8rem;
   }
+  .shows__section--purple {
+    margin-bottom: 6em;
+  }
+  .shows__section--purple p {
+    font-size: 1.15rem;
+  }
   .shows__adhd img {
     width: 90%;
   }
@@ -1060,6 +1088,27 @@ hr {
   }
   .shows__bastards ul i {
     padding-right: 2em;
+  }
+  .section__img {
+    width: 46%;
+    margin-right: 1em;
+  }
+  .section__img--manifesto {
+    width: 90%;
+    margin-inline: auto;
+    margin-block: 3em;
+    max-width: 700px;
+  }
+  .section__img--link.large-screen {
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 0;
+    height: 315px;
+  }
+  .vid-ant {
+    max-width: 700px;
+    margin-block: 0;
+    width: 50%;
   }
   .hero__title h1 {
     font-size: 4.4rem;
@@ -1129,7 +1178,7 @@ hr {
     width: 60%;
   }
   .shows__adhd p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .para2 {
     padding-top: 3em;
@@ -1140,17 +1189,17 @@ hr {
   }
   .shows__flowerpot__text,
   .shows__flowerpot .review {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
   .shows__weareallstardust p {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
   .stardust-vid {
     padding-top: 1em;
     height: 400px;
   }
   .shows__bastards p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   .shows__bastards ul li {
     font-size: 1.4rem;
@@ -1181,26 +1230,6 @@ hr {
   .media .music {
     height: 325px;
     width: 90%;
-  }
-  .tour h2 {
-    font-size: 3.1rem;
-  }
-  .tour h3 {
-    font-size: 2rem;
-  }
-  .tour .flex-dates {
-    font-size: 1.2rem;
-  }
-  .tour__blurb {
-    font-size: 1.125rem;
-    max-width: 900px;
-  }
-  .tour__quote {
-    font-size: 1rem;
-    max-width: 900px;
-  }
-  .tour__poster {
-    width: 100%;
   }
   .new__font {
     font-size: 5rem;
