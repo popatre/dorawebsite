@@ -560,6 +560,47 @@ nav .nav-item-last:hover {
           box-shadow: 10px 10px 20px yellow;
 }
 
+.shows__gallery-hyperlink {
+  text-decoration: none;
+}
+
+.shows__gallery-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: solid #ba55d3 2px;
+  margin-bottom: 4em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 25px;
+  background-image: url("https://res.cloudinary.com/dyuhtpg5y/image/upload/v1657814963/take-a-seat/seat/dora-19_o65syn.jpg");
+  background-position: 40% 34%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: #ffc107;
+}
+
+.shows__gallery-link:hover {
+  -webkit-box-shadow: 0px 0px 20px #e9e911;
+          box-shadow: 0px 0px 20px #e9e911;
+  cursor: pointer;
+}
+
+.shows__gallery-link p {
+  margin: 0;
+  padding-block: 2em;
+  text-shadow: 2px 1px 1px #eddddd;
+  font-size: 1.5rem;
+}
+
 .vid-ant {
   margin-block: 4em;
   width: 100%;
