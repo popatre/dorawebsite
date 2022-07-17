@@ -1091,8 +1091,8 @@ h6 {
 
 .overlay-inner {
   background: white;
-  padding: 20px;
-  max-width: 100%;
+  width: 95%;
+  padding: 10px;
 }
 
 .overlay img {
@@ -1184,6 +1184,9 @@ hr {
   .contact .card .facebook {
     margin-right: 5em;
   }
+  .overlay-inner {
+    max-width: 700px;
+  }
 }
 
 /* md = 768px - 992px*/
@@ -1243,6 +1246,12 @@ hr {
   }
   .hero .hero__sub {
     max-width: 90%;
+  }
+  .overlay-inner {
+    max-width: 600px;
+  }
+  .overlay img {
+    max-height: 700px;
   }
 }
 
@@ -1379,6 +1388,12 @@ hr {
     margin-inline: auto;
     font-size: 1.2rem;
   }
+  .overlay-inner {
+    max-width: 700px;
+  }
+  .overlay img {
+    max-height: 700px;
+  }
 }
 
 /* xl = 1200px */
@@ -1461,6 +1476,12 @@ hr {
     width: 80%;
     margin-inline: auto;
     font-size: 1.4rem;
+  }
+  .overlay-inner {
+    max-width: 800px;
+  }
+  .overlay img {
+    max-height: 900px;
   }
 }
 
