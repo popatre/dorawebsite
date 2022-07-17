@@ -74,11 +74,262 @@
 
 
 
-        <section class="gallery">
 
+        <section class="gallery-body">
+            <div class="overlay">
+                <div class="overlay-inner">
+                    <button class="close">× Close</button>
+                    <img>
+                </div>
+            </div>
 
-
+            <section class="gallery">
+            </section>
         </section>
+
+
+        <style>
+            h1,
+            height,
+            h3,
+            h4,
+            h5,
+            h6 {
+                margin: 0 0 5px 0;
+            }
+
+            .gallery-body {
+                padding: 50px;
+                font-family: sans-serif;
+                background: linear-gradient(to right, #F93D66, #6D47D9);
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            p {
+                margin: 0 0 20px 0;
+            }
+
+            .close {
+                background: none;
+                color: black;
+                border: 0;
+            }
+
+            .gallery {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, 100px);
+                grid-auto-rows: 100px;
+                grid-auto-flow: dense;
+            }
+
+            .item {
+                overflow: hidden;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+            }
+
+            .item img {
+                grid-column: 1 / -1;
+                grid-row: 1 / -1;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .item__overlay {
+                background: #ffc60032;
+                grid-column: 1 / -1;
+                grid-row: 1 / -1;
+                position: relative;
+                display: grid;
+                justify-items: center;
+                align-items: center;
+                transition: 0.2s;
+                transform: translateY(100%);
+            }
+
+            .item__overlay button {
+                background: none;
+                border: 2px solid white;
+                color: white;
+                text-transform: uppercase;
+                background: rgba(0, 0, 0, 0.7);
+                padding: 5px;
+            }
+
+            .item:hover .item__overlay {
+                transform: translateY(0);
+            }
+
+            .item:hover {
+                transform: scale(1.1);
+            }
+
+
+            .item.v2 {
+                grid-row: span 2;
+            }
+
+            .item.v3 {
+                grid-row: span 3;
+            }
+
+            .item.v4 {
+                grid-row: span 4;
+            }
+
+            .item.height2 {
+                grid-column: span 2;
+            }
+
+            .item.height3 {
+                grid-column: span 3;
+            }
+
+            .item.height4 {
+                grid-column: span 4;
+            }
+
+
+            .overlay {
+                position: fixed;
+                background: rgba(0, 0, 0, 0.7);
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                display: none;
+                z-index: 2;
+            }
+
+            .overlay.open {
+                display: grid;
+                align-items: center;
+                justify-items: center;
+            }
+
+            .overlay-inner {
+                background: white;
+                width: 700px;
+                padding: 20px;
+            }
+
+            .overlay img {
+                width: 100%;
+            }
+        </style>
+
+        <script>
+            const gallery = document.querySelector('.gallery');
+            const overlay = document.querySelector('.overlay');
+            const overlayImage = overlay.querySelector('img');
+            const overlayClose = overlay.querySelector('.close');
+
+            const imgSrcs = [
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657815006/take-a-seat/seat/dora-14_lo2shc.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657815005/take-a-seat/seat/dora-11_xnbfxj.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657815003/take-a-seat/seat/dora-10_rzxgyg.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657815002/take-a-seat/seat/dora-17_xukfai.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657815001/take-a-seat/seat/dora-12_ti8hx5.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814998/take-a-seat/seat/dora-8_zctbhe.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814994/take-a-seat/seat/dora-9_oy1oco.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814994/take-a-seat/seat/dora-7_ircbe9.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814994/take-a-seat/seat/dora-13_kconec.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814993/take-a-seat/seat/dora-2_mqxmag.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814989/take-a-seat/seat/dora-22_lgshga.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814988/take-a-seat/seat/dora-5_uzlflm.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814986/take-a-seat/seat/dora-16_atnemd.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814982/take-a-seat/seat/dora-6_uxpyyy.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814979/take-a-seat/seat/dora-1_r2jreu.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814978/take-a-seat/seat/dora-3_otsf6j.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814977/take-a-seat/seat/dora-23_xkuqs8.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814974/take-a-seat/seat/dora-21_zhzcas.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814974/take-a-seat/seat/dora-20_kh3uxq.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814968/take-a-seat/seat/dora-18_nm4egq.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814967/take-a-seat/seat/dora-24_zzjpmh.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814966/take-a-seat/seat/dora-4_n1jubm.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814963/take-a-seat/seat/dora-19_o65syn.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814961/take-a-seat/seat/dora-27_ui71yr.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814959/take-a-seat/seat/dora-26_o3ps8a.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814959/take-a-seat/seat/dora-25_zlrfmu.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814958/take-a-seat/seat/dora-29_ult5ey.jpg',
+                'https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814957/take-a-seat/seat/dora-28_vi6zq2.jpg'
+            ]
+
+            function generateHTML([h, v], index) {
+                const length = imgSrcs.length
+                if (index >= length) {
+                    index = Math.floor(Math.random() * length)
+                }
+                console.log(index, "***")
+                return `
+            <div class="item height${h} v${v}">
+              <img alt="" loading="lazy" src="${imgSrcs[index]}">
+              <div class="item__overlay">
+                <button>View →</button>
+              </div>
+            </div>
+          `;
+            }
+
+
+
+            function randomNumber(limit) {
+                console.log(Math.floor(Math.random() * limit) + 2)
+                return Math.floor(Math.random() * limit) + 2;
+            }
+
+            function handleClick(e) {
+                const src = e.currentTarget.querySelector('img').src;
+                overlayImage.src = src;
+                overlay.classList.add('open');
+            }
+
+
+            function close() {
+                overlay.classList.remove('open');
+            }
+
+            const digits = Array.from({
+                length: imgSrcs.length
+            }, () => [randomNumber(3), randomNumber(4)]).concat([
+                [1, 1],
+                [1, 1],
+                [1, 1],
+                [1, 1],
+                [1, 1],
+                [1, 1],
+                [1, 1],
+                [1, 1],
+                [1, 1],
+                [1, 1],
+                [1, 1],
+                [1, 1],
+                [1, 1],
+                [1, 1],
+                [1, 1],
+                [1, 1],
+                [1, 1],
+                [1, 1],
+                [1, 1],
+
+            ])
+
+            const html = digits.map(generateHTML).join('');
+            gallery.innerHTML = html;
+
+            const items = document.querySelectorAll('.item');
+
+            items.forEach(item => item.addEventListener('click', handleClick));
+
+            overlayClose.addEventListener('click', close);
+        </script>
+
+
 
 
 
