@@ -90,6 +90,13 @@ const digits = Array.from(
     [1, 1],
     [1, 1],
     [1, 1],
+    [1, 1],
+    [1, 1],
+    [1, 1],
+    [1, 1],
+    [1, 1],
+    [1, 1],
+    [1, 1],
 ]);
 
 const html = digits.map(generateHTML).join("");
