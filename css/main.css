@@ -598,7 +598,11 @@ nav .nav-item-last:hover {
   margin: 0;
   padding-block: 2em;
   text-shadow: 2px 1px 1px #eddddd;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.shows__gallery__linkText {
+  color: #113ebb;
 }
 
 .vid-ant {
@@ -1393,6 +1397,12 @@ hr {
   }
   .overlay img {
     max-height: 700px;
+  }
+  .shows__gallery__linkText.lrg-screen {
+    font-size: 2rem;
+  }
+  .shows__gallery-link {
+    margin-block: 7em;
   }
 }
 
