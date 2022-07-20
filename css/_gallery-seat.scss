@@ -78,6 +78,7 @@ h6 {
 
 .item:hover .item__overlay {
     transform: translateY(0);
+    cursor: pointer;
 }
 
 .item:hover {

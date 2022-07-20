@@ -1042,6 +1042,7 @@ h6 {
 .item:hover .item__overlay {
   -webkit-transform: translateY(0);
           transform: translateY(0);
+  cursor: pointer;
 }
 
 .item:hover {
