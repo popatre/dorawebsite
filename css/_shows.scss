@@ -241,6 +241,24 @@
             font-size: 1.6rem;
         }
     }
+
+    // New show pages
+    &__card {
+        border: 2px solid red;
+        margin-block: 1em;
+        height: 300px;
+
+        &__title {
+            font-size: 1.2rem;
+            text-align: center;
+            margin-top: 0.5em;
+        }
+        &.seat {
+            background-image: url("https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814979/take-a-seat/seat/dora-1_r2jreu.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
 }
 
 .shows__gallery__linkText {
