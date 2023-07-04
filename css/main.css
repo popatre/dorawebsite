@@ -489,18 +489,44 @@ nav .nav-item-last:hover {
   font-size: 1.6rem;
 }
 .shows__card {
-  border: 2px solid red;
+  border: 2px solid #9932cc;
   margin-block: 1em;
   margin-inline: 1em;
   height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .shows__card__title {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
+  color: white;
+  font-weight: bold;
   text-align: center;
-  margin-top: 0.5em;
+  text-shadow: black -1px 1px 10px;
 }
 .shows__card.seat {
   background-image: url("https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814979/take-a-seat/seat/dora-1_r2jreu.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.shows__card.adhd {
+  background-image: url("../images/adhdnew.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.shows__card.flowerpot {
+  background-image: url("../images/new6.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.shows__card.bastards {
+  background-image: url("../images/bastards.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.shows__card.stardust {
+  background-image: url("../images/stardust.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
