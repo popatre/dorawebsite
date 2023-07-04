@@ -491,7 +491,7 @@ nav .nav-item-last:hover {
 .shows__card {
   border: 2px solid #9932cc;
   margin-block: 1em;
-  margin-inline: 1em;
+  padding-inline: 0.5em;
   height: 400px;
   display: flex;
   align-items: center;
@@ -533,6 +533,7 @@ nav .nav-item-last:hover {
 .shows__grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2em;
 }
 
 .shows__gallery__linkText {
