@@ -220,7 +220,6 @@ nav .nav-item-last:hover {
 
 .about-me {
   background: #ffc107;
-  padding-top: 5em;
   text-align: center;
 }
 .about-me__title {
@@ -230,6 +229,7 @@ nav .nav-item-last:hover {
   text-align: center;
   padding: 0.7em 0;
   font-size: 3.5rem;
+  text-shadow: rgb(12, 12, 12) 1px 1px 10px;
 }
 .about-me .worked-with {
   color: #5cb85c;
@@ -270,7 +270,7 @@ nav .nav-item-last:hover {
 }
 
 .backing-img {
-  height: 30vh;
+  height: 50vh;
   width: 100%;
   background: url("../images/7.jpg") center center;
   background-size: cover;
@@ -334,7 +334,6 @@ nav .nav-item-last:hover {
   padding-top: 1.4em;
 }
 .shows__flowerpot, .shows__section--purple {
-  margin-top: 5em;
   text-align: center;
 }
 .shows__flowerpot__title, .shows__section--purple__title {
@@ -1031,7 +1030,7 @@ hr {
 
 .layer2 {
   background-image: url("/images/waves2.svg");
-  height: 40vh;
+  height: 200px;
 }
 
 .fade-in {
@@ -1344,6 +1343,9 @@ hr {
   .overlay img {
     max-height: 1200px;
   }
+  .layer2 {
+    height: 300px;
+  }
 }
 /* xxl = 1400px */
 @media screen and (min-width: 1400px) {
@@ -1371,5 +1373,8 @@ hr {
   }
   .hero .image-back {
     text-align: center;
+  }
+  .layer2 {
+    height: 300px;
   }
 }/*# sourceMappingURL=main.css.map */

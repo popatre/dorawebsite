@@ -1,6 +1,5 @@
 .about-me {
     background: $primary-color;
-    padding-top: 5em;
     text-align: center;
 
     &__title {
@@ -10,6 +9,7 @@
         text-align: center;
         padding: 0.7em 0;
         font-size: $subtitlesize;
+        text-shadow: rgb(12, 12, 12) 1px 1px 10px;
     }
 
     .worked-with {
@@ -59,7 +59,7 @@
 }
 
 .backing-img {
-    height: 30vh;
+    height: 50vh;
     width: 100%;
     background: 
     // linear-gradient(
