@@ -365,8 +365,9 @@
     .overlay img {
         max-height: 1200px;
     }
-    .layer2 {
-        height: 300px;
+    .layer2,
+    .layer1 {
+        height: 200px;
     }
 }
 
@@ -401,7 +402,8 @@
     .hero .image-back {
         text-align: center;
     }
-    .layer2 {
-        height: 300px;
+    .layer2,
+    .layer1 {
+        height: 240px;
     }
 }

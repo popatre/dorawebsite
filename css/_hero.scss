@@ -3,6 +3,11 @@
     // height: 100%;
     // margin: 0 auto;
     background: $green-color;
+    // background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre-v2.png");
+    // background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
+    // background-image: url("https://www.transparenttextures.com/patterns/crisp-paper-ruffles.png");
+    background-image: url("https://www.transparenttextures.com/patterns/lyonnette.png");
+    background-blend-mode: overlay;
     // height: 100vh;
 
     .image-back {
@@ -18,7 +23,8 @@
             url("../images/dora-jump-adhd.jpeg") center center;
         -webkit-background-size: auto 100%;
         // background-size: 100% 100%;
-        background-size: contain;
+        // background-size: contain;
+        object-fit: contain;
         background-repeat: no-repeat;
         background-attachment: scroll;
 

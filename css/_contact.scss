@@ -1,6 +1,11 @@
 .contact {
     background: $green-color;
-    padding: 5em 0;
+    background-image: url("https://www.transparenttextures.com/patterns/lyonnette.png");
+    background-blend-mode: overlay;
+
+    &__title {
+        text-shadow: white 1px 1px 5px;
+    }
 
     &-me {
         padding-bottom: 3em;
@@ -13,7 +18,6 @@
         font-weight: bold;
         text-align: center;
         margin-bottom: 1.5em;
-        // padding: 20% 0;
     }
 
     .card {
@@ -104,6 +108,7 @@ footer {
         font-size: 2rem;
         text-align: center;
         line-height: 2;
+        text-shadow: white 1px 0px 2px;
     }
 
     &__message {
@@ -122,11 +127,14 @@ footer {
 
 .contact__form__container {
     width: 100%;
-    max-width: 800px;
+    max-width: 600px;
     padding: 1em 2em;
-    margin: 0 auto;
-    border: 10px outset $primary-color;
+    margin: 1em auto;
+    border: 5px solid $primary-color;
     border-radius: 10px;
+    box-shadow: rgb(0, 0, 0) 0 1px 10px;
+    overflow-y: auto; /* Add this property */
+    max-height: 80vh;
 
     h2 {
         color: $primary-color;

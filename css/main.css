@@ -3,15 +3,19 @@
 /******** breakpoints  *************/
 .hero {
   text-align: center;
-  background: #5cb85c;
+  background: hsl(120, 37%, 52%);
+  background-image: url("https://www.transparenttextures.com/patterns/lyonnette.png");
+  background-blend-mode: overlay;
 }
 .hero .image-back {
   position: relative;
   height: 100vh;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to right, rgba(186, 85, 211, 0.3), rgba(92, 184, 92, 0.2)), url("../images/dora-jump-adhd.jpeg") center center;
-  background-size: contain;
+  background: linear-gradient(to right, rgba(186, 85, 211, 0.3), rgba(87, 178, 87, 0.2)), url("../images/dora-jump-adhd.jpeg") center center;
+  -webkit-background-size: auto 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-repeat: no-repeat;
   background-attachment: scroll;
 }
@@ -203,11 +207,11 @@ nav li {
   text-shadow: rgb(233, 232, 232) 1px 1px 2px;
 }
 nav .nav-link {
-  color: #5cb85c;
+  color: hsl(120, 37%, 52%);
 }
 nav .nav-item,
 nav .nav-item-last {
-  background-image: linear-gradient(90deg, #ffc107, #5cb85c);
+  background-image: linear-gradient(90deg, #ffc107, hsl(120, 37%, 52%));
   background-size: 0% 1px;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -219,7 +223,9 @@ nav .nav-item-last:hover {
 }
 
 .about-me {
-  background: #ffc107;
+  background-color: #ffc107;
+  background-image: url("https://www.transparenttextures.com/patterns/lyonnette.png");
+  background-blend-mode: overlay;
   text-align: center;
 }
 .about-me__title {
@@ -232,7 +238,7 @@ nav .nav-item-last:hover {
   text-shadow: rgb(12, 12, 12) 1px 1px 10px;
 }
 .about-me .worked-with {
-  color: #5cb85c;
+  color: hsl(120, 37%, 52%);
   font-size: 1.5rem;
 }
 .about-me .dora-selfie {
@@ -278,7 +284,9 @@ nav .nav-item-last:hover {
 }
 
 .shows {
-  background: #5cb85c;
+  background: hsl(120, 37%, 52%);
+  background-image: url("https://www.transparenttextures.com/patterns/lyonnette.png");
+  background-blend-mode: overlay;
 }
 .shows__title {
   color: #ffc107;
@@ -324,7 +332,7 @@ nav .nav-item-last:hover {
   color: #ffd700;
   font-family: "Roboto", sans-serif;
   font-size: 3.5rem;
-  margin: 1em 0;
+  margin-bottom: 1em;
 }
 .shows .feedback {
   font-size: 1.7rem;
@@ -376,7 +384,6 @@ nav .nav-item-last:hover {
   box-shadow: 1px 0px 12px yellow;
 }
 .shows__weareallstardust {
-  margin-top: 10em;
   text-align: center;
 }
 .shows__weareallstardust h3 {
@@ -402,7 +409,6 @@ nav .nav-item-last:hover {
   padding-bottom: 1.5em;
 }
 .shows__bastards {
-  margin-top: 10em;
   text-align: center;
 }
 .shows__bastards h3,
@@ -509,7 +515,7 @@ nav .nav-item-last:hover {
 }
 .shows__card.seat:hover {
   transform: rotateX(10deg) rotateY(-10deg);
-  box-shadow: 2px 10px 50px hsla(0, 0%, 0%, 0.55);
+  box-shadow: 2px 10px 50px hsla(0, 100%, 100%, 0.55);
   transition: 0.5s;
 }
 .shows__card.adhd {
@@ -519,7 +525,7 @@ nav .nav-item-last:hover {
 }
 .shows__card.adhd:hover {
   transform: rotateX(10deg) rotateY(-10deg);
-  box-shadow: 2px 10px 50px hsla(0, 0%, 0%, 0.55);
+  box-shadow: 2px 10px 50px hsla(0, 100%, 100%, 0.55);
   transition: 0.5s;
 }
 .shows__card.flowerpot {
@@ -530,7 +536,7 @@ nav .nav-item-last:hover {
 }
 .shows__card.flowerpot:hover {
   transform: rotateX(10deg) rotateY(-10deg);
-  box-shadow: 2px 10px 50px hsla(0, 0%, 0%, 0.55);
+  box-shadow: 2px 10px 50px hsla(0, 100%, 100%, 0.55);
   transition: 0.5s;
 }
 .shows__card.bastards {
@@ -540,7 +546,7 @@ nav .nav-item-last:hover {
 }
 .shows__card.bastards:hover {
   transform: rotateX(10deg) rotateY(-10deg);
-  box-shadow: 2px 10px 50px hsla(0, 0%, 0%, 0.55);
+  box-shadow: 2px 10px 50px hsla(0, 100%, 100%, 0.55);
   transition: 0.5s;
 }
 .shows__card.stardust {
@@ -550,7 +556,7 @@ nav .nav-item-last:hover {
 }
 .shows__card.stardust:hover {
   transform: rotateX(10deg) rotateY(-10deg);
-  box-shadow: 2px 10px 50px hsla(0, 0%, 0%, 0.55);
+  box-shadow: 2px 10px 50px hsla(0, 100%, 100%, 0.55);
   transition: 0.5s;
 }
 .shows__grid {
@@ -614,6 +620,8 @@ nav .nav-item-last:hover {
 .media {
   background: #ffc107;
   text-align: center;
+  background-image: url("https://www.transparenttextures.com/patterns/lyonnette.png");
+  background-blend-mode: overlay;
 }
 .media__title {
   color: #ba55d3;
@@ -637,8 +645,12 @@ nav .nav-item-last:hover {
 }
 
 .contact {
-  background: #5cb85c;
-  padding: 5em 0;
+  background: hsl(120, 37%, 52%);
+  background-image: url("https://www.transparenttextures.com/patterns/lyonnette.png");
+  background-blend-mode: overlay;
+}
+.contact__title {
+  text-shadow: white 1px 1px 5px;
 }
 .contact-me {
   padding-bottom: 3em;
@@ -673,7 +685,7 @@ nav .nav-item-last:hover {
 }
 .contact .card i:hover {
   opacity: 0.8;
-  color: #5cb85c;
+  color: hsl(120, 37%, 52%);
   transition: all 0.5s ease-in-out;
 }
 .contact .card .facebook {
@@ -701,7 +713,7 @@ footer {
 footer p {
   font-family: "Oswald", sans-serif;
   font-size: 1.1rem;
-  color: #5cb85c;
+  color: hsl(120, 37%, 52%);
 }
 footer a {
   font-family: "Roboto", sans-serif;
@@ -711,7 +723,7 @@ footer a:hover {
 }
 
 .success {
-  background: #5cb85c;
+  background: hsl(120, 37%, 52%);
   margin: 0;
   height: 90vh;
   display: flex;
@@ -725,6 +737,7 @@ footer a:hover {
   font-size: 2rem;
   text-align: center;
   line-height: 2;
+  text-shadow: white 1px 0px 2px;
 }
 .success__message {
   color: #ffc107;
@@ -741,11 +754,14 @@ footer a:hover {
 
 .contact__form__container {
   width: 100%;
-  max-width: 800px;
+  max-width: 600px;
   padding: 1em 2em;
-  margin: 0 auto;
-  border: 10px outset #ffc107;
+  margin: 1em auto;
+  border: 5px solid #ffc107;
   border-radius: 10px;
+  box-shadow: rgb(0, 0, 0) 0 1px 10px;
+  overflow-y: auto; /* Add this property */
+  max-height: 80vh;
 }
 .contact__form__container h2 {
   color: #ffc107;
@@ -971,6 +987,21 @@ h6 {
 /* put at bottom */
 html {
   scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  flex-shrink: 0;
 }
 
 * {
@@ -1001,7 +1032,7 @@ img {
 
 hr {
   border-top: 30px dotted #ffc107;
-  background: #5cb85c;
+  background: hsl(120, 37%, 52%);
   width: 40%;
   margin: 0 auto;
 }
@@ -1025,12 +1056,12 @@ hr {
 
 .layer1 {
   background-image: url("/images/waves.svg");
-  height: 40vh;
+  height: 140px;
 }
 
 .layer2 {
   background-image: url("/images/waves2.svg");
-  height: 200px;
+  height: 140px;
 }
 
 .fade-in {
@@ -1040,6 +1071,10 @@ hr {
 
 .fade-in.appear {
   opacity: 1;
+}
+
+.copy {
+  font-size: 0.7rem;
 }
 
 /* sm577 - 768px*/
@@ -1343,8 +1378,9 @@ hr {
   .overlay img {
     max-height: 1200px;
   }
-  .layer2 {
-    height: 300px;
+  .layer2,
+  .layer1 {
+    height: 200px;
   }
 }
 /* xxl = 1400px */
@@ -1374,7 +1410,8 @@ hr {
   .hero .image-back {
     text-align: center;
   }
-  .layer2 {
-    height: 300px;
+  .layer2,
+  .layer1 {
+    height: 240px;
   }
 }/*# sourceMappingURL=main.css.map */
