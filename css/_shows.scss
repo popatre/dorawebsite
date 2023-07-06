@@ -263,33 +263,59 @@
             background-image: url("https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814979/take-a-seat/seat/dora-1_r2jreu.jpg");
             background-size: cover;
             background-repeat: no-repeat;
+            &:hover {
+                transform: rotateX(10deg) rotateY(-10deg);
+                box-shadow: 2px 10px 50px hsla(0, 0, 0, 0.55);
+                transition: 0.5s;
+            }
         }
         &.adhd {
             background-image: url("../images/adhdnew.JPG");
             background-size: cover;
             background-repeat: no-repeat;
+            &:hover {
+                transform: rotateX(10deg) rotateY(-10deg);
+                box-shadow: 2px 10px 50px hsla(0, 0, 0, 0.55);
+                transition: 0.5s;
+            }
         }
         &.flowerpot {
             background-image: url("../images/new6.jpeg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+            &:hover {
+                transform: rotateX(10deg) rotateY(-10deg);
+                box-shadow: 2px 10px 50px hsla(0, 0, 0, 0.55);
+                transition: 0.5s;
+            }
         }
         &.bastards {
             background-image: url("../images/bastards.webp");
             background-size: cover;
             background-repeat: no-repeat;
+            &:hover {
+                transform: rotateX(10deg) rotateY(-10deg);
+                box-shadow: 2px 10px 50px hsla(0, 0, 0, 0.55);
+                transition: 0.5s;
+            }
         }
         &.stardust {
             background-image: url("../images/stardust.png");
             background-size: cover;
             background-repeat: no-repeat;
+            &:hover {
+                transform: rotateX(10deg) rotateY(-10deg);
+                box-shadow: 2px 10px 50px hsla(0, 0, 0, 0.55);
+                transition: 0.5s;
+            }
         }
     }
     &__grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         gap: 2em;
+        perspective: 1500px;
     }
 }
 
