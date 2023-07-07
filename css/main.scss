@@ -8,11 +8,27 @@
 @import "./animation";
 @import "./adhd";
 @import "./gallery-seat";
+@import "./dialog";
 
 /* put at bottom */
 
 html {
     scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    flex-shrink: 0;
 }
 
 * {
@@ -66,12 +82,14 @@ hr {
 }
 
 .layer1 {
+    // yellow top -green bottom
     background-image: url("/images/waves.svg");
-    height: 40vh;
+    height: 140px;
 }
+
 .layer2 {
     background-image: url("/images/waves2.svg");
-    height: 40vh;
+    height: 140px;
 }
 
 .fade-in {
@@ -81,6 +99,10 @@ hr {
 
 .fade-in.appear {
     opacity: 1;
+}
+
+.copy {
+    font-size: 0.7rem;
 }
 
 @import "./responsive";

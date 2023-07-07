@@ -1,5 +1,7 @@
 .shows {
     background: $green-color;
+    background-image: url("https://www.transparenttextures.com/patterns/lyonnette.png");
+    background-blend-mode: overlay;
 
     &__title {
         color: $primary-color;
@@ -51,7 +53,7 @@
             color: #ffd700;
             font-family: $primaryfont;
             font-size: $titles;
-            margin: 1em 0;
+            margin-bottom: 1em;
         }
     }
 
@@ -65,7 +67,7 @@
 
     &__flowerpot,
     &__section--purple {
-        margin-top: 5em;
+        // margin-top: 5em;
         text-align: center;
 
         &__title {
@@ -112,7 +114,6 @@
     }
 
     &__weareallstardust {
-        margin-top: 10em;
         text-align: center;
 
         h3 {
@@ -143,7 +144,6 @@
     }
 
     &__bastards {
-        margin-top: 10em;
         text-align: center;
 
         h3,
@@ -154,6 +154,7 @@
             font-weight: 500;
             padding-bottom: 1.25em;
             text-align: center;
+            text-shadow: rgb(207, 199, 199) 1px 0px 1px;
         }
 
         p {
@@ -164,6 +165,7 @@
             line-height: 2;
             text-align: center;
             margin-bottom: 4em;
+            text-shadow: rgb(207, 199, 199) 1px 0px 1px;
         }
 
         ul {
@@ -181,6 +183,7 @@
 
             li {
                 text-align: start;
+                text-shadow: rgb(207, 199, 199) 1px 0px 1px;
             }
 
             i {
@@ -193,7 +196,7 @@
             margin-bottom: 10em;
             border-radius: 50px;
             border: solid $secondary-color 5px;
-            box-shadow: 10px 10px 20px $darkviolet;
+            box-shadow: 1px 1px 10px $darkviolet;
         }
     }
     &__feedback--paras {
@@ -240,6 +243,82 @@
             text-shadow: 2px 1px 1px rgb(237, 221, 221);
             font-size: 1.6rem;
         }
+    }
+
+    // New show pages
+    &__card {
+        border: 2px solid $darkviolet;
+        margin-block: 1em;
+        padding-inline: 0.5em;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &__title {
+            font-size: 1.8rem;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            text-shadow: black -1px 1px 10px;
+        }
+        &.seat {
+            background-image: url("https://res.cloudinary.com/dyuhtpg5y/image/upload/w_400,f_auto,q_auto/v1657814979/take-a-seat/seat/dora-1_r2jreu.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            &:hover {
+                transform: rotateX(10deg) rotateY(-10deg);
+                box-shadow: 2px 10px 50px hsla(0, 100%, 100%, 0.55);
+                transition: 0.5s;
+            }
+        }
+        &.adhd {
+            background-image: url("../images/adhdnew.JPG");
+            background-size: cover;
+            background-repeat: no-repeat;
+            &:hover {
+                transform: rotateX(10deg) rotateY(-10deg);
+                box-shadow: 2px 10px 50px hsla(0, 100%, 100%, 0.55);
+                transition: 0.5s;
+            }
+        }
+        &.flowerpot {
+            background-image: url("../images/new6.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            &:hover {
+                transform: rotateX(10deg) rotateY(-10deg);
+                box-shadow: 2px 10px 50px hsla(0, 100%, 100%, 0.55);
+                transition: 0.5s;
+            }
+        }
+        &.bastards {
+            background-image: url("../images/bastards.webp");
+            background-size: cover;
+            background-repeat: no-repeat;
+            &:hover {
+                transform: rotateX(10deg) rotateY(-10deg);
+                box-shadow: 2px 10px 50px hsla(0, 100%, 100%, 0.55);
+                transition: 0.5s;
+            }
+        }
+        &.stardust {
+            background-image: url("../images/stardust.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            &:hover {
+                transform: rotateX(10deg) rotateY(-10deg);
+                box-shadow: 2px 10px 50px hsla(0, 100%, 100%, 0.55);
+                transition: 0.5s;
+            }
+        }
+    }
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 2em;
+        perspective: 1500px;
     }
 }
 
