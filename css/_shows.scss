@@ -154,6 +154,7 @@
             font-weight: 500;
             padding-bottom: 1.25em;
             text-align: center;
+            text-shadow: rgb(207, 199, 199) 1px 0px 1px;
         }
 
         p {
@@ -164,6 +165,7 @@
             line-height: 2;
             text-align: center;
             margin-bottom: 4em;
+            text-shadow: rgb(207, 199, 199) 1px 0px 1px;
         }
 
         ul {
@@ -181,6 +183,7 @@
 
             li {
                 text-align: start;
+                text-shadow: rgb(207, 199, 199) 1px 0px 1px;
             }
 
             i {
@@ -193,7 +196,7 @@
             margin-bottom: 10em;
             border-radius: 50px;
             border: solid $secondary-color 5px;
-            box-shadow: 10px 10px 20px $darkviolet;
+            box-shadow: 1px 1px 10px $darkviolet;
         }
     }
     &__feedback--paras {
