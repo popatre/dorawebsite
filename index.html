@@ -37,6 +37,9 @@
 
         <!-- SCSS style sheet -->
         <link rel="stylesheet" href="css/main.css" />
+
+        <!-- JS LINK -->
+        <script src="/dialog.js" defer></script>
     </head>
 
     <body>
@@ -79,6 +82,11 @@
 
 
         <section class="hero" id="home">
+            <dialog class="dialog" id="popup">
+                <h2 class="dialog__title">ADHD: The Musical is on tour!</h2>
+                <p class="dialog__sub">Find venues & dates - book your tickets here!</p>
+                <a href="/tour.html"  class="dialog__btn">Book Tickets</a>
+              </dialog>
             <!-- <div class="container-fluid"> -->
             <div class="image-back">
                 <img style="display: none" src="./images/dora-jump-adhd.jpeg" fetchpriority="high" alt="" />
@@ -90,12 +98,9 @@
                         <span class="colquhoun">Colquhoun</span>
                     </h1>
                 </div>
-                <!-- </div> -->
-                <!-- <img src="./images/dora-jump-adhd.jpeg" alt="" /> -->
-
                 <h4 class="hero__sub">Performer</h4>
             </div>
-
+            
             <!-- </div> -->
         </section>
 

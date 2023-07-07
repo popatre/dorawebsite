@@ -954,6 +954,64 @@ h6 {
   width: 100%;
 }
 
+.dialog {
+  background-color: #44c8f0;
+  border: 1px solid #ffc107;
+  position: absolute;
+  margin-inline: auto;
+  top: 20vh;
+  padding: 2em;
+  color: white;
+  max-height: 900px;
+  width: 80vw;
+  max-width: 700px;
+  opacity: 0.95;
+}
+.dialog__title {
+  font-size: 2.5rem;
+  text-shadow: black 1px 1px 1px;
+}
+.dialog__sub {
+  text-shadow: black 1px 1px 5px;
+  margin-block: 2em;
+  font-size: 1.25rem;
+}
+.dialog__btn {
+  display: inline-block;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 1em;
+}
+.dialog__btn:hover {
+  background-color: #45a049;
+}
+.dialog__close-btn {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0.1em 0.4em;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #e1e3e1;
+  margin-left: 1px;
+  margin-top: 1px;
+}
+.dialog__close-btn:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+#popup {
+  display: none;
+}
+
 /* put at bottom */
 html {
   scroll-behavior: smooth;
