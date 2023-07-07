@@ -238,8 +238,10 @@ nav .nav-item-last:hover {
   text-shadow: rgb(12, 12, 12) 1px 1px 10px;
 }
 .about-me .worked-with {
+  margin-top: 2em;
   color: hsl(120, 37%, 52%);
-  font-size: 1.5rem;
+  font-size: 1rem;
+  text-shadow: rgb(231, 231, 231) 1px 0px 3px;
 }
 .about-me .dora-selfie {
   width: 60%;
@@ -256,7 +258,6 @@ nav .nav-item-last:hover {
 }
 .about-me__body .achievements__title {
   margin-top: 2em;
-  margin-block: 3em;
 }
 .about-me__body .matt-quote {
   font-size: 0.8em;
@@ -281,6 +282,35 @@ nav .nav-item-last:hover {
   background: url("../images/7.jpg") center center;
   background-size: cover;
   background-attachment: scroll;
+}
+
+.achievements__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+}
+
+.achievements__date {
+  grid-column: span 4;
+  font-weight: bold;
+  margin-top: 2em;
+}
+
+.achievements__item {
+  grid-column: span 4;
+}
+
+.testimonials h2 {
+  color: #ba55d3;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.7em 0;
+  font-size: 3rem;
+}
+
+.testimonal-slider .carousel-item {
+  height: 500px;
 }
 
 .shows {
@@ -1156,6 +1186,19 @@ hr {
 }
 /* lg = 992px - 1200px*/
 @media screen and (min-width: 992px) {
+  .about-me .worked-with {
+    font-size: 1.5rem;
+    margin-bottom: 4em;
+  }
+  .achievements__date {
+    grid-column: 1/2;
+    font-size: 1.12rem;
+  }
+  .achievements__item {
+    grid-column: span 2;
+    margin-top: 2em;
+    font-size: 1.12rem;
+  }
   .nav-item {
     margin-right: 0.7em;
   }
