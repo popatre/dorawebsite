@@ -285,7 +285,10 @@ nav .nav-item-last:hover {
   font-family: "Raleway", sans-serif;
   color: #ffd700;
   line-height: 1.5;
+  text-align: left;
+  letter-spacing: 0.05em;
   text-align: center;
+  text-shadow: rgb(109, 109, 109) 0px 0px 3px;
 }
 .shows__adhd .adhd-video {
   margin-top: 2em;
@@ -329,6 +332,7 @@ nav .nav-item-last:hover {
   text-align: center;
   margin-bottom: 4em;
   text-shadow: 3px 0px 10px #eaeae2;
+  letter-spacing: 0.05em;
 }
 .shows .flowerpot-img,
 .shows .section__img {

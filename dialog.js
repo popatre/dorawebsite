@@ -9,6 +9,7 @@ setTimeout(() => {
 function closeDialog() {
     dialog.close();
     dialog.style.opacity = 0;
+    dialog.style.display = "none";
 }
 
 function fadeIn(element) {
