@@ -334,6 +334,17 @@ nav .nav-item-last:hover {
   text-shadow: 3px 0px 10px #eaeae2;
   letter-spacing: 0.05em;
 }
+.shows__flowerpot__body, .shows__section--purple__body {
+  color: #ba55d3;
+  font-size: 1rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 1.9;
+  text-align: left;
+  margin-bottom: 4em;
+  text-shadow: 3px 0px 10px #eaeae2;
+  letter-spacing: 0.05em;
+}
 .shows .flowerpot-img,
 .shows .section__img {
   border-radius: 10px;

@@ -95,6 +95,18 @@
             text-shadow: 3px 0px 10px#eaeae2;
             letter-spacing: 0.05em;
         }
+
+        &__body {
+            color: $secondary-color;
+            font-size: $paragraphsize;
+            font-family: $secondaryfont;
+            font-weight: 800;
+            line-height: 1.9;
+            text-align: left;
+            margin-bottom: 4em;
+            text-shadow: 3px 0px 10px#eaeae2;
+            letter-spacing: 0.05em;
+        }
     }
 
     .flowerpot-img,
