@@ -357,14 +357,17 @@ nav .nav-item-last:hover {
   font-size: 3.5rem;
   padding-bottom: 1.25em;
   text-align: center;
+  text-shadow: rgb(12, 12, 12) 1px 0px 3px;
 }
 .shows__weareallstardust p {
   font-size: 1rem;
   font-family: "Raleway", sans-serif;
   color: #ffd700;
-  line-height: 1.9;
+  line-height: 1.7;
   text-align: center;
   margin-bottom: 3em;
+  text-shadow: rgb(12, 12, 12) 1px 0px 3px;
+  letter-spacing: 0.05em;
 }
 .shows__weareallstardust .stardust-review {
   margin-bottom: 8em;

@@ -122,15 +122,18 @@
             font-size: $titles;
             padding-bottom: 1.25em;
             text-align: center;
+            text-shadow: rgb(12, 12, 12) 1px 0px 3px;
         }
 
         p {
             font-size: $paragraphsize;
             font-family: $secondaryfont;
             color: #ffd700;
-            line-height: 1.9;
+            line-height: 1.7;
             text-align: center;
             margin-bottom: 3em;
+            text-shadow: rgb(12, 12, 12) 1px 0px 3px;
+            letter-spacing: 0.05em;
         }
 
         .stardust-review {
