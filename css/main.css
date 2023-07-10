@@ -393,8 +393,10 @@ nav .nav-item-last:hover {
   font-weight: 800;
   line-height: 2;
   text-align: center;
-  margin-bottom: 4em;
   text-shadow: rgb(214, 212, 212) 1px 0px 1px;
+}
+.shows__bastards p.colonial__bio {
+  margin-bottom: 4em;
 }
 .shows__bastards ul {
   margin-left: 0;
@@ -404,12 +406,18 @@ nav .nav-item-last:hover {
   font-family: "Raleway", sans-serif;
   margin-bottom: 4em;
 }
-.shows__bastards ul .mask:hover {
-  color: #9932cc;
+.shows__bastards ul .mask {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
 }
 .shows__bastards ul li {
   text-align: start;
   text-shadow: rgb(214, 212, 212) 1px 0px 1px;
+}
+.shows__bastards ul li p.colonial__year,
+.shows__bastards ul li .colonial__venue {
+  font-size: 1.5rem;
+  text-decoration: underline;
 }
 .shows__bastards ul i {
   padding-right: 1em;
@@ -1368,6 +1376,11 @@ hr {
   .stardust-vid {
     padding-top: 1em;
     height: 400px;
+  }
+  .colonial__bio {
+    width: 70%;
+    margin-inline: auto;
+    word-spacing: 5px;
   }
   .shows__bastards p {
     font-size: 1.4rem;

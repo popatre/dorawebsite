@@ -164,8 +164,10 @@
             font-weight: 800;
             line-height: 2;
             text-align: center;
-            margin-bottom: 4em;
             text-shadow: rgb(214, 212, 212) 1px 0px 1px;
+        }
+        p.colonial__bio {
+            margin-bottom: 4em;
         }
 
         ul {
@@ -177,13 +179,24 @@
             font-family: $secondaryfont;
             margin-bottom: 4em;
 
-            .mask:hover {
-                color: $darkviolet;
+            // .mask:hover {
+            //     color: $darkviolet;
+            // }
+
+            .mask {
+                display: grid;
+                grid-template-columns: 1fr 3fr;
             }
 
             li {
                 text-align: start;
                 text-shadow: rgb(214, 212, 212) 1px 0px 1px;
+
+                p.colonial__year,
+                .colonial__venue {
+                    font-size: 1.5rem;
+                    text-decoration: underline;
+                }
             }
 
             i {
