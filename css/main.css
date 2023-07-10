@@ -384,7 +384,7 @@ nav .nav-item-last:hover {
   font-weight: 500;
   padding-bottom: 1.25em;
   text-align: center;
-  text-shadow: rgb(207, 199, 199) 1px 0px 1px;
+  text-shadow: rgb(233, 230, 230) 1px 0px 10px;
 }
 .shows__bastards p {
   color: #ba55d3;
@@ -394,7 +394,7 @@ nav .nav-item-last:hover {
   line-height: 2;
   text-align: center;
   margin-bottom: 4em;
-  text-shadow: rgb(207, 199, 199) 1px 0px 1px;
+  text-shadow: rgb(214, 212, 212) 1px 0px 1px;
 }
 .shows__bastards ul {
   margin-left: 0;
@@ -409,7 +409,7 @@ nav .nav-item-last:hover {
 }
 .shows__bastards ul li {
   text-align: start;
-  text-shadow: rgb(207, 199, 199) 1px 0px 1px;
+  text-shadow: rgb(214, 212, 212) 1px 0px 1px;
 }
 .shows__bastards ul i {
   padding-right: 1em;
