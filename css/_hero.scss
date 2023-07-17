@@ -101,6 +101,27 @@
         height: 40vh;
         margin-bottom: 2em;
     }
+
+    &__press-info {
+        border: 2px solid rgba($secondary-color, 0.3);
+        max-width: 800px;
+        margin-inline: auto;
+        margin-bottom: 3em;
+        border-radius: 8px;
+        padding: 2em 3em;
+        background-color: rgb(249, 247, 247);
+        box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+            0 8px 10px -6px rgb(0 0 0 / 0.1);
+    }
+
+    &__press-title {
+        font-size: 1.2rem;
+        color: $darkviolet;
+    }
+
+    &__press-link {
+        font-size: 1.2rem;
+    }
 }
 
 .tour-btn {

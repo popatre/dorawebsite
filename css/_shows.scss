@@ -345,6 +345,9 @@
                 transition: 0.5s;
             }
         }
+        &.wip {
+            background: hsl(45, 80%, 61%);
+        }
     }
     &__grid {
         display: grid;
