@@ -16,6 +16,10 @@
         text-align: center;
         flex-direction: column;
 
+        &__body-text {
+            margin-bottom: 2em;
+        }
+
         h3 {
             color: $secondary-color;
             font-family: $headerfont;
@@ -31,7 +35,7 @@
             margin-bottom: 3em;
             border-radius: 10px;
             border: solid $primary-color 5px;
-            box-shadow: 10px 10px 10px $secondary-color;
+            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
         }
 
         p {

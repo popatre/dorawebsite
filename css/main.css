@@ -11,11 +11,8 @@
   position: relative;
   height: 100vh;
   width: 100%;
-  height: 100vh;
-  background: linear-gradient(to right, rgba(186, 85, 211, 0.3), rgba(87, 178, 87, 0.2)), url("../images/dora-jump-adhd.jpeg") center center;
-  -webkit-background-size: auto 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  background: linear-gradient(to right, rgba(186, 85, 211, 0.3), rgba(87, 178, 87, 0.2)), url("../images/gravity-cta-min.JPG") center center;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: scroll;
 }
@@ -282,6 +279,9 @@ nav .nav-item-last:hover {
   text-align: center;
   flex-direction: column;
 }
+.shows__adhd__body-text {
+  margin-bottom: 2em;
+}
 .shows__adhd h3 {
   color: #ba55d3;
   font-family: "Oswald", sans-serif;
@@ -295,7 +295,7 @@ nav .nav-item-last:hover {
   margin-bottom: 3em;
   border-radius: 10px;
   border: solid #ffc107 5px;
-  box-shadow: 10px 10px 10px #ba55d3;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 .shows__adhd p {
   font-size: 1rem;
@@ -663,6 +663,10 @@ nav .nav-item-last:hover {
      object-fit: contain;
   width: 100%;
   height: 500px;
+}
+
+.loading-indicator {
+  display: none; /* Hide it by default */
 }
 
 .contact {
