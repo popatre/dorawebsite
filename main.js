@@ -51,9 +51,39 @@ function subFader() {
 /************************************ */
 
 $(function () {
+    // Create an object to keep track of loaded images
+    var loadedImages = {};
+
     $(".carousel.lazy-load").bind("slide.bs.carousel", function (e) {
-        var image = $(e.relatedTarget).find("img[data-src]");
-        image.attr("src", image.data("src"));
+        // Reset the loading state and hide all loading indicators when moving to a new slide
+        $(".loading-indicator").hide();
+
+        var slide = $(e.relatedTarget);
+        var image = slide.find("img[data-src]");
+        var loadingIndicator = slide.find(".loading-indicator");
+        var imageSrc = image.data("src");
+
+        // If the image has already been loaded, hide the loading indicator and exit
+
+        if (!imageSrc) {
+            loadingIndicator.hide();
+            return;
+        }
+
+        // Show the loading indicator while fetching the image
+        loadingIndicator.show();
+
+        // Create a new image element to preload the image
+        var tempImage = new Image();
+        tempImage.onload = function () {
+            // Once the image is loaded, set it as the source, hide the loading indicator, and mark it as loaded
+            image.attr("src", tempImage.src);
+            loadingIndicator.hide();
+            loadedImages[imageSrc] = true;
+        };
+        tempImage.src = imageSrc;
+
+        // Remove the "data-src" attribute after loading to prevent redundant loading
         image.removeAttr("data-src");
     });
 });

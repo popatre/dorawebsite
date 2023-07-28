@@ -662,6 +662,10 @@ nav .nav-item-last:hover {
   height: 500px;
 }
 
+.loading-indicator {
+  display: none; /* Hide it by default */
+}
+
 .contact {
   background: hsl(120, 37%, 52%);
   background-image: url("https://www.transparenttextures.com/patterns/lyonnette.png");
