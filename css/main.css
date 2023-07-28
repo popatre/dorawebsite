@@ -11,11 +11,8 @@
   position: relative;
   height: 100vh;
   width: 100%;
-  height: 100vh;
-  background: linear-gradient(to right, rgba(186, 85, 211, 0.3), rgba(87, 178, 87, 0.2)), url("../images/dora-jump-adhd.jpeg") center center;
-  -webkit-background-size: auto 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  background: linear-gradient(to right, rgba(186, 85, 211, 0.3), rgba(87, 178, 87, 0.2)), url("../images/gravity-cta.JPG") center center;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: scroll;
 }
