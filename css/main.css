@@ -279,6 +279,9 @@ nav .nav-item-last:hover {
   text-align: center;
   flex-direction: column;
 }
+.shows__adhd__body-text {
+  margin-bottom: 2em;
+}
 .shows__adhd h3 {
   color: #ba55d3;
   font-family: "Oswald", sans-serif;
@@ -292,7 +295,7 @@ nav .nav-item-last:hover {
   margin-bottom: 3em;
   border-radius: 10px;
   border: solid #ffc107 5px;
-  box-shadow: 10px 10px 10px #ba55d3;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 .shows__adhd p {
   font-size: 1rem;
