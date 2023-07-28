@@ -11,7 +11,7 @@
   position: relative;
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(186, 85, 211, 0.3), rgba(87, 178, 87, 0.2)), url("../images/gravity-cta.JPG") center center;
+  background: linear-gradient(to right, rgba(186, 85, 211, 0.3), rgba(87, 178, 87, 0.2)), url("../images/gravity-cta-min.JPG") center center;
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: scroll;
