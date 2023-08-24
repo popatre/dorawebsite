@@ -110,6 +110,38 @@
             margin-bottom: 4em;
             text-shadow: 3px 0px 10px#eaeae2;
             letter-spacing: 0.05em;
+
+            &.home__sub {
+                font-size: 1.6rem;
+                margin-bottom: 1em;
+            }
+        }
+        h2 {
+            text-align: center;
+            font-size: 1.3rem;
+            font-weight: bold;
+            max-width: 80%;
+            margin-inline: auto;
+        }
+        h3 {
+            font-size: 1.2rem;
+            font-weight: bold;
+            max-width: 80%;
+            margin-inline: auto;
+        }
+        ul {
+            width: 80%;
+            margin-inline: auto;
+            li {
+                text-align: left;
+                color: $secondary-color;
+                font-size: $paragraphsize;
+                font-family: $secondaryfont;
+                font-weight: 800;
+                line-height: 1.9;
+                text-shadow: 3px 0px 10px#eaeae2;
+                letter-spacing: 0.05em;
+            }
         }
     }
 
@@ -118,8 +150,8 @@
         border-radius: 10px;
         //width: 100%;
         margin-bottom: 3em;
-        border: solid $secondary-color 1px;
-        box-shadow: 0px 5px 20px $darkviolet;
+        // border: solid $secondary-color 1px;
+        // box-shadow: 0px 5px 20px $darkviolet;
 
         &--manifesto {
             margin-bottom: 3em;
@@ -237,6 +269,16 @@
     }
     &__feedback--paras {
         margin-bottom: 4em;
+
+        &.purple {
+            color: $secondary-color;
+            font-size: $paragraphsize;
+            font-family: $secondaryfont;
+            font-weight: 800;
+            line-height: 1.9;
+            text-shadow: 0px 0px 2px#dcdbdb;
+            letter-spacing: 0.05em;
+        }
     }
 
     &__banner-img {
@@ -278,6 +320,11 @@
             padding-block: 2em;
             text-shadow: 2px 1px 1px rgb(237, 221, 221);
             font-size: 1.6rem;
+        }
+
+        &.jam--img {
+            background-image: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/jam-and-chem/wb8lhsoz7jpjhkkvnpog");
+            background-position: 40% 24%;
         }
     }
 
@@ -349,8 +396,15 @@
                 transition: 0.5s;
             }
         }
-        &.wip {
-            background: hsl(45, 80%, 61%);
+        &.jam {
+            background-image: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/jam-and-chem/zbvdpf4f327wzwzxgcbk");
+            background-size: cover;
+            background-repeat: no-repeat;
+            &:hover {
+                transform: rotateX(10deg) rotateY(-10deg);
+                box-shadow: 2px 10px 50px hsla(0, 100%, 100%, 0.55);
+                transition: 0.5s;
+            }
         }
     }
     &__grid {
@@ -358,6 +412,17 @@
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         gap: 2em;
         perspective: 1500px;
+    }
+
+    &__jam {
+        &__feedback {
+            padding-block: 2em;
+
+            border-radius: 20px;
+            background-color: $primary-color;
+            background-image: url("https://www.transparenttextures.com/patterns/climpek.png");
+            margin-bottom: 6em;
+        }
     }
 }
 
