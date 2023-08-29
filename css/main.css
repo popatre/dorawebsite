@@ -11,7 +11,7 @@
   position: relative;
   height: 100vh;
   width: 100%;
-  background: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/jam-and-chem/zbvdpf4f327wzwzxgcbk") center center;
+  background: url("../images/gravity-cta-min.JPG") center center;
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -1568,7 +1568,6 @@ hr {
   }
   .hero .image-back {
     text-align: center;
-    background-position: top center;
   }
   .layer2,
   .layer1 {
