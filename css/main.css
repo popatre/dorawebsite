@@ -330,7 +330,7 @@ nav .nav-item-last:hover {
   text-align: center;
 }
 .shows__flowerpot__title, .shows__section--purple__title {
-  color: #ba55d3;
+  color: #9932cc;
   font-family: "Oswald", sans-serif;
   font-size: 3.5rem;
   font-weight: 500;
@@ -352,14 +352,14 @@ nav .nav-item-last:hover {
   letter-spacing: 0.05em;
 }
 .shows__flowerpot__body, .shows__section--purple__body {
-  color: #ba55d3;
+  color: #9932cc;
   font-size: 1rem;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 1.9;
   text-align: left;
   margin-bottom: 4em;
-  text-shadow: 3px 0px 10px #eaeae2;
+  text-shadow: 0px 0px 5px #cccdc7;
   letter-spacing: 0.05em;
 }
 .shows__flowerpot__body.home__sub, .shows__section--purple__body.home__sub {
@@ -385,12 +385,12 @@ nav .nav-item-last:hover {
 }
 .shows__flowerpot ul li, .shows__section--purple ul li {
   text-align: left;
-  color: #ba55d3;
+  color: #9932cc;
   font-size: 1rem;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 1.9;
-  text-shadow: 3px 0px 10px #eaeae2;
+  text-shadow: 0px 0px 5px #cccdc7;
   letter-spacing: 0.05em;
 }
 .shows .flowerpot-img,
@@ -497,12 +497,12 @@ nav .nav-item-last:hover {
   margin-bottom: 4em;
 }
 .shows__feedback--paras.purple {
-  color: #ba55d3;
+  color: #9932cc;
   font-size: 1rem;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 1.9;
-  text-shadow: 0px 0px 2px #dcdbdb;
+  text-shadow: 0px 0px 5px #cccdc7;
   letter-spacing: 0.05em;
 }
 .shows__banner-img {
