@@ -635,6 +635,14 @@ nav .nav-item-last:hover {
   background-image: url("https://www.transparenttextures.com/patterns/climpek.png");
   margin-bottom: 6em;
 }
+.shows__jam__box {
+  background-color: #75c57d;
+  background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+  border-radius: 0.5rem;
+  padding: 1.3em 1.4em;
+  margin-bottom: 4em;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
 
 .shows__gallery__linkText {
   color: rgb(17, 62, 187);
