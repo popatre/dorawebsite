@@ -11,8 +11,8 @@
   position: relative;
   height: 100vh;
   width: 100%;
-  background: url("../images/gravity-cta-min.JPG") center center;
-  background-size: 100% auto;
+  background: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/adhd-cta/main-5_kanprd") center center;
+  background-size: contain;
   background-repeat: no-repeat;
   background-attachment: scroll;
 }
