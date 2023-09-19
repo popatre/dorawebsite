@@ -1197,6 +1197,14 @@ h6 {
   margin-top: 3em;
   margin-bottom: 5em;
 }
+.resources__shame__sub.title {
+  color: #ba55d3;
+  font-weight: bold;
+}
+.resources__shame__sub.title span {
+  font-size: 2rem;
+  color: rgb(187, 2, 39);
+}
 .resources__shame__bears {
   margin-top: 2em;
   display: flex;
@@ -1210,8 +1218,11 @@ h6 {
 .resources__shame__question.bold {
   font-weight: bold;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-block: 4em;
+}
+.resources__shame__quote__title {
+  text-align: center;
 }
 .resources__challenges h2 {
   margin-block: 6em;
@@ -1219,9 +1230,30 @@ h6 {
 .resources__challenges h3 {
   margin-top: 2em;
 }
+.resources__challenges__image {
+  text-align: center;
+}
 .resources__section__cards h2 {
   margin-top: 6em;
   margin-bottom: 3em;
+}
+.resources__section__cards__sub.title {
+  color: #ba55d3;
+  font-weight: bold;
+}
+.resources__section__cards__finance {
+  text-align: center;
+}
+.resources__section__cards__finance li {
+  list-style: none;
+  padding: 0;
+  margin-left: -2em;
+  margin-inline: auto;
+}
+.resources__section__cards__finance p {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1rem;
 }
 .resources__support-groups {
   margin-top: 7em;
@@ -1230,34 +1262,38 @@ h6 {
   /* Style the data cells */
 }
 .resources__support-groups img {
-  max-width: clamp(400px, 100%, 900px);
+  max-width: clamp(150px, 100%, 600px);
   margin-block: 4em;
 }
 .resources__support-groups table {
-  width: 100%;
   border-collapse: collapse;
   margin-bottom: 10em;
+  width: 100%;
 }
 .resources__support-groups th {
   border: 1px solid #0d0c0c;
-  padding: 8px;
+  padding: 0.5em;
+  font-size: 0.8rem;
   text-align: left;
   color: white;
   background-color: hsl(120, 37%, 52%);
 }
 .resources__support-groups td {
+  font-size: 0.8rem;
   border: 1px solid #0b0a0a;
-  padding: 8px;
+  padding: 0.5em;
 }
 
 .card {
+  position: relative;
+  margin-inline: auto;
   background-color: hsl(120, 37%, 52%);
   color: white;
   padding-inline: 1em;
   padding-block: 3em;
   border-radius: 10px;
   margin-block: 1em;
-  max-width: 800px;
+  max-width: 600px;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
 }
 .card ul {
@@ -1270,6 +1306,16 @@ h6 {
   color: white;
   border-radius: 5px;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+.card-label {
+  position: absolute;
+  top: -40px;
+  right: 5px;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding-inline: 0.5em;
+  font-size: 0.9rem !important;
+  background-color: #ba55d3;
 }
 
 #fancy {
@@ -1454,6 +1500,20 @@ hr {
   .overlay img {
     max-height: 700px;
   }
+  .resources__support-groups th {
+    border: 1px solid #0d0c0c;
+    padding: 0.5em;
+    font-size: 1rem;
+    text-align: left;
+    color: white;
+    background-color: hsl(120, 37%, 52%);
+  }
+  /* Style the data cells */
+  .resources__support-groups td {
+    font-size: 0.8rem;
+    border: 1px solid #0b0a0a;
+    padding: 1.5em;
+  }
 }
 /* lg = 992px - 1200px*/
 @media screen and (min-width: 992px) {
@@ -1612,6 +1672,38 @@ hr {
   .tour__video {
     width: 85%;
     height: 50vh;
+  }
+  .resources__shame__question.quote {
+    grid-column: span 3;
+  }
+  .resources__shame__bears {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr;
+  }
+  .resources__shame__bears img {
+    width: 100%;
+  }
+  .resources__shame__bears img.left {
+    grid-column: span 3;
+  }
+  .resources__shame__bears img.right {
+    grid-column: span 3;
+  }
+  .resources__shame__bears img.bottom {
+    grid-column: 5/7;
+  }
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+  }
+  .card-grid h3 {
+    grid-column: 1/-1;
+  }
+  .card-grid div {
+    grid-column: span 2;
+    width: 100%;
   }
 }
 /* xl = 1200px */

@@ -91,7 +91,7 @@
             <div class="spacer layer1"></div>
             <div class="container-fluid">
                 <h1 id="fancy" style="--c:#ba55d3"> ADHD Resources</h1>
-                
+                <div class="row">
                 <section class="resources__intro">
                     <div class="resources__cta">
                         <h1>Hello friends!</h1>
@@ -112,8 +112,8 @@
 
        
 
-                <section class="shame">
-                    <h2>Lets start with SHAME!</h2>
+                <section class="resources__shame">
+                    <h2 class="resources__shame__sub title">Lets start with <span>SHAME!</span></h2>
                     <p>
                         In the show we talk about the Big Bear of Shame. In
                         fact, he is there the whole time like an unwanted guest
@@ -138,21 +138,23 @@
                         </div>
                     </ul>
                     <aside class="resources__shame__bears">
-                        <img
-                            class="resources__shame__bears__img"
+                       
+                        <img 
+                            class="resources__shame__bears__img left"
                             src="https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/adhd-new-tour-july/rico9dtmy9etcg7aqv7w"
                             alt="shame bear confrontation"
                         />
+                
                         <img
-                            class="resources__shame__bears__img"
+                            class="resources__shame__bears__img right"
                             src="https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/adhd-the-musical/h3fhktwesjoxnuuwqqxy"
                             alt="Shame bear"
                         />
                         
-                        <p class="resources__shame__question bold">How do we defeat shame like in this picture?</p>
+                        <p class="resources__shame__question bold card quote">How do we defeat shame like in this picture?</p>
                         
                         <img
-                        class="resources__shame__bears__img"
+                        class="resources__shame__bears__img bottom"
                         src="https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/adhd-new-tour-july/rzikv5ukjuhpgkblx8qr"
                         alt="defeating shame bear"
                         />
@@ -160,7 +162,7 @@
 
                     
 
-                    <p>Top Shame researcher Brene Brown says:</p>
+                    <p class="resources__shame__quote__title">Top Shame researcher Brene Brown says:</p>
                     <blockquote>
                         <p>
                             "Shame hates it when we reach out and tell our
@@ -196,8 +198,9 @@
                         with ADHD face. Openly identifying the challenges is the
                         first step to getting support.
                     </p>
-
-                    <img src="https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/adhd-new-tour-july/eoip0p0urxps7rvxmx1y" alt="OTHER PIC" />
+                    <div class="resources__challenges__image">
+                    <img class="" src="https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/adhd-new-tour-july/eoip0p0urxps7rvxmx1y" alt="diagnosis sign with Dora" />
+                    </div>
                     <p>
                         When I first got my diagnosis, I felt a feeling of shame
                         that my brain was different! But the more I learned
@@ -214,35 +217,15 @@
 
                 <section class="resources__section__cards">
                     <h2 id="fancy" style="--w: 50vw;--c: #ba55d3;--b:4px;--g: 40px">Links</h2>
-                    <h3>
+                    <h3 class="">
                         Here are some links to resources you might find helpful:
                     </h3>
 
-                    <article>
-                        <h3>
-                            Engaging Talks
-                        </h3>
-                        <div class="card">
-                            <h4>The amazing Brene Brown talks about the power of
-                                Vulnerability.</h4>
-                        <p>
-                            The message in this Ted Talk really influenced ADHD
-                            the Musical and encouraged me to be brave and honest
-                            which is a sign of strength not weakness!
-                        </p>
-                        <span>
-                        <a href="https://www.youtube.com/watch?v=iCvmsMzlF7o"
-                            >TED Talk</a
-                        >
-                    </span>
-                        
-                    </div>
-                    </article>
-
-                    <article>
+                    <article class="card-grid">
                         <h3>Tools to get things done!</h3>
 
-                        <div class="card">
+                        <div class="card col-12 col-sm-12 col-md-12 col-lg-6">
+                            <p class="card-label">Tools to get things done!</p>
                             <h4>Body Doubling</h4>
                         <p>
                             People with ADHD are renowned for putting tasks off
@@ -261,9 +244,10 @@
 
                     </div>
 
-                        <br />
+                        
 
                         <div class="card">
+                            <p class="card-label">Tools to get things done!</p>
                             <h4>How to ADHD</h4>
                         <p>
                             This fantastic website with lots of amazing content
@@ -278,11 +262,35 @@
                     </div>
                     </article>
 
+                    <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                        
+                        <h3>
+                            
+                        </h3>
+                        <div class="card">
+                            <p class="card-label">Engaging Talks</p>
+                            <h4>The amazing Brene Brown talks about the power of
+                                Vulnerability.</h4>
+                        <p>
+                            The message in this Ted Talk really influenced ADHD
+                            the Musical and encouraged me to be brave and honest
+                            which is a sign of strength not weakness!
+                        </p>
+                        <span>
+                        <a href="https://www.youtube.com/watch?v=iCvmsMzlF7o"
+                            >TED Talk</a
+                        >
+                    </span>
+                        
+                    </div>
+                    </article>
+
                     <article>
                         <h3>Finances</h3>
-
-                        <div class="card">
-                        <ul>
+                        <div class="card resources__section__cards">
+                            <p class="card-label">Finance</p>
+                            
+                        <ul class="resources__section__cards__finance">
                             <li>
                                 <p>
                                 <a href="https://www.nationaldebtline.org"
@@ -315,6 +323,7 @@
                         <h3>Exercise</h3>
 
                         <div class="card">
+                            <p class="card-label">Exercise</p>
                             <h4>Exercise Ideas</h4>
                         <p>
                             Exercise has been one of the most effective tools
@@ -343,13 +352,11 @@
 
                     </div>
 
-                        <h3>I started running using:</h3>
-
                         <div class="card">
-
+                            <p class="card-label">Exercise</p>
                         <h4>Couch to 5k</h4>
                         <p>
-                            A free running program to help you get running you
+                            I started running using couch to 5k - A free running program to help you get running you
                             are guided every step of the way and can choose a
                             motivational voice that works for you!
                         </p>
@@ -362,6 +369,7 @@
 
                     </div>
                     <div class="card">
+                        <p class="card-label">Exercise</p>
                         <h4>Park Run</h4>
                         <p>
                             This is a free running event that happens every
@@ -380,6 +388,7 @@
                     <article>
                         <h3>Tools for managing overwhelm</h3>
                         <div class="card">
+                            <p class="card-label">Managing Overwhelm</p>
                             <h4>Calm app</h4>
                             <p>
                                 The app's wide variety of guided meditations,
@@ -397,6 +406,7 @@
                         </span>
                         </div>
                         <div class="card">
+                            <p class="card-label">Managing Overwhelm</p>
                             <h4>Tara Brach Radical Acceptance</h4>
                             <p>
                                 This talk is very inspiring and a lot of what
@@ -411,6 +421,7 @@
                         </span>
                         </div>
                         <div class="card">
+                            <p class="card-label">Managing Overwhelm</p>
                             <h4>Wellbeing In the Arts</h4>
                             <p>Low cost therapy for creatives</p>
                             <span>
@@ -420,6 +431,7 @@
                         </span>
                         </div>
                         <div class="card">
+                            <p class="card-label">Managing Overwhelm</p>
                             <h4>Anxiety UK</h4>
                             <p>
                                 A charity helping people affected by anxiety,
@@ -432,6 +444,7 @@
                         </span>
                         </div>
                         <div class="card">
+                            <p class="card-label">Managing Overwhelm</p>
                             <h4>Mind</h4>
                             <p>
                                 A mental health charity providing advice and
@@ -445,6 +458,7 @@
                         </span>
                         </div>
                         <div class="card">
+                            <p class="card-label">Managing Overwhelm</p>
                             <h4>Samaritans</h4>
                             <p>
                                 A charity providing emotional support to anyone
@@ -460,6 +474,7 @@
                         
                         <h3>Books</h3>
                         <div class="card">
+                            <p class="card-label">Books</p>
                             <h4>Gabor Mate: scattered mind</h4>
                             <p>
                                 This book changed my life and was a really
@@ -473,6 +488,7 @@
                         </span>
                         </div>
                         <div class="card">
+                            <p class="card-label">Books</p>
                             <h4>
                                 KC Davis : How to keep the house while drowning
                             </h4>
@@ -503,6 +519,7 @@
                 <section>
                     <h2>The ADHD Foundation</h2>
                     <div class="card">
+                        <p class="card-label">Website</p>
                     <p>
                         We were very lucky be partnered with the ADHD Foundation
                         and Neurodiversity Charity they have helped inform the
@@ -516,6 +533,7 @@
                 </div>
 
                 <div class="card">
+                    <p class="card-label">PDF</p>
                     <h4>A Guide For Successfully Living With ADHD</h4>
                     <p>
                         This is an incredible comprehensive guide from the
@@ -540,7 +558,7 @@
                         src="../../images/tour-poster.jpeg"
                         alt="ADHD tour poster"
                     />
-
+                    
                     <table>
                         <tr>
                             <th>Location</th>
@@ -588,7 +606,9 @@
                             <td></td>
                         </tr>
                     </table>
+              
                 </section>
+            </div>
             </div>
             <footer>
                 <p class="copy"></p>
