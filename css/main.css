@@ -1158,9 +1158,6 @@ h6 {
   background-color: #f6f5f5;
   background-image: url("https://www.transparenttextures.com/patterns/cream-dust.png");
 }
-.resources article {
-  margin-block: 7em;
-}
 .resources article h3 {
   text-shadow: rgb(180, 180, 180) 0px 1px 1px;
 }
@@ -1233,6 +1230,15 @@ h6 {
 .resources__challenges__image {
   text-align: center;
 }
+.resources__section__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1em;
+}
+.resources__section__cards__sub {
+  margin-block: 2em;
+  text-align: center;
+}
 .resources__section__cards h2 {
   margin-top: 6em;
   margin-bottom: 3em;
@@ -1254,6 +1260,9 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   font-size: 1rem;
+}
+.resources__section__cards__body {
+  padding-bottom: 1em;
 }
 .resources__support-groups {
   margin-top: 7em;
@@ -1284,9 +1293,12 @@ h6 {
   padding: 0.5em;
 }
 
+.centered {
+  margin-inline: auto;
+}
+
 .card {
   position: relative;
-  margin-inline: auto;
   background-color: hsl(120, 37%, 52%);
   color: white;
   padding-inline: 1em;
@@ -1306,6 +1318,13 @@ h6 {
   color: white;
   border-radius: 5px;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  margin-inline: 0.5em;
+  font-size: 0.8rem;
+  min-width: 150px;
 }
 .card-label {
   position: absolute;
@@ -1692,18 +1711,6 @@ hr {
   }
   .resources__shame__bears img.bottom {
     grid-column: 5/7;
-  }
-  .card-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1em;
-  }
-  .card-grid h3 {
-    grid-column: 1/-1;
-  }
-  .card-grid div {
-    grid-column: span 2;
-    width: 100%;
   }
 }
 /* xl = 1200px */

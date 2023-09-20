@@ -4,8 +4,6 @@
     background-image: url("https://www.transparenttextures.com/patterns/cream-dust.png");
 
     article {
-        margin-block: 7em;
-
         h3 {
             text-shadow: rgb(180, 180, 180) 0px 1px 1px;
         }
@@ -95,10 +93,19 @@
     }
 
     &__section__cards {
+        &__sub {
+            margin-block: 2em;
+            text-align: center;
+        }
         h2 {
             margin-top: 6em;
             margin-bottom: 3em;
         }
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+        gap: 1em;
 
         &__sub.title {
             color: $secondary-color;
@@ -117,6 +124,10 @@
                 flex-wrap: wrap;
                 font-size: 1rem;
             }
+        }
+
+        &__body {
+            padding-bottom: 1em;
         }
     }
 
@@ -154,9 +165,12 @@
     }
 }
 
+.centered {
+    margin-inline: auto;
+}
+
 .card {
     position: relative;
-    margin-inline: auto;
     background-color: $green-color;
     color: white;
     padding-inline: 1em;
@@ -179,6 +193,13 @@
         border-radius: 5px;
         box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
             0 4px 6px -4px rgb(0 0 0 / 0.1);
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 20px;
+        margin-inline: 0.5em;
+        font-size: 0.8rem;
+        min-width: 150px;
     }
 
     &-label {
