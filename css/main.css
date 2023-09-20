@@ -319,6 +319,18 @@ nav .nav-item-last:hover {
   font-size: 3.5rem;
   margin-bottom: 1em;
 }
+.shows__adhd__resources__link {
+  border: 3px solid #ffc107;
+  margin-bottom: 4em;
+  width: 50%;
+  margin-inline: auto;
+  padding-block: 2em;
+  border-radius: 10px;
+  background-color: #ffc107;
+}
+.shows__adhd__resources__link p {
+  color: hsl(120, 37%, 52%);
+}
 .shows .feedback {
   font-size: 1.7rem;
   font-family: "Roboto", sans-serif;
