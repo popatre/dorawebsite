@@ -84,6 +84,21 @@
     .hero .image-back {
         //width: 90%;
     }
+    .resources__support-groups th {
+        border: 1px solid #0d0c0c;
+        padding: 0.5em;
+        font-size: 1rem;
+        text-align: left;
+        color: white;
+        background-color: $green-color;
+    }
+
+    /* Style the data cells */
+    .resources__support-groups td {
+        font-size: 0.8rem;
+        border: 1px solid #0b0a0a;
+        padding: 1.5em;
+    }
 }
 
 /* lg = 992px - 1200px*/
@@ -278,6 +293,33 @@
         &__video {
             width: 85%;
             height: 50vh;
+        }
+    }
+
+    .resources__shame {
+        &__question {
+            &.quote {
+                grid-column: span 3;
+            }
+        }
+
+        &__bears {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: 1fr 1fr;
+
+            img {
+                width: 100%;
+                &.left {
+                    grid-column: span 3;
+                }
+                &.right {
+                    grid-column: span 3;
+                }
+                &.bottom {
+                    grid-column: 5/7;
+                }
+            }
         }
     }
 }

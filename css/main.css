@@ -319,6 +319,18 @@ nav .nav-item-last:hover {
   font-size: 3.5rem;
   margin-bottom: 1em;
 }
+.shows__adhd__resources__link {
+  border: 3px solid #ffc107;
+  margin-bottom: 4em;
+  width: 50%;
+  margin-inline: auto;
+  padding-block: 2em;
+  border-radius: 10px;
+  background-color: #ffc107;
+}
+.shows__adhd__resources__link p {
+  color: hsl(120, 37%, 52%);
+}
 .shows .feedback {
   font-size: 1.7rem;
   font-family: "Roboto", sans-serif;
@@ -1154,6 +1166,209 @@ h6 {
   right: 20px;
 }
 
+.resources {
+  background-color: #f6f5f5;
+  background-image: url("https://www.transparenttextures.com/patterns/cream-dust.png");
+}
+.resources article h3 {
+  text-shadow: rgb(180, 180, 180) 0px 1px 1px;
+}
+.resources h1 {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.resources p {
+  margin-block: 3em;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+.resources blockquote {
+  background-color: hsl(120, 37%, 52%);
+  padding-inline: 1em;
+  padding-block: 0.01em;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 5em;
+  max-width: 800px;
+  margin-inline: auto;
+}
+.resources img {
+  max-width: 100%;
+}
+.resources__intro {
+  background-color: hsl(120, 37%, 52%);
+  color: white;
+  padding-block: 2em;
+  padding-inline: 3em;
+  border-radius: 5px;
+  margin-top: 3em;
+  margin-bottom: 5em;
+}
+.resources__shame__sub.title {
+  color: #ba55d3;
+  font-weight: bold;
+}
+.resources__shame__sub.title span {
+  font-size: 2rem;
+  color: rgb(187, 2, 39);
+}
+.resources__shame__bears {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.resources__shame__bears__img {
+  width: 70%;
+  margin-inline: auto;
+}
+.resources__shame__question.bold {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-block: 4em;
+}
+.resources__shame__quote__title {
+  text-align: center;
+}
+.resources__challenges h2 {
+  margin-block: 6em;
+}
+.resources__challenges h3 {
+  margin-top: 2em;
+}
+.resources__challenges__image {
+  text-align: center;
+}
+.resources__section__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1em;
+}
+.resources__section__cards__sub {
+  margin-block: 2em;
+  text-align: center;
+}
+.resources__section__cards h2 {
+  margin-top: 6em;
+  margin-bottom: 3em;
+}
+.resources__section__cards__sub.title {
+  color: #ba55d3;
+  font-weight: bold;
+}
+.resources__section__cards__finance {
+  text-align: center;
+}
+.resources__section__cards__finance li {
+  list-style: none;
+  padding: 0;
+  margin-left: -2em;
+  margin-inline: auto;
+}
+.resources__section__cards__finance p {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1rem;
+}
+.resources__section__cards__body {
+  padding-bottom: 1em;
+}
+.resources__support-groups {
+  margin-top: 7em;
+  text-align: center;
+  /* Style the header row */
+  /* Style the data cells */
+}
+.resources__support-groups img {
+  max-width: clamp(150px, 100%, 600px);
+  margin-block: 4em;
+}
+.resources__support-groups table {
+  border-collapse: collapse;
+  margin-bottom: 10em;
+  width: 100%;
+}
+.resources__support-groups th {
+  border: 1px solid #0d0c0c;
+  padding: 0.5em;
+  font-size: 0.8rem;
+  text-align: left;
+  color: white;
+  background-color: hsl(120, 37%, 52%);
+}
+.resources__support-groups td {
+  font-size: 0.8rem;
+  border: 1px solid #0b0a0a;
+  padding: 0.5em;
+}
+
+.centered {
+  margin-inline: auto;
+}
+
+.card {
+  position: relative;
+  background-color: hsl(120, 37%, 52%);
+  color: white;
+  padding-inline: 1em;
+  padding-block: 3em;
+  border-radius: 10px;
+  margin-block: 1em;
+  max-width: 600px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+.card ul {
+  line-height: 1.7em;
+}
+.card a {
+  border: 2px solid white;
+  padding: 1em;
+  background-color: #ba55d3;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  margin-inline: 0.5em;
+  font-size: 0.8rem;
+  min-width: 150px;
+}
+.card-label {
+  position: absolute;
+  top: -40px;
+  right: 5px;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding-inline: 0.5em;
+  font-size: 0.9rem !important;
+  background-color: #ba55d3;
+}
+
+#fancy {
+  --b: 6px; /* control the border thickness */
+  --w: 80px; /* control the width of the line*/
+  --g: 15px; /* control the gap */
+  --c: #0b486b;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0 1em;
+  line-height: 1.6em;
+  border: 1px solid;
+  color: #fff;
+  background: conic-gradient(from 45deg at left, var(--c) 25%, rgba(0, 0, 0, 0) 0) 0, conic-gradient(from -135deg at right, var(--c) 25%, rgba(0, 0, 0, 0) 0) 100%;
+  background-size: 51% 100%;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  -o-border-image: linear-gradient(rgba(0, 0, 0, 0) calc(50% - var(--b) / 2), var(--c) 0 calc(50% + var(--b) / 2), rgba(0, 0, 0, 0) 0) 1/0 var(--w)/calc(var(--w) + var(--g));
+     border-image: linear-gradient(rgba(0, 0, 0, 0) calc(50% - var(--b) / 2), var(--c) 0 calc(50% + var(--b) / 2), rgba(0, 0, 0, 0) 0) 1/0 var(--w)/calc(var(--w) + var(--g));
+  margin-inline: auto;
+}
+
 /* put at bottom */
 html {
   scroll-behavior: smooth;
@@ -1316,6 +1531,20 @@ hr {
   .overlay img {
     max-height: 700px;
   }
+  .resources__support-groups th {
+    border: 1px solid #0d0c0c;
+    padding: 0.5em;
+    font-size: 1rem;
+    text-align: left;
+    color: white;
+    background-color: hsl(120, 37%, 52%);
+  }
+  /* Style the data cells */
+  .resources__support-groups td {
+    font-size: 0.8rem;
+    border: 1px solid #0b0a0a;
+    padding: 1.5em;
+  }
 }
 /* lg = 992px - 1200px*/
 @media screen and (min-width: 992px) {
@@ -1474,6 +1703,26 @@ hr {
   .tour__video {
     width: 85%;
     height: 50vh;
+  }
+  .resources__shame__question.quote {
+    grid-column: span 3;
+  }
+  .resources__shame__bears {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr;
+  }
+  .resources__shame__bears img {
+    width: 100%;
+  }
+  .resources__shame__bears img.left {
+    grid-column: span 3;
+  }
+  .resources__shame__bears img.right {
+    grid-column: span 3;
+  }
+  .resources__shame__bears img.bottom {
+    grid-column: 5/7;
   }
 }
 /* xl = 1200px */
