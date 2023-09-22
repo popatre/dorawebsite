@@ -329,6 +329,12 @@ nav .nav-item-last:hover {
   background-color: #ffc107;
 }
 .shows__adhd__resources__link p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: hsl(120, 37%, 52%);
+  text-shadow: rgb(109, 109, 109) 0 0 0;
+}
+.shows #resources__link {
   color: hsl(120, 37%, 52%);
 }
 .shows .feedback {
