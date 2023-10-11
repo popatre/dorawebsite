@@ -54,6 +54,8 @@
             margin-bottom: 10em;
             border: solid $primary-color 5px;
             width: 100%;
+            padding: 0;
+            margin-inline: auto;
         }
 
         &__title {
