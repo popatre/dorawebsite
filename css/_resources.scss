@@ -239,3 +239,24 @@
         1/0 var(--w) / calc(var(--w) + var(--g));
     margin-inline: auto;
 }
+
+.adhd-video {
+    max-width: 900px;
+    width: 100%;
+    // margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 10em;
+    // border: solid $primary-color 5px;
+}
+
+.adhd-video-content {
+    width: 100%;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2em;
+}
