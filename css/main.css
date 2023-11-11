@@ -307,6 +307,10 @@ nav .nav-item-last:hover {
   text-align: center;
   text-shadow: rgb(109, 109, 109) 0px 0px 3px;
 }
+.shows__adhd p.para-aside {
+  font-style: italic;
+  font-size: 1rem;
+}
 .shows__adhd .adhd-video {
   margin-top: 2em;
   margin-bottom: 10em;

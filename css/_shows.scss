@@ -47,6 +47,11 @@
             letter-spacing: 0.05em;
             text-align: center;
             text-shadow: rgb(109, 109, 109) 0px 0px 3px;
+
+            &.para-aside {
+                font-style: italic;
+                font-size: 1rem;
+            }
         }
 
         .adhd-video {
