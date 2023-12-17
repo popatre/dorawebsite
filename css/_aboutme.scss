@@ -2,7 +2,7 @@
     background-color: $primary-color;
     background-image: url("https://www.transparenttextures.com/patterns/lyonnette.png");
     background-blend-mode: overlay;
-    text-align: center;
+    // text-align: center;
 
     &__title {
         color: $secondary-color;
@@ -103,4 +103,27 @@
 
 .testimonal-slider .carousel-item {
     height: 500px;
+}
+
+.projects__grid {
+    &__span {
+        grid-column: 1/5;
+    }
+
+    &__title {
+        font-size: 1.124rem;
+        font-weight: bold;
+    }
+    &__card {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        place-items: center;
+        margin-top: 2em;
+        padding: 1em;
+
+        background-color: $primary-color;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
 }

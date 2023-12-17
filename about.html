@@ -1,363 +1,511 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ADHD The Musical | An exciting new musical exploring ADHD</title>
+        <meta
+            name="description"
+            content="ADHD The Musical explores the highs and lows of having the most common neuro-developmental disorder worldwide alongside good old fashioned storytelling, singing, and dancing with inspiration from  legends Julie Andrews, Dolly and Cher."
+        />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADHD The Musical | An exciting new musical exploring ADHD</title>
-    <meta name="description"
-        content="ADHD The Musical explores the highs and lows of having the most common neuro-developmental disorder worldwide alongside good old fashioned storytelling, singing, and dancing with inspiration from  legends Julie Andrews, Dolly and Cher." />
+        <!-- Bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+        <!-- google fonts -->
 
-    <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Raleway:wght@400;500&family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Raleway:wght@400;500&family=Roboto:wght@400;700&display=swap"
-        rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"
+            rel="stylesheet"
+        />
 
-    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+        <!-- font awesome -->
+        <script
+            src="https://kit.fontawesome.com/a7e1ff40ef.js"
+            crossorigin="anonymous"
+        ></script>
 
-    <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/a7e1ff40ef.js" crossorigin="anonymous"></script>
+        <!-- SCSS style sheet -->
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
 
-    <!-- SCSS style sheet -->
-    <link rel="stylesheet" href="css/main.css">
-</head>
+    <body>
+        <header>
+            <!-- <div class="container-fluid"> -->
+            <nav class="navbar navbar-expand-lg bg-warning">
+                <button
+                    class="navbar-toggler ms-auto"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#togglenav"
+                    aria-controls="togglenav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon">
+                        <i
+                            class="fa fa-navicon nav-icon"
+                            style="color: #5cb85c; font-size: 28px"
+                        ></i>
+                    </span>
+                </button>
 
-<body>
+                <div class="collapse navbar-collapse" id="togglenav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/about.html" class="nav-link">About Me</a>
+                        </li>
 
-    <header>
-        <!-- <div class="container-fluid"> -->
-        <nav class="navbar navbar-expand-lg   bg-warning">
+                        <li class="nav-item">
+                            <a href="/shows.html" class="nav-link">Shows</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/media.html" class="nav-link">Media</a>
+                        </li>
+                        <li class="nav-item-last">
+                            <a href="/contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- </div> -->
+        </header>
 
-            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#togglenav"
-                aria-controls="togglenav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                    <i class="fa fa-navicon nav-icon" style="color:#5cb85c; font-size:28px;"></i>
-                </span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="togglenav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="/" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/about.html" class="nav-link">About Me</a>
-                    </li>
-                   
-                    <li class="nav-item">
-                        <a href="/shows.html" class="nav-link">Shows</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/media.html" class="nav-link">Media</a>
-                    </li>
-                    <li class="nav-item-last">
-                        <a href="/contact.html" class="nav-link">Contact</a>
-                    </li>
-                </ul>
+        <main class="about-me">
+            <div class="spacer layer2"></div>
+            <div class="backing-img">
+                <img style="display: none" src="./images/7.jpg" alt="" />
+                <h2 class="about-me__title fade-in" id="about-me">About Me</h2>
             </div>
-        </nav>
-        <!-- </div> -->
-    </header>
+            <div class="container-fluid">
+                <section class="about-me__body">
+                    <p class="about-me__body--text">
+                        Dora Colquhoun is a Neurodivergent theatre maker,
+                        performer, songwriter, writer, facilitator, clown, mover
+                        & shaker and lover of ‘grabbing people out of the
+                        audience and getting them to do things.’ Dora studied a
+                        BA in Contemporary Performance Art at radical art school
+                        Dartington College Of Arts. This training has been the
+                        foundation of her arts practice; creating
+                        interdisciplinary, collaborative, devised work.
+                    </p>
 
+                    <p class="about-me__body--text">
+                        Dora has recently completed touring ADHD The Musical
+                        2023. Written and performed by Dora, the show was hugely
+                        successful and toured sell-out shows across 10 venues
+                        across the UK.
+                    </p>
 
-
-
-    <main class="about-me">
-        <div class="spacer layer2"></div>
-        <div class="backing-img">
-            <img style="display: none" src="./images/7.jpg" alt="" />
-            <h2 class="about-me__title fade-in" id="about-me">About Me</h2>
-        </div>
-        <div class="container-fluid">
-            <section class="about-me__body">
-                <div class="row">
-                    <div class="col-12 col-xl-12 fade-in">
-                        <em>
-                            <h4>
-                                "Through her wonderfully quirky way of
-                                looking at things, and careful foolery, Dora
-                                finds ways of making connections with you as
-                                an audience member, regardless whether you
-                                are 5 or 75"
-                            </h4>
-                            <p class="matt-quote">
-                                Matthew Linley Eastern Angles/Former Unity
-                                Theatre Artistic Director
-                            </p>
-                        </em>
+                    <div class="row">
+                        <div class="col-12 col-xl-12 fade-in">
+                            <em>
+                                <h4>
+                                    This girl is absolutely fantastic!!! She is
+                                    a powerhouse of energy and focus and I
+                                    highly recommend this show, whether you have
+                                    ADHD or not. I invited a friend who does
+                                    have it and she said that it was spot on for
+                                    her. It is moving and yet full of fun too
+                                    and very entertaining. A ray of sunshine!
+                                </h4>
+                                <p class="matt-quote">– Audience Review</p>
+                            </em>
+                        </div>
                     </div>
-                </div>
 
-                <p class="about-me__body--text">
-                    Dora Colquhoun is a neurodivergent theatre maker and
-                    performer based in Liverpool. Dora has a wealth of
-                    varied experience as a theatre maker and entertainer she
-                    graduated from Dartington College of Arts in 2011 with a
-                    first class BA Hons in Contemporary Performance Art
-                    Combining Community Practices.</p>
-                    <p class="about-me__body--text"> Dora also has a Masters in
-                    Applied Theatre from the Royal Central School of Speech and
-                    Drama (2019). She is an incredibly versatile performer
-                    who is interested in making bold funny brave work. Dora
-                    is a storyteller at heart and uses many artistic forms
-                    to create performance that moves people to tears whilst
-                    also keeping them in fits of laughter.
-                </p>
-                <p class="worked-with">
-                    <b>
-                        Dora has worked with Wild Rumpus, Liverpool Biennial, Action Transport Theatre, Cocoloco,
-                        Altru, Cbeebies, Directors: Sue Hill (Wildworks) and John Wright (As Told By An Idiot)</b>
-                </p>
+                    <p class="about-me__body--text">
+                        Dora is incredibly versatile and has a breadth of
+                        creative experience spanning 10 years. The core of all
+                        her work is storytelling with heart, she is open to
+                        using many creative forms and has collaborated with some
+                        fantastic artist, and organisations including: Wild
+                        Rumpus, Jamie Wood (international award-winning clown)
+                        Adam Mcguigan (Wake The Beast) Tmesis, Izzie Major
+                        (Frightwig) Liverpool Biennial, Action Transport
+                        Theatre, Cocoloco, RAWD, Cbeebies, Directors: Sue Hill
+                        (Wildworks) and John Wright (As Told By An Idiot)
+                    </p>
 
-                <h4 class="achievements__title">
-                    Recent artistic achievements:
-                </h4>
+                    <!-- <p class="worked-with">
+                        <b>
+                            Dora has worked with Wild Rumpus, Liverpool
+                            Biennial, Action Transport Theatre, Cocoloco, Altru,
+                            Cbeebies, Directors: Sue Hill (Wildworks) and John
+                            Wright (As Told By An Idiot)</b
+                        >
+                    </p> -->
 
-                <section class="achievements__grid">
-                    <p class="achievements__date">2022 - 2023</p>
-                    <p class="achievements__item">Awarded Developing Your Creative Practice to develop 'Finding my
-                        voice' an exploration of my practice as a storyteller and scriptwriter.</p>
-                     
+                    <h4 class="achievements__title">
+                        Training, Education, Development
+                    </h4>
+                    <section class="achievements__grid">
+                        <p class="achievements__date">2023</p>
+                        <p class="achievements__item">
+                            Clore Emerging Leaders Programme
+                        </p>
 
-                    <p class="achievements__date">2022</p>
-                    <p class="achievements__item">Selected as artist by Dash Arts and Liverpool Biennial to take part in
-                        WAIWAV to create the intervention 'Would you Like A Seat?'</p>
+                        <p class="achievements__date">2023</p>
+                        <p class="achievements__item">
+                            Liverpool Royal Court Writers Program
+                        </p>
 
-                    <p class="achievements__date">2022</p>
-                    <p class="achievements__item">Sold Out Tour of ADHD The Musical: Can I Have Your Attention Please?
-                        Funded by Arts Council England.</p>
+                        <p class="achievements__date">2022</p>
+                        <p class="achievements__item">
+                            Jamie Wood, Making Solo Work Residency
+                        </p>
 
-                    <p class="achievements__date">2021</p>
-                    <p class="achievements__item">Awarded ‘Plugged in’ Rural Touring
-                        Opportunity with Creative Arts East</p>
+                        <p class="achievements__date">2022</p>
+                        <p class="achievements__item">
+                            Arteles ‘Back to Basics’ Residency 1 month Finland -
+                            Funded by DYCP
+                        </p>
 
-                    <p class="achievements__date">2021</p>
-                    <p class="achievements__item">Awarded Arts Council Funding ADHD
-                        The Musical R&D, the show was performed at the
-                        Liverpool Theatre Festival to 2 sold out shows.</p>
+                        <p class="achievements__date">2022</p>
+                        <p class="achievements__item">
+                            Bryony Kimmings Making autobiographical work
+                        </p>
 
-                    <p class="achievements__date">2021</p>
-                    <p class="achievements__item">Selected for 'Artist Lock In'
-                        residency Jersey ArtHouse</p>
+                        <p class="achievements__date">2022</p>
+                        <p class="achievements__item">
+                            Surge Residency Making Solo Work – Al Seed, Hilary
+                            Westlake, Alan Richardson
+                        </p>
 
-                    <p class="achievements__date">2020</p>
-                    <p class="achievements__item">Commissioned by Paul Hamlyn
-                        Foundation to create 'We are All Made Of
-                        Stardust collaborating with 49 participants
-                        compiling audio pieces to create a video piece
-                        about 'The Overview Effect.'</p>
+                        <p class="achievements__date">2021</p>
+                        <p class="achievements__item">
+                            Artist Lock In' residency Jersey ArtHouse – Sue Hill
+                            (Wildworks)
+                        </p>
 
-                    <p class="achievements__date">2017</p>
-                    <p class="achievements__item">Three months teaching in Croatia with
-                        The National Rijeka Youth Theatre</p>
+                        <p class="achievements__date">2019</p>
+                        <p class="achievements__item">
+                            Royal Central School of Speech and Drama Applied
+                            Theatre MA
+                        </p>
 
-                    <p class="achievements__date">2016</p>
-                    <p class="achievements__item"> 6 Month TIE tour across Italy
-                        with Theatrino</p>
+                        <p class="achievements__date">2016</p>
+                        <p class="achievements__item">
+                            Performers Playground Clown training Mark
+                            Winstanley, Alice Robinson
+                        </p>
 
-                    <p class="achievements__date">2015</p>
-                    <p class="achievements__item"> Devised/performed The Flowerpot
-                        Women with artist Izzie Major for the Hope
-                        Street On the Verge Festival 2015. The Flowerpot
-                        Women is a satirical dark comedy continued to be
-                        developed/performed at Brighton Fringe Festival,
-                        (2016) Calderstones Park with The Reader
-                        Organisation (2016) Glasgow Surge Festival
-                        (2017) Bluecoat Gardens supported by Without
-                        Walls Fund/Culture Liverpool 2020.</p>
+                        <p class="achievements__date">2014</p>
+                        <p class="achievements__item">
+                            Hope Street Emerging Artist Program
+                        </p>
+                    </section>
 
-                    <p class="achievements__date">2015</p>
-                    <p class="achievements__item"> Devised/performed all-female
-                        Sketch show: Colonial Bastards On Charity,
-                        supported by the Unity Theatre Make Art
-                        Fund/Arts Council.</p>
+                    <h3 class="achievements__title">Projects</h3>
+                    <section>
+                        <article class="projects__grid__card">
+                            <p class="achievements__date">2024</p>
+                            <div class="projects__grid__span">
+                                <h3 class="projects__grid__title">
+                                    Jam and Chemicals R&D
+                                </h3>
+                                <p class="achievements__item">
+                                    A new work in progress exploring Home. This
+                                    show has been supported by ACE England and
+                                    Edge Hill Arts Centre and will be going on a
+                                    WIP tour in February- March 2024
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="projects__grid__card">
+                            <p class="achievements__date">2023</p>
+                            <div class="projects__grid__span">
+                                <h3 class="projects__grid__title">
+                                    ADHD The Musical Tour
+                                </h3>
+                                <p class="achievements__item">
+                                    A 10 date sell out tour exploring the highs
+                                    and lows of being diagnosed with ADHD as an
+                                    Adult. Using neuroscience, original show
+                                    tunes and Dolly Parton. Dora takes you by
+                                    the hand and explains why it’s not a good
+                                    idea to drink enough to kill a small horse
+                                    the night before a job interview. This show
+                                    was supported by ACE, DadaFest, and the ADHD
+                                    Foundation.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="projects__grid__card">
+                            <p class="achievements__date">2023</p>
+                            <div class="projects__grid__span">
+                                <h3 class="projects__grid__title">
+                                    Escape Fort Lagoon
+                                </h3>
+                                <p class="achievements__item">
+                                    Wake the Beast productions Co- devised with
+                                    Adam McGuigan, Jude Jagger and Izzie Major.
+                                    A live action, immersive theatre game where
+                                    players become prisoners and you must work
+                                    together to try and escape the Lagoon.
+                                    Escape from Fort Lagoon is Arts Council
+                                    England funded and co-commissioned by
+                                    Marketplace and Barrowfull Creative People
+                                    and Places programmes.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="projects__grid__card">
+                            <p class="achievements__date">2022</p>
+                            <div class="projects__grid__span">
+                                <h3 class="projects__grid__title">
+                                    Would You Like a Seat
+                                </h3>
+                                <p class="achievements__item">
+                                    Commissioned by DASH ARTS and Liverpool
+                                    Biennial. A performance intervention where
+                                    Dora created the NBFS The National Bureau
+                                    For Sitting. A playful look at access and
+                                    bureaucracy in the UK. As part of WAIWAV
+                                    celebrating 102nd anniversary of the first
+                                    DaDa International Exhibition.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="projects__grid__card">
+                            <p class="achievements__date">2022</p>
+                            <div class="projects__grid__span">
+                                <h3 class="projects__grid__title">
+                                    Long Table Discussion
+                                </h3>
+                                <p class="achievements__item">
+                                    Mentored by Lois Weaver this was a series of
+                                    long table discussions with the local
+                                    Liverpool/Toxteth community about the
+                                    cost-of-living crisis. This project was
+                                    supported by Metal and Phakama Arts
+                                    Community Engagement Bursary.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="projects__grid__card">
+                            <p class="achievements__date">2021</p>
+                            <div class="projects__grid__span">
+                                <h3 class="projects__grid__title">
+                                    Flowerpot Women
+                                </h3>
+                                <p class="achievements__item">
+                                    An outdoor immersive comedy written by Dora
+                                    Colquhoun and Izzie Major . Flowerpot Women
+                                    is a charming, laugh out loud, funny and
+                                    poignant tale of two ill matched friends
+                                    Eddie and Garland. In a homage to ‘Grey
+                                    Gardens’ (Big Edie and Little Edie) and
+                                    Bette and Joan’s ‘Whatever happened to Baby
+                                    Jane?’ Dora Colquhoun and Izzie Major have
+                                    perfectly captured in this 30 minute
+                                    performance the key hallmarks of female
+                                    friendships: companionship, laughter, tears,
+                                    and the acceptance of eccentricity,
+                                    ultimately love. Supported by Without Walls
+                                    and Liverpool Culture Fund
+                                </p>
+                            </div>
+                        </article>
+                    </section>
                 </section>
+                <!-- <section class="testimonials">
+                    <h2>Testimonials</h2>
+                    <div
+                        id="testimonal-slider"
+                        class="carousel slide carousel-fade"
+                        data-bs-ride="carousel"
+                        data-bs-interval="13000"
+                        data-bs-pause="hover"
+                    >
+                        <div class="carousel-inner">
+                            <div class="carousel-item active test-slide__1 tes">
+                                <h3>Matthew Linley</h3>
+                                <h5>
+                                    Former Artistic director of The Unity
+                                    Theatre and Eastern Angles
+                                </h5>
+                                <p>
+                                    "I loved Dora's work in The Flowerpot Women.
+                                </p>
+                                 
+                                <p>
+                                    Like all the best clowning what appears
+                                    simple is actually incredibly skillfully put
+                                    together.  In fact The Flowerpot Women
+                                    epitomises for me the strengths of Dora as
+                                    an artist - through her wonderfully quirky
+                                    way of looking at things, and through
+                                    careful foolery she finds ways of making
+                                    connections with you as an audience member,
+                                    regardless whether you are 5 or 75.
+                                </p>
+                                <p>
+                                    I once dragged a screaming toddler to one of
+                                    her allotment performances and to your
+                                    eternal credit she was utterly entranced
+                                    from start to finish and the tears magically
+                                    stopped. Such is the skill of a great artist
+                                    in my book!"
+                                </p>
+                            </div>
+                            <div class="carousel-item test-slide__2 tes">
+                                <h3>Steven Hull</h3>
+                                <h5>All Things Considered Theatre</h5>
+                                <p>
+                                    "I first collaborated with Dora Colquhoun in
+                                    2014 as part of the Hope Street Ltd Emerging
+                                    Artist Program when I was the sound
+                                    design/music mentor. Dora is an incredibly
+                                    creative and talented performer with a
+                                    penchant for storytelling through song. Dora
+                                    is a highly skilled and experienced
+                                    collaborator and has an exceptional ability
+                                    for creating catchy melodies and songs. I am
+                                    in full support of this project as I believe
+                                    in Dora's ability to successfully create a
+                                    high quality body of original work and
+                                    utilize all her skills as a devisor,
+                                    composer and performer."
+                                </p>
+                            </div>
+                            <div class="carousel-item test-slide__3 tes">
+                                <h3>Trevor Stuart and Helen Statman </h3>
+                                <h5>Cocoloco</h5>
+                                <p>
+                                    "Dora is  very talented, comedic, reliable
+                                     and an excellent team player,  intelligent,
+                                    dedicated, whacky.... she  takes direction
+                                    well and is fun to work with! We first came
+                                    across Dora mentoring her on the Hope Street
+                                    Emerging Artist program. Since then we have
+                                    gone on to collaborate with Dora on various
+                                    projects she is a pure joy in the rehearsal
+                                    room and on stage!"
+                                </p>
+                            </div>
+                            <div class="carousel-item test-slide__4 tes">
+                                <h3>Brian Desmond </h3>
+                                <h5>Artistic Director of BYOB</h5>
+                                <p>
+                                    Dora is an ‘exceptional individual’, and a
+                                    versatile, innovative and multi-talented
+                                    arts worker. As a theatre maker and
+                                    performer, she seamlessly adapts to
+                                    different performance environments,
+                                    including promenade/street theatre,
+                                    immersive, text-based and devised work. In
+                                    the memorable “On Charity” (Colonial
+                                    B******s, 2015), which she co-wrote and
+                                    performed, she demonstrated a daring and
+                                    committed social conscience and an
+                                    exceptional capacity for performing comedy
+                                    and satire.
+                                </p>
+                                <p>
+                                    As a facilitator, she enables and inspires
+                                    with a warmth and power that is uniquely
+                                    hers. Supporting her future work would
+                                    benefit the lives and wellbeing of everyone
+                                    lucky enough to encounter her along the way.
+                                </p>
+                            </div>
+                            <div class="carousel-item test-slide__5 tes">
+                                <h3>Nina Hajiyianni </h3>
+                                <h5>
+                                    Artistic Director of Action Transport
+                                    Theatre
+                                </h5>
+                                <p>
+                                    Dora is a unique talent who creates work
+                                    which feels fresh and relevant for today,
+                                    she combines comic timing, wit and
+                                    commentary which provokes and delights
+                                    audiences
+                                </p>
+                            </div>
+                            <div class="carousel-item test-slide__7 tes">
+                                <h3>Sue Hill </h3>
+                                <h5>Artistic Director of Wild works</h5>
+                                <p>
+                                    Dora' presence at the Artist Lock-in was a
+                                    delight. She has a totally original take on
+                                    the world and a generous creative energy;
+                                    playful, surreal and clever. 'Think Duck,
+                                    Live Duck, Be Duck,Duck' will live long in
+                                    our memories...
+                                </p>
+                            </div>
+                            <div class="carousel-item test-slide__6 tes">
+                                <h3>Adam McGuigan</h3>
+                                <h5>Artistic Director of Wake The Beast</h5>
+                                <p>
+                                    Dora has the magic alchemy of being a
+                                    stunning performer, ingenious deviser whilst
+                                    being expertly aware of the bigger picture
+                                    of a project. Dora never plays it safe, she
+                                    always pushes to make work which is
+                                    political, relevant, timely and HILARIOUS!
+                                </p>
 
-              
-            </section>
-            <section class="testimonials">
-                <h2>Testimonials</h2>
-                <div id="testimonal-slider" class="carousel slide carousel-fade" data-bs-ride="carousel"
-                    data-bs-interval="13000" data-bs-pause="hover">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active test-slide__1 tes">
-                            <h3>Matthew Linley</h3>
-                            <h5>
-                                Former Artistic director of The Unity
-                                Theatre and Eastern Angles
-                            </h5>
-                            <p>
-                                "I loved Dora's work in The Flowerpot Women.
-                            </p>
-                             
-                            <p>
-                                Like all the best clowning what appears
-                                simple is actually incredibly skillfully put
-                                together.  In fact The Flowerpot Women
-                                epitomises for me the strengths of Dora as
-                                an artist - through her wonderfully quirky
-                                way of looking at things, and through
-                                careful foolery she finds ways of making
-                                connections with you as an audience member,
-                                regardless whether you are 5 or 75.
-                            </p>
-                            <p>
-                                I once dragged a screaming toddler to one of
-                                her allotment performances and to your
-                                eternal credit she was utterly entranced
-                                from start to finish and the tears magically
-                                stopped. Such is the skill of a great artist
-                                in my book!"
-                            </p>
-                        </div>
-                        <div class="carousel-item test-slide__2 tes">
-                            <h3>Steven Hull</h3>
-                            <h5>All Things Considered Theatre</h5>
-                            <p>
-                                "I first collaborated with Dora Colquhoun in
-                                2014 as part of the Hope Street Ltd Emerging
-                                Artist Program when I was the sound
-                                design/music mentor. Dora is an incredibly
-                                creative and talented performer with a
-                                penchant for storytelling through song. Dora
-                                is a highly skilled and experienced
-                                collaborator and has an exceptional ability
-                                for creating catchy melodies and songs. I am
-                                in full support of this project as I believe
-                                in Dora's ability to successfully create a
-                                high quality body of original work and
-                                utilize all her skills as a devisor,
-                                composer and performer."
-                            </p>
-                        </div>
-                        <div class="carousel-item test-slide__3 tes">
-                            <h3>Trevor Stuart and Helen Statman </h3>
-                            <h5>Cocoloco</h5>
-                            <p>
-                                "Dora is  very talented, comedic, reliable
-                                 and an excellent team player,  intelligent,
-                                dedicated, whacky.... she  takes direction
-                                well and is fun to work with! We first came
-                                across Dora mentoring her on the Hope Street
-                                Emerging Artist program. Since then we have
-                                gone on to collaborate with Dora on various
-                                projects she is a pure joy in the rehearsal
-                                room and on stage!"
-                            </p>
-                        </div>
-                        <div class="carousel-item test-slide__4 tes">
-                            <h3>Brian Desmond </h3>
-                            <h5>Artistic Director of BYOB</h5>
-                            <p>
-                                Dora is an ‘exceptional individual’, and a
-                                versatile, innovative and multi-talented
-                                arts worker. As a theatre maker and
-                                performer, she seamlessly adapts to
-                                different performance environments,
-                                including promenade/street theatre,
-                                immersive, text-based and devised work. In
-                                the memorable “On Charity” (Colonial
-                                B******s, 2015), which she co-wrote and
-                                performed, she demonstrated a daring and
-                                committed social conscience and an
-                                exceptional capacity for performing comedy
-                                and satire.
-                            </p>
-                            <p>
-                                As a facilitator, she enables and inspires
-                                with a warmth and power that is uniquely
-                                hers. Supporting her future work would
-                                benefit the lives and wellbeing of everyone
-                                lucky enough to encounter her along the way.
-                            </p>
-                        </div>
-                        <div class="carousel-item test-slide__5 tes">
-                            <h3>Nina Hajiyianni </h3>
-                            <h5>
-                                Artistic Director of Action Transport
-                                Theatre
-                            </h5>
-                            <p>
-                                Dora is a unique talent who creates work
-                                which feels fresh and relevant for today,
-                                she combines comic timing, wit and
-                                commentary which provokes and delights
-                                audiences
-                            </p>
-                        </div>
-                        <div class="carousel-item test-slide__7 tes">
-                            <h3>Sue Hill </h3>
-                            <h5>Artistic Director of Wild works</h5>
-                            <p>
-                                Dora' presence at the Artist Lock-in was a
-                                delight. She has a totally original take on
-                                the world and a generous creative energy;
-                                playful, surreal and clever. 'Think Duck,
-                                Live Duck, Be Duck,Duck' will live long in
-                                our memories...
-                            </p>
-                        </div>
-                        <div class="carousel-item test-slide__6 tes">
-                            <h3>Adam McGuigan</h3>
-                            <h5>Artistic Director of Wake The Beast</h5>
-                            <p>
-                                Dora has the magic alchemy of being a
-                                stunning performer, ingenious deviser whilst
-                                being expertly aware of the bigger picture
-                                of a project. Dora never plays it safe, she
-                                always pushes to make work which is
-                                political, relevant, timely and HILARIOUS!
-                            </p>
-
-                            <p>
-                                Dora is one of the most charming, funny,
-                                dynamic and adventurous artists I have
-                                worked with. She rose to every challenge put
-                                in front of her- and then raised the game
-                                for everyone else in the space (including
-                                the director) .  Dora puts her heart into
-                                every piece she works on and I know ADHD:
-                                The Musical; can I have our attention
-                                please, will become a trailblazing
-                                production to highlight the holistic
-                                experience of people with ADHD.  I would
-                                work again with Dora in an instant and hope
-                                to for many years to come
-                            </p>
+                                <p>
+                                    Dora is one of the most charming, funny,
+                                    dynamic and adventurous artists I have
+                                    worked with. She rose to every challenge put
+                                    in front of her- and then raised the game
+                                    for everyone else in the space (including
+                                    the director) .  Dora puts her heart into
+                                    every piece she works on and I know ADHD:
+                                    The Musical; can I have our attention
+                                    please, will become a trailblazing
+                                    production to highlight the holistic
+                                    experience of people with ADHD.  I would
+                                    work again with Dora in an instant and hope
+                                    to for many years to come
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
-        </div>
-    </main>
+                </section> -->
+            </div>
+        </main>
 
+        <footer>
+            <p class="copy"></p>
+            <a href="https://www.jonmcg.co.uk">
+                <p class="copy">&copy; Jonathan McGuire 2023</p>
+            </a>
+            <a href="/index.html#home" class="nav__link">Back to the top</a>
+        </footer>
 
-
-    
-
-    <footer>
-        <p class="copy"></p><a href="https://www.jonmcg.co.uk">
-            <p class="copy">&copy; Jonathan McGuire 2023
-        </a></p>
-        <a href="/index.html#home" class="nav__link">Back to the top</a>
-
-    </footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="main.js"></script>
-    <script src="intersection.js"></script>
-
-</body>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="main.js"></script>
+        <script src="intersection.js"></script>
+    </body>
 </html>

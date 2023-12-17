@@ -175,7 +175,6 @@ nav .nav-item-last:hover {
   background-color: #ffc107;
   background-image: url("https://www.transparenttextures.com/patterns/lyonnette.png");
   background-blend-mode: overlay;
-  text-align: center;
 }
 .about-me__title {
   color: #ba55d3;
@@ -260,6 +259,25 @@ nav .nav-item-last:hover {
 
 .testimonal-slider .carousel-item {
   height: 500px;
+}
+
+.projects__grid__span {
+  grid-column: 1/5;
+}
+.projects__grid__title {
+  font-size: 1.124rem;
+  font-weight: bold;
+}
+.projects__grid__card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  margin-top: 2em;
+  padding: 1em;
+  background-color: #ffc107;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 .shows {
@@ -1607,6 +1625,9 @@ hr {
     grid-column: span 2;
     margin-top: 2em;
     font-size: 1.12rem;
+  }
+  .projects__grid__span {
+    grid-column: 2/5;
   }
   .nav-item {
     margin-right: 0.7em;
