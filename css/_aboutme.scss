@@ -37,6 +37,7 @@
 
         .achievements__title {
             margin-top: 2em;
+            text-align: center;
         }
 
         .matt-quote {
@@ -122,6 +123,7 @@
         padding: 1em;
 
         background-color: $primary-color;
+        filter: saturate(1.05);
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         overflow: hidden;

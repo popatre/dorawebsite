@@ -206,6 +206,7 @@ nav .nav-item-last:hover {
 }
 .about-me__body .achievements__title {
   margin-top: 2em;
+  text-align: center;
 }
 .about-me__body .matt-quote {
   font-size: 0.8em;
@@ -275,6 +276,7 @@ nav .nav-item-last:hover {
   margin-top: 2em;
   padding: 1em;
   background-color: #ffc107;
+  filter: saturate(1.05);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
