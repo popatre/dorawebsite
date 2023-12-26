@@ -70,16 +70,48 @@
 .backing-img {
     height: 50vh;
     width: 100%;
-    background: 
-    // linear-gradient(
-    // to right, 
-    // rgba($primary-color, 0.8),
-    // rgba($primary-color, 0.1)
-    // ),
-        url("../images/7.jpg") center center;
-    -webkit-background-size: auto 150%;
+    // background: url("../images/7.jpg") center center;
+    // -webkit-background-size: auto 150%;
     background-size: cover;
     background-attachment: scroll;
+    animation: animate 90s ease-in-out infinite;
+}
+
+@keyframes animate {
+    0%,
+    100% {
+        background-image: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/about-me-background/wnidkigfutafime47s3r");
+    }
+    9% {
+        background-image: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/about-me-background/xgoq5fggqqv8hpgsra6y");
+    }
+    18% {
+        background-image: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/about-me-background/vaoajt0yxkmvrye5kr3g");
+    }
+    27% {
+        background-image: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/about-me-background/r8hzrk8wtpbwsttmbojf");
+    }
+    36% {
+        background-image: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/about-me-background/zkforx30u6ktehouxfnj");
+    }
+    45% {
+        background-image: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/about-me-background/tndco88fwd9yyv1aa9cr");
+    }
+    54% {
+        background-image: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/about-me-background/lucyptgkboayz8jl3xuu");
+    }
+    63% {
+        background-image: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/about-me-background/ouhaddaxlpmlzujjcoxx");
+    }
+    72% {
+        background-image: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/about-me-background/e5vsqwd68ndnweoydxim");
+    }
+    81% {
+        background-image: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/about-me-background/cln6vstod4igksftbq2k");
+    }
+    91% {
+        background-image: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/about-me-background/jodoq6hkhc1wmqiwoe0k");
+    }
 }
 
 .achievements__grid {
