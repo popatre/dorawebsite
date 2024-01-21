@@ -740,7 +740,7 @@ nav .nav-item-last:hover {
   margin-bottom: 6em;
 }
 .shows__jam__box {
-  background-color: #75c57d;
+  background-color: hsl(64, 54%, 95%);
   background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
   border-radius: 0.5rem;
   padding: 1.3em 1.4em;
