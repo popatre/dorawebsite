@@ -657,6 +657,12 @@ nav .nav-item-last:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+.shows__card p {
+  color: white;
+  font-weight: bold;
+  font-size: 1.125rem;
 }
 .shows__card__title {
   font-size: 1.8rem;
