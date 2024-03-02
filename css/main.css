@@ -328,6 +328,7 @@ nav .nav-item-last:hover {
 }
 
 .shows {
+  background: hsl(120, 37%, 52%);
   background-image: url("https://www.transparenttextures.com/patterns/lyonnette.png");
   background-blend-mode: overlay;
 }
@@ -722,9 +723,10 @@ nav .nav-item-last:hover {
   transition: 0.5s;
 }
 .shows__card.jam {
-  background-image: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/the%20lodger/qnb2se9m3qieq82svx9i");
+  background-image: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/the%20lodger/agzgucyhslyfuaqxnh1e");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
 }
 .shows__card.jam:hover {
   transform: rotateX(10deg) rotateY(-10deg);
