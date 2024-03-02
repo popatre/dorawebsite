@@ -840,14 +840,19 @@ nav .nav-item-last:hover {
 .shows .lodger-bg {
   position: relative;
   width: 100%;
-  background: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/the%20lodger/qnb2se9m3qieq82svx9i") center center;
-  background-size: contain;
+  background: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/the%20lodger/qnb2se9m3qieq82svx9i");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-size: contain;
+  background-attachment: scroll;
   background-color: black;
 }
 .shows .lodger__video {
   margin-block: 6em;
+}
+.shows .lodger__img {
+  width: 50%;
+  z-index: 0;
+  position: absolute;
 }
 
 .shows__gallery__linkText {
@@ -2007,6 +2012,10 @@ hr {
   }
   .hero .image-back {
     background-attachment: fixed;
+  }
+  .shows .lodger-bg {
+    background-attachment: fixed;
+    background-position: center;
   }
   .media .music {
     height: 325px;
