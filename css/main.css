@@ -440,7 +440,7 @@ nav .nav-item-last:hover {
   font-weight: 500;
   padding-bottom: 1.25em;
   text-align: center;
-  text-shadow: 0px 0px 5px #f6f949;
+  text-shadow: 0px 0px 2px #f6f949;
 }
 .shows__flowerpot__text,
 .shows__flowerpot .review, .shows__section--purple__text,
@@ -496,6 +496,56 @@ nav .nav-item-last:hover {
   line-height: 1.9;
   text-shadow: 0px 0px 5px #cccdc7;
   letter-spacing: 0.05em;
+}
+.shows__section--green {
+  text-align: center;
+}
+.shows__section--green__title {
+  color: #4caf50;
+  font-family: "Oswald", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 500;
+  padding-bottom: 1.25em;
+  text-align: center;
+  text-shadow: 0px 1px 2px brown;
+}
+.shows__section--green__body {
+  color: #5d4037;
+  font-size: 1rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 1.9;
+  text-align: left;
+  margin-bottom: 4em;
+  text-shadow: 0px 0px 3px #cccdc7;
+  letter-spacing: 0.05em;
+}
+.shows__section--green ul {
+  width: 80%;
+  margin-inline: auto;
+}
+.shows__section--green ul li {
+  text-align: left;
+  color: #5d4037;
+  font-size: 1rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 1.9;
+  text-shadow: 0px 0px 5px #cccdc7;
+  letter-spacing: 0.05em;
+}
+.shows__section--green h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  max-width: 80%;
+  margin-inline: auto;
+}
+.shows__section--green h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  max-width: 80%;
+  margin-inline: auto;
 }
 .shows .flowerpot-img,
 .shows .section__img {
@@ -609,6 +659,15 @@ nav .nav-item-last:hover {
   text-shadow: 0px 0px 5px #cccdc7;
   letter-spacing: 0.05em;
 }
+.shows__feedback--paras.brown {
+  color: #5d4037;
+  font-size: 1rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 1.9;
+  letter-spacing: 0.05em;
+  text-shadow: 1px 1px 2px rgba(230, 221, 221, 0.1);
+}
 .shows__banner-img {
   margin-top: 5em;
   margin-bottom: 3em;
@@ -657,6 +716,12 @@ nav .nav-item-last:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+.shows__card p {
+  color: white;
+  font-weight: bold;
+  font-size: 1.125rem;
 }
 .shows__card__title {
   font-size: 1.8rem;
@@ -717,9 +782,10 @@ nav .nav-item-last:hover {
   transition: 0.5s;
 }
 .shows__card.jam {
-  background-image: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/jam-and-chem/zbvdpf4f327wzwzxgcbk");
+  background-image: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/the%20lodger/agzgucyhslyfuaqxnh1e");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
 }
 .shows__card.jam:hover {
   transform: rotateX(10deg) rotateY(-10deg);
@@ -735,7 +801,7 @@ nav .nav-item-last:hover {
 .shows__jam__feedback {
   padding-block: 2em;
   border-radius: 20px;
-  background-color: #ffc107;
+  background-color: #4caf50;
   background-image: url("https://www.transparenttextures.com/patterns/climpek.png");
   margin-bottom: 6em;
 }
@@ -750,6 +816,38 @@ nav .nav-item-last:hover {
 .shows__jam__tour__font {
   font-size: 1.1rem;
   font-weight: bold;
+}
+.shows .lodger a {
+  text-decoration: none;
+}
+.shows .lodger__fundraiser {
+  padding: 3em 1em;
+  margin-block: 4em;
+  border-radius: 15px;
+  background-color: #4caf50;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  width: 70%;
+  margin-inline: auto;
+}
+.shows .lodger__fundraiser:hover {
+  background-color: #66bb6a;
+}
+.shows .lodger__fundraiser h2 {
+  font-size: 1.6rem;
+  color: #5d4037;
+  text-decoration: underline;
+}
+.shows .lodger-bg {
+  position: relative;
+  width: 100%;
+  background: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/the%20lodger/qnb2se9m3qieq82svx9i") center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+}
+.shows .lodger__video {
+  margin-block: 6em;
 }
 
 .shows__gallery__linkText {
@@ -1693,10 +1791,12 @@ hr {
   .hero__title h1 {
     font-size: 8.8rem;
   }
-  .shows__section--purple {
+  .shows__section--purple,
+  .shows__section--green {
     margin-bottom: 6em;
   }
-  .shows__section--purple p {
+  .shows__section--purple p,
+  .shows__section--green p {
     font-size: 1.15rem;
   }
   .shows__adhd img {
