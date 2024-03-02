@@ -388,6 +388,7 @@
             color: $lodger-brown;
             font-size: $paragraphsize;
             font-family: $secondaryfont;
+            // font-family: $lodger-font;
             font-weight: 800;
             line-height: 1.9;
             letter-spacing: 0.05em;
@@ -569,7 +570,7 @@
             text-decoration: none;
         }
         &__fundraiser {
-            padding: 3em 3em;
+            padding: 3em 1em;
             margin-block: 4em;
             border-radius: 15px;
             background-color: $lodger-green;

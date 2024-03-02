@@ -821,7 +821,7 @@ nav .nav-item-last:hover {
   text-decoration: none;
 }
 .shows .lodger__fundraiser {
-  padding: 3em 3em;
+  padding: 3em 1em;
   margin-block: 4em;
   border-radius: 15px;
   background-color: #4caf50;
@@ -1788,10 +1788,12 @@ hr {
   .hero__title h1 {
     font-size: 8.8rem;
   }
-  .shows__section--purple {
+  .shows__section--purple,
+  .shows__section--green {
     margin-bottom: 6em;
   }
-  .shows__section--purple p {
+  .shows__section--purple p,
+  .shows__section--green p {
     font-size: 1.15rem;
   }
   .shows__adhd img {
