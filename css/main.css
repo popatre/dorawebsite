@@ -846,6 +846,9 @@ nav .nav-item-last:hover {
   background-attachment: fixed;
   background-color: black;
 }
+.shows .lodger__video {
+  margin-block: 6em;
+}
 
 .shows__gallery__linkText {
   color: rgb(17, 62, 187);
