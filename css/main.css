@@ -1,6 +1,7 @@
 /****** fonts ******/
 /******* font sizes *******/
 /******** breakpoints  *************/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 .hero {
   text-align: center;
   background: hsl(120, 37%, 52%);
@@ -840,11 +841,10 @@ nav .nav-item-last:hover {
 .shows .lodger-bg {
   position: relative;
   width: 100%;
-  background: url("https://res.cloudinary.com/da5ahdojl/image/upload/f_auto,q_auto/v1/the%20lodger/q1ixpzsyuexvbiw9pyzl");
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: scroll;
-  background-color: black;
+  background-color: #fffaf0;
 }
 .shows .lodger__video {
   margin-block: 6em;
@@ -1588,6 +1588,138 @@ h6 {
   gap: 2em;
 }
 
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #ff6584;
+  --text-color: #2c2c2c;
+  --bg-color: #f9f9f9;
+  --card-bg: #ffffff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  margin: 0;
+  padding: 0;
+}
+
+.the-lodger {
+  max-width: 1200px;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-size: 2.2rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.show-description,
+.tour-dates,
+.audience-feedback,
+.photoshoot-images,
+.trailer {
+  background-color: var(--card-bg);
+  border-radius: 12px;
+  padding: 1em;
+  margin-bottom: 3rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.show-description:hover,
+.tour-dates:hover,
+.audience-feedback:hover,
+.photoshoot-images:hover,
+.trailer:hover {
+  transform: translateY(-5px);
+}
+
+.poster img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.tour-dates ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tour-dates li {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.tour-dates li:last-child {
+  border-bottom: none;
+}
+
+.tour-dates a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.tour-dates a:hover {
+  color: var(--primary-color);
+}
+
+.audience-feedback blockquote {
+  font-style: italic;
+  border-left: 3px solid var(--secondary-color);
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.poster {
+  margin-bottom: 2em;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+/* Add some subtle animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.show-description,
+.tour-dates,
+.audience-feedback,
+.photoshoot-images,
+.trailer {
+  animation: fadeIn 1s ease-out;
+}
+
 /* put at bottom */
 html {
   scroll-behavior: smooth;
@@ -1947,6 +2079,16 @@ hr {
   }
   .resources__shame__bears img.bottom {
     grid-column: 5/7;
+  }
+  .poster img {
+    width: 55%;
+  }
+  .show-description,
+  .tour-dates,
+  .audience-feedback,
+  .photoshoot-images,
+  .trailer {
+    padding: 3em;
   }
 }
 /* xl = 1200px */
