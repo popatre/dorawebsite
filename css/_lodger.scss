@@ -8,38 +8,40 @@
     --card-bg: #ffffff;
 }
 
-body {
+#override {
+    background-color: var(--bg-color);
+}
+
+.the-lodger {
     font-family: "Poppins", sans-serif;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--bg-color);
     margin: 0;
     padding: 0;
-}
 
-.the-lodger {
     max-width: 1200px;
     // margin: 0 auto;
     //padding: 4rem 2rem;
-}
 
-h1,
-h2 {
-    font-weight: 700;
-    color: var(--primary-color);
-}
+    h1,
+    h2 {
+        font-weight: 700;
+        color: var(--primary-color);
+    }
 
-h1 {
-    font-size: 3.5rem;
-    text-align: center;
-    margin-bottom: 3rem;
-    letter-spacing: -1px;
-}
+    h1 {
+        font-size: 3.5rem;
+        text-align: center;
+        margin-bottom: 3rem;
+        letter-spacing: -1px;
+    }
 
-h2 {
-    font-size: 2.2rem;
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
+    h2 {
+        font-size: 2.2rem;
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+    }
 }
 
 .show-description,
@@ -115,14 +117,14 @@ h2 {
 @media (max-width: 768px) {
     .the-lodger {
         //padding: 2rem 1rem;
-    }
 
-    h1 {
-        font-size: 2.5rem;
-    }
+        h1 {
+            font-size: 2.5rem;
+        }
 
-    h2 {
-        font-size: 1.8rem;
+        h2 {
+            font-size: 1.8rem;
+        }
     }
 }
 
